@@ -25,11 +25,10 @@ All cellphones will carry potential pathogens. Student cellphones will have a si
 
 # Study Design
 
-For my sample set I will collect swabs from 4 students' cellphones and also collect swabs from 4 teachers. Once I have completed collecting my sample sets, I will extract DNA and culture the bacteria, identify specific types of bacteria I am focusing the study on, and run PCR's. 
+For my sample set I will collect swabs from 4 students' cellphones and also collect swabs from 4 teachers. These students will be my 3 housemates and myself, and the professors will be from the classes I am currently taking. Once I have completed collecting my sample sets, I will extract DNA and culture the bacteria, identify specific types of bacteria I am focusing the study on, and run PCR's. 
 
 ## Materials Needed 
 
-sample cellphones
 sterile swabs 
 sterile tubes 
 sterile buffer inside 
