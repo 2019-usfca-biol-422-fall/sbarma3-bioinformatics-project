@@ -1,11 +1,25 @@
 ---
-title: "Different Bacteria in Plant-based Milk Vs. Lactose Milk"
+title: "Different Bacteria found on the Screens of Cellphones vs Classroom Phones"
 author: "Shreya Barma"
 date: "8/27/2019"
 output: word_document
+csl: bioinformatics.csl
+bibliography: references.bib 
 ---
 
 # Overview of Project 
 
-The project I am planning will look at t
+The project I am looking at will look at the different bacteria on different cell phone screens and classroom landlines. This is to see whether or not phones carry potential pathogens or disease-causing bacteria. Thus, this experiment can help build a correlation between how illnesses are spread and technology usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and Pseudomonas.
+
+This has been shown through studies in the past with teenagers and their cell phones, "We found a high median bacterial count on secondary school students’ mobile phones...and a median of 17,032 bacterial 16S rRNA gene copies per phone. Potentially pathogenic microbes were found among dominant microbes more often on phones with higher percentage of E. faecalis in total bacterial 16S rRNA" [@cogprints6566]. 
+
+Furthermore, another study proved that there is an extremely high amount of bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of bacterial contamination with different types of bacteria...S. aureus strains isolated from mobile phones of 52% and those strains isolated from hands of 37.7% were methicillin resistant" [@ulger2009we]
+
+# Question
+
+"Do cellphones really carry potential pathogens? Do cellphones or do classroom phones carry more potential pathogens?" 
+
+# Scientific Design
+
+I will first collect several sample swabs from different cellphones as well as swab the handles and speakes of classroom phones to collect enough data. Then in class we will culture these bacteria and run PCR's. 
 
