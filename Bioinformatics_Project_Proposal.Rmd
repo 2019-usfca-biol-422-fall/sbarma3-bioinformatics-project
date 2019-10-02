@@ -17,18 +17,33 @@ Furthermore, another study proved that there is an extremely high amount of bact
 
 # Question
 
-"Do cellphones really carry potential pathogens? Does age play a factor in cellphone hygeine? " 
+"Do cellphones really carry potential pathogens? Does age play a factor in cellphone hygeine?" 
 
 # Hypothesis 
 
 All cellphones will carry potential pathogens. Student cellphones will have a significantly higher amount of potential pathogens compared to professor cellphones. 
 
-# Study Design
+## Methods
 
-For my sample set I will collect swabs from 4 students' cellphones and also collect swabs from 4 teachers. These students will be my 3 housemates and myself, and the professors will be from the classes I am currently taking. Once I have completed collecting my sample sets, I will extract DNA and culture the bacteria, identify specific types of bacteria I am focusing the study on, and run PCR's. 
+## Study Design
+
+For my sample set I will collect swabs from 3 students' cellphones and also collect swabs from 4 teachers. These students will be two of my housemates and myself, and the professors will be from the classes I am currently taking. Once I have completed collecting my sample sets, I will extract DNA and culture the bacteria, identify specific types of bacteria I am focusing the study on, and run PCR's. 
 
 ## Materials Needed 
 
-sterile swabs 
-sterile tubes 
-sterile buffer inside 
+* sterile swabs 
+* sterile tubes 
+* sterile buffer  
+
+## Analysis
+
+# Results
+
+## Culture Data
+
+# Discussion
+
+# Sources Cited
+
+
+
