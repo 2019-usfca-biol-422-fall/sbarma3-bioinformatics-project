@@ -46,11 +46,49 @@ For my sample set I will collect swabs from 3 students' cellphones and also coll
 
 # Results
 
+```{r load-libraries}
+library("ggplot2")
+library("dplyr")
+library("tidyr")
+library("readr")
+```
+
 | description                                                                       | max score | total score | query cover | E value   | per. identity | Accession  |
 |-----------------------------------------------------------------------------------|-----------|-------------|-------------|-----------|---------------|------------|
 | Kocuria palustris strain SR5-19 16S ribosomal RNA gene, partial sequence          | 1129      | 1129        | 100%        | 0.0       | 99.20%        | MN421514.1 |
 | Staphylococcus sp. strain 21 16S ribosomal RNA gene, partial sequence             | 931       | 931         | 100%        | 0.0       | 99.80%        | MK465362.1 |
 | Staphylococcus epidermidis strain IBK-11 16S ribosomal RNA gene, partial sequence | 473       | 473         | 100%        | 1x10^-129 | 98.88%        | MN428237.1 |
+
+
+```{r read-in-culture-data}
+# read in the culture data from csv
+culture_data <- read_csv("data/raw_data/raw_culture_count_data/BIOL422_culturing_data - Sheet1.csv")
+```
+
+```{r filter-and-plot-abundances}
+# filter out only 100x dilutions and make boxplot
+culture_data %>% 
+  filter(student_name == "Shreya Barma") %>%
+  filter(dilution_1_10_or_100 == "1") %>% 
+  ggplot(aes(x=sample_group,
+             y=number_of_colonies)) +
+  geom_boxplot() + 
+  ggtitle("Comparison of Colony Abundances Between Students & Professors", "1x dilution") +
+  xlab("Sample Group") +
+  ylab("Number of Colonies")
+```
+
+**Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
+
+```{r abundances-stats}
+#run a statistical test to compare the two groups of abundances 
+culture_data %>% 
+  filter(student_name == "Shreya Barma") %>%
+  filter(dilution_1_10_or_100 == "1") %>% 
+  wilcox.test(data = ., 
+              number_of_colonies ~ sample_group)
+
+```
 
 ## Culture Data
 
