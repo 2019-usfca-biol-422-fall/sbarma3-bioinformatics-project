@@ -1,6 +1,6 @@
 ---
-title: 'Your Title Here'
-author: "Don Francisco"
+title: "Different Bacteria found on the Screens of Cellphones of Students vs. Professors"
+author: "Shreya Barma"
 date: "August 27, 2019"
 output: word_document
 csl: bioinformatics.csl
@@ -73,7 +73,7 @@ culture_data %>%
   ggplot(aes(x=sample_group,
              y=number_of_colonies)) +
   geom_boxplot() + 
-  ggtitle("Comparison of Colony Abundances Between Students & Professors", "1x dilution") +
+  ggtitle("Comparison of Colony Abundances Between Student & Professor Cellphones", "1x dilution") +
   xlab("Sample Group") +
   ylab("Number of Colonies")
 ```
@@ -89,6 +89,33 @@ culture_data %>%
               number_of_colonies ~ sample_group)
 
 ```
+
+```{r filter-and-plot-morphotypes}
+# filter out only 100x dilutions and make boxplot
+culture_data %>% 
+  filter(student_name == "Shreya Barma") %>%
+  filter(dilution_1_10_or_100 == "1") %>% 
+  ggplot(aes(x=sample_group,
+             y=as.numeric(number_of_morphotypes))) +
+  geom_boxplot() + 
+  ggtitle("Comparison of Morphotypes Between Student & Professor Cellphones", "1x dilution") +
+  xlab("Sample Group") +
+  ylab("Number of Morphotypes")
+```
+
+
+**Figure 2:**Boxplot showing the number of morphotypes from student cellphones compared to professor cellphones. Ther was no difference in the mean number of morphotypes (Wilcox p=1).
+
+```{r morphotypes-stats}
+#run a statistical test to compare the two groups of abundances 
+culture_data %>% 
+  filter(student_name == "Shreya Barma") %>%
+  filter(dilution_1_10_or_100 == "1") %>% 
+  wilcox.test(data = ., 
+              as.numeric(number_of_morphotypes)~ sample_group)
+
+```
+  
 
 ## Culture Data
 
