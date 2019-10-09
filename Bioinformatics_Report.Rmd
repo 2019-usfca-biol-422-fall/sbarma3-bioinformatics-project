@@ -69,13 +69,14 @@ culture_data <- read_csv("data/raw_data/raw_culture_count_data/BIOL422_culturing
 
 ```{r filter-and-plot-abundances}
 # filter out only 100x dilutions and make boxplot
-culture_data %>% 
+culture_data %>%
   filter(student_name == "Shreya Barma") %>%
-  filter(dilution_1_10_or_100 == "1") %>% 
-  ggplot(aes(x=sample_group,
-             y=number_of_colonies)) +
-  geom_boxplot() + 
-  ggtitle("Comparison of Colony Abundances Between Student & Professor Cellphones", "1x dilution") +
+  filter(dilution_1_10_or_100 == "1") %>%
+  ggplot(aes(x = sample_group,
+             y = number_of_colonies)) +
+  geom_boxplot() +
+  ggtitle("Comparison of Colony Abundances Between Student
+          & Professor Cellphones", "1x dilution") +
   xlab("Sample Group") +
   ylab("Number of Colonies")
 ```
@@ -84,12 +85,13 @@ culture_data %>%
 
 ```{r abundances-stats}
 #run a statistical test to compare the two groups of abundances 
-culture_data %>% 
+culture_data %>%
   filter(student_name == "Shreya Barma") %>%
-  filter(dilution_1_10_or_100 == "1") %>% 
-  wilcox.test(data = ., 
-              number_of_colonies ~ sample_group)
-
+  filter(dilution_1_10_or_100 == "1") %>%
+  wilcox.test(data = .,
+              number_of_colonies ~ sample_group) %>%
+   broom::glance(x = . ) %>%
+  knitr::kable()
 ```
 
 ```{r filter-and-plot-morphotypes}
