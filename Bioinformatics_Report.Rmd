@@ -1,5 +1,5 @@
 ---
-title: "Different Bacteria found on the Screens of Cellphones of Students vs. Professors"
+title: "Bacteria found on the Screens of Cellphones of Students vs. Professors"
 author: "Shreya Barma"
 date: "August 27, 2019"
 output: word_document
@@ -21,6 +21,7 @@ Furthermore, another study proved that there is an extremely high amount of bact
 
 # Introduction
 
+
 # Question
 
 "Do cellphones really carry potential pathogens? Does age play a factor in cellphone hygeine?" 
@@ -31,6 +32,17 @@ All cellphones will carry potential pathogens. Student cellphones will have a si
 
 ## Methods
 
+For this project, I collected a total of twelve samples, two from each cellphone. 
+Therefore, I swabbed a total of six phones. To collect my samples, I used a sterile 
+swab dipped in a buffer. I swabbed the entire front screen of each phone for 30 
+seconds and then stored the swab in a sterile tube. Once I finished collecting 
+all my samples, I placed all of them 
+
+### DNA Extraction 
+For DNA extraction, I followed the manufacturer's protocol from the Sigma REDExtract-N-Amp Kit. 
+
+### PCR
+To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, where n is the number of samples I have, which in this case is six. With all the calculations, the master mix included 77 
 
 ## Study Design
 
@@ -64,7 +76,8 @@ library("knitr")
 
 ```{r read-in-culture-data}
 # read in the culture data from csv
-culture_data <- read_csv("data/raw_data/raw_culture_count_data/BIOL422_culturing_data - Sheet1.csv")
+culture_data <- read_csv(
+  "data/raw_data/raw_culture_count_data/BIOL422_culturing_data-Sheet1.csv")
 ```
 
 ```{r filter-and-plot-abundances}
@@ -84,25 +97,26 @@ culture_data %>%
 **Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
 
 ```{r abundances-stats}
-#run a statistical test to compare the two groups of abundances 
+#run a statistical test to compare the two groups of abundances
 culture_data %>%
   filter(student_name == "Shreya Barma") %>%
   filter(dilution_1_10_or_100 == "1") %>%
   wilcox.test(data = .,
               number_of_colonies ~ sample_group) %>%
-   broom::glance(x = . ) %>%
+  broom::glance(x = . ) %>%
   knitr::kable()
 ```
 
 ```{r filter-and-plot-morphotypes}
 # filter out only 100x dilutions and make boxplot
-culture_data %>% 
+culture_data %>%
   filter(student_name == "Shreya Barma") %>%
-  filter(dilution_1_10_or_100 == "1") %>% 
-  ggplot(aes(x=sample_group,
-             y=as.numeric(number_of_morphotypes))) +
-  geom_boxplot() + 
-  ggtitle("Comparison of Morphotypes Between Student & Professor Cellphones", "1x dilution") +
+  filter(dilution_1_10_or_100 == "1") %>%
+  ggplot(aes(x = sample_group,
+             y = as.numeric(number_of_morphotypes))) +
+  geom_boxplot() +
+  ggtitle(
+    "Comparison of Morphotypes Between Student & Professor Cellphones", "1x dilution") +
   xlab("Sample Group") +
   ylab("Number of Morphotypes")
 ```
@@ -111,15 +125,14 @@ culture_data %>%
 **Figure 2:**Boxplot showing the number of morphotypes from student cellphones compared to professor cellphones. Ther was no difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
-#run a statistical test to compare the two groups of abundances 
-culture_data %>% 
+#run a statistical test to compare the two groups of abundances
+culture_data %>%
   filter(student_name == "Shreya Barma") %>%
-  filter(dilution_1_10_or_100 == "1") %>% 
-  wilcox.test(data = ., 
+  filter(dilution_1_10_or_100 == "1") %>%
+  wilcox.test(data = .,
               as.numeric(number_of_morphotypes)~ sample_group) %>%
-  broom::glance(x = . ) %>%
+  broom::glance(x = .) %>%
   knitr::kable()
-
 ```
   
 
