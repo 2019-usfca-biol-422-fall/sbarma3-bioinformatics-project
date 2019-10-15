@@ -13,36 +13,69 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 # Introduction
 
-This project looks at the different types and amounts of bacteria on the cell phone screens of students compared to the amount of bacteria found on the cell phone screens of professors. This is to see whether or not phones carry potential pathogens, which are disease-causing bacteria. Thus, this experiment will help build a correlation between how illnesses are spread and technology usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and Pseudomonas as they are the most common pathogens found on cellphones. 
+This project looks at the different types and amounts of bacteria on the cell 
+phone screens of students compared to the amount of bacteria found on the cell
+phone screens of professors. This is to see whether or not phones carry 
+potential pathogens, which are disease-causing bacteria. Thus, this experiment 
+will help build a correlation between how illnesses are spread and technology 
+usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and 
+Pseudomonas as they are the most common pathogens found on cellphones. 
 
-This has been shown through studies in the past with teenagers and their cell phones, "We found a high median bacterial count on secondary school students’ mobile phones...and a median of 17,032 bacterial 16S rRNA gene copies per phone. Potentially pathogenic microbes were found among dominant microbes more often on phones with higher percentage of E. faecalis in total bacterial 16S rRNA" [@cogprints6566]. 
+This has been shown through studies in the past with teenagers and their cell 
+phones, "We found a high median bacterial count on secondary school students’ 
+mobile phones...and a median of 17,032 bacterial 16S rRNA gene copies per phone.
+Potentially pathogenic microbes were found among dominant microbes more often on
+phones with higher percentage of E. faecalis in total bacterial 16S rRNA" 
+[@cogprints6566]. 
 
-Furthermore, another study proved that there is an extremely high amount of bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of bacterial contamination with different types of bacteria...S. aureus strains isolated from mobile phones of 52% and those strains isolated from hands of 37.7% were methicillin resistant" [@ulger2009we]
+Furthermore, another study proved that there is an extremely high amount of 
+bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of 
+bacterial contamination with different types of bacteria...S. aureus strains 
+isolated from mobile phones of 52% and those strains isolated from hands of 
+37.7% were methicillin resistant" [@ulger2009we]
 
 
 
 
 # Question
 
-"Do cellphones really carry potential pathogens? Does age play a factor in cellphone hygeine?" 
+"Do cellphones really carry potential pathogens? Does age play a factor in 
+cellphone hygeine?" 
 
 # Hypothesis 
 
-All cellphones will carry potential pathogens. Student cellphones will have a significantly higher amount of potential pathogens compared to professor cellphones. 
+All cellphones will carry potential pathogens. Student cellphones will have a 
+significantly higher amount of potential pathogens compared to professor 
+cellphones. 
 
 ## Methods
 
-For this project, I collected a total of twelve samples, two from each cellphone. 
-Therefore, I swabbed a total of six phones. To collect my samples, I used a sterile 
-swab dipped in a buffer. I swabbed the entire front screen of each phone for 30 
-seconds and then stored the swab in a sterile tube. Once I finished collecting 
-all my samples, I placed all of them 
+For this project, I collected a total of twelve samples, two samples per 
+cellphone. Therefore, I swabbed a total of six phones. To collect my samples, 
+I used a sterile swab dipped in a buffer. I swabbed the entire front screen of 
+each phone for 30 seconds and then stored the swab in a sterile tube. Once I 
+finished collecting all my samples, I placed all of them 
 
 ### DNA Extraction 
-For DNA extraction, I followed the manufacturer's protocol from the Sigma REDExtract-N-Amp Kit. 
+For DNA extraction, I followed the manufacturer's protocol from the Sigma 
+REDExtract-N-Amp Kit. 
 
 ### PCR
-To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, where n is the number of samples I have, which in this case is six. With all the calculations, the master mix included 77 microliters of Amp, 6.2 microliters of the 27f primer, 6.2 microliters of 1492r primer, 7.7 microliters of BSA, and 49.28mL of PCR water. For each alloquat, I added 19 microliters of the master mix and 1 microliter of the specific DNA template. 
+The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
+time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
+mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then 
+microwaved for 1-3 minutes until the agarose powder is completely dissolved. 
+Then the agarose and buffer mixture is allowed to cool to the point where it is 
+comfortable to hold the flask. It is then poured into the gel tray with the well
+comb already set in place. Once poured, the tray with the agarose gel is set out
+to cool for around 10 minutes or until fully hardened. 
+
+To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, 
+where n is the number of samples I have, which in this case is six. With all 
+the calculations, the master mix included 77 microliters of Amp, 6.2 microliters
+of the 27f primer, 6.2 microliters of 1492r primer, 7.7 microliters of BSA, and 
+49.28mL of PCR water. For each alloquat, I added 19 microliters of the master 
+mix and 1 microliter of the specific DNA template.
 
 
 
