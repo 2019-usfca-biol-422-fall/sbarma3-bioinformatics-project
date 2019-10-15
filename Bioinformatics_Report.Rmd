@@ -1,5 +1,5 @@
 ---
-title: "Bacteria found on the Screens of Cellphones of Students vs. Professors"
+title: "Bacteria found on the Cellphone Screens of Students vs. Professors"
 author: "Shreya Barma"
 date: "August 27, 2019"
 output: word_document
@@ -11,15 +11,15 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
-# Overview of Project 
+# Introduction
 
-The project I am looking at will look at the amount of bacteria on the cell phone screens of students and comparing them the amount of bacteria found on the cell phone screens of professors. This is to see whether or not phones carry potential pathogens or disease-causing bacteria. Thus, this experiment can help build a correlation between how illnesses are spread and technology usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and Pseudomonas.
+This project looks at the different types and amounts of bacteria on the cell phone screens of students compared to the amount of bacteria found on the cell phone screens of professors. This is to see whether or not phones carry potential pathogens, which are disease-causing bacteria. Thus, this experiment will help build a correlation between how illnesses are spread and technology usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and Pseudomonas as they are the most common pathogens found on cellphones. 
 
 This has been shown through studies in the past with teenagers and their cell phones, "We found a high median bacterial count on secondary school students’ mobile phones...and a median of 17,032 bacterial 16S rRNA gene copies per phone. Potentially pathogenic microbes were found among dominant microbes more often on phones with higher percentage of E. faecalis in total bacterial 16S rRNA" [@cogprints6566]. 
 
 Furthermore, another study proved that there is an extremely high amount of bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of bacterial contamination with different types of bacteria...S. aureus strains isolated from mobile phones of 52% and those strains isolated from hands of 37.7% were methicillin resistant" [@ulger2009we]
 
-# Introduction
+
 
 
 # Question
@@ -42,17 +42,10 @@ all my samples, I placed all of them
 For DNA extraction, I followed the manufacturer's protocol from the Sigma REDExtract-N-Amp Kit. 
 
 ### PCR
-To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, where n is the number of samples I have, which in this case is six. With all the calculations, the master mix included 77 
+To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, where n is the number of samples I have, which in this case is six. With all the calculations, the master mix included 77 microliters of Amp, 6.2 microliters of the 27f primer, 6.2 microliters of 1492r primer, 7.7 microliters of BSA, and 49.28mL of PCR water. For each alloquat, I added 19 microliters of the master mix and 1 microliter of the specific DNA template. 
 
-## Study Design
 
-For my sample set I will collect swabs from 3 students' cellphones and also collect swabs from 4 teachers. These students will be two of my housemates and myself, and the professors will be from the classes I am currently taking. Once I have completed collecting my sample sets, I will extract DNA and culture the bacteria, identify specific types of bacteria I am focusing the study on, and run PCR's. 
 
-## Materials Needed 
-
-* sterile swabs 
-* sterile tubes 
-* sterile buffer  
 
 ## Analysis
 
