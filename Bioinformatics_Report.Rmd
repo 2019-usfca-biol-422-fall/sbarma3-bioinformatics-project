@@ -77,6 +77,25 @@ of the 27f primer, 6.2 microliters of 1492r primer, 7.7 microliters of BSA, and
 49.28mL of PCR water. For each alloquat, I added 19 microliters of the master 
 mix and 1 microliter of the specific DNA template.
 
+These tubes were then taken into the thermocycler by Professor Zimmerman and 
+set to run at the following temperatures:
+
+| Temperature (°C) | Duration   |
+|------------------|------------|
+| 95°C             | 5 minutes  |
+| 94°C             | 30 seconds |
+| 65°C             | 30 seconds |
+| 72°C             | 1 minute   |
+| 94°C             | 30 seconds |
+| 55°C             | 30 seconds |
+| 72°C             | 1 minute   |
+| 72°C             | 10 minutes |
+| 4°C              | hold       |
+
+Once the thermocycling was complete, the gel was carefully loaded with 2-20 
+microliter pipettes and then run on the electrode for 30 minutes. 
+"After checking for successful amplification using gel electrophoresis, PCR products were cleaned with Invitrogen ExoSAP and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA)." 
+
 
 
 
