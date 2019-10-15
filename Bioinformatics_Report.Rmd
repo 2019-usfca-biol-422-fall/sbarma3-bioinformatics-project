@@ -21,9 +21,10 @@ will help build a correlation between how illnesses are spread and technology
 usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and 
 Pseudomonas as they are the most common pathogens found on cellphones. 
 
+Studies have been done in clinical settings, showing how healthcare professionals use their phones throughout the day, both before and after assessing patients. This resulted in a significant transfer of bacteria, since most cellphone users, healthcare workers included, do not clean their cellphone screens. "Different studies in different parts of the world indicated that medical equipment and mobile phones of healthcare workers are a potential source of nosocomial infections" (This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
+
 This has been shown through studies in the past with teenagers and their cell 
-phones, "We found a high median bacterial count on secondary school students’ 
-mobile phones...and a median of 17,032 bacterial 16S rRNA gene copies per phone.
+phones, "...a median of 17,032 bacterial 16S rRNA gene copies per phone.
 Potentially pathogenic microbes were found among dominant microbes more often on
 phones with higher percentage of E. faecalis in total bacterial 16S rRNA" 
 [@cogprints6566]. 
@@ -33,8 +34,6 @@ bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of
 bacterial contamination with different types of bacteria...S. aureus strains 
 isolated from mobile phones of 52% and those strains isolated from hands of 
 37.7% were methicillin resistant" [@ulger2009we]
-
-
 
 
 # Question
