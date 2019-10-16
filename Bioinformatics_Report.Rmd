@@ -1,7 +1,7 @@
 ---
-title: "Bacteria found on the Cellphone Screens of Students vs. Professors"
+title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone Screens of Students vs. Professors"
 author: "Shreya Barma"
-date: "August 27, 2019"
+date: "October 16, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -14,70 +14,88 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 # Introduction
 
 The cellphone has become a staple in today's society. It's role has drastically 
-expanded from the typical use of a phone, to call or text someone. It's now used
+expanded from its typical use, to call or to text someone. It's now used
 as a GPS device, to browse the internet, and much more. Due to all of these 
-applications, cellphones are being used all most all day, everyday by their 
+applications, cellphones are being used almost all day, everyday by their 
 owners. This daily use and the benefits provided by a cellphone, causes 
 individuals to overlook cellphone hygeine, or even consider the amount of
 bacteria that accumulates on the screen of a phone. 
 
-This project focuses on identifying the type and amount bacteria on cell phone
-screens of students at the University of San Francisco compared to those found 
-on the cellphone screens of professors. This is to see whether or not phones 
-carry potential pathogens, which are disease-causing bacteria. Thus, this 
-experiment will help build a correlation between how illnesses are spread and 
-technology usage.I will specifically focus on the presence of *E.Coli*, 
-*Staphylococcus*, and *Pseudomonas* as they are the most common pathogens found on 
-cellphones. 
-
 Studies have been done in clinical settings, showing how healthcare 
-professionals use their phones throughout the day, both before and after 
+professionals use their cellphones throughout the day, both before and after 
 assessing patients. This resulted in a significant transfer of bacteria, since 
 most cellphone users, healthcare workers included, do not clean their cellphone 
-screens. "Different studies in different parts of the world indicated that 
-medical equipment and mobile phones of healthcare workers are a potential source
-of nosocomial infections" (add citation). This puts not only cellphone users at 
-risk, but the patients, the health care workers and their families as well. 
+screens. Especially in a medical setting, this can cause more diseases and more infection,"...indicated that medical equipment and mobile phones of healthcare 
+workers are a potential source of nosocomial infections" 
+[@kumar2014identification]. This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
 
 However, healthcare workers are not the only ones with phones carrying bacteria, 
 studies have shown that with a general cellphone user, there is 10x more 
 bacteria on a cellphone screen than a toilet seat. Aside from clinical settings, 
-I aimed to focus on a college setting. A study on the bacterial contamination of 
-middle school students' cellphones concluded that teenagers have "...a median of 17,032 bacterial 16S rRNA gene copies per phone" [@cogprints6566]. Furthermore,
-out of the number of bacteria found on these phones, a significant number of 
-were labeled "potentially pathogenic". These bacteria included *E. faecalis*
-
-Furthermore, another study proved that there is an extremely high amount of 
-bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of 
-bacterial contamination with different types of bacteria...S. aureus strains 
+I aimed to focus on a school setting, and to see whether cellphones used by 
+students and professors also carried pathogenic bacteria. A study on the 
+bacterial contamination of middle school students' cellphones concluded that 
+teenagers have "...a median of 17,032 bacterial 16S rRNA gene copies per phone" 
+[@cogprints6566]. Additionally,out of the number of bacteria found on these 
+phones, a significant number of were labeled "potentially pathogenic". These 
+bacteria included *E. faecalis* and many more. Furthermore, another study proved
+that there is an extremely high amount of pathogens on cellphones of secondary 
+school students "...94.5% of phones demonstrated evidence of bacterial 
+contamination with different types of bacteria...*S. aureus* strains [were] 
 isolated from mobile phones of 52% and those strains isolated from hands of 
-37.7% were methicillin resistant" [@ulger2009we]
+37.7% were methicillin resistant"[@ulger2009we]. 
 
+Another study conducted by the Department of Microbiology at Lagos State 
+University focused on the actual spread of bacterial infections through the use 
+of cellphones. Through this study they found a "...high percentage (62.0%) of 
+bacterial infection..."[@akinyemi2009potential] resulted from the bacteria found
+on cellphones. This shows the significance of the bacterial presence on 
+cellphones. I wanted to find out the relevance of this issue in a school 
+setting, and whether or not pathogens would still be found on cellphones outside 
+of clinical settings. 
 
-# Question
-
-"Do cellphones really carry potential pathogens? Does age play a factor in 
-cellphone hygeine?" 
-
-# Hypothesis 
-
-All cellphones will carry potential pathogens. Student cellphones will have a 
-significantly higher amount of potential pathogens compared to professor 
+My project focuses on identifying the type and amount bacteria on the cell phone
+screens of students at the University of San Francisco compared to those found 
+on the cellphone screens of professors. This is to see whether or not phones 
+carry potential pathogens, which are disease-causing bacteria, outside of a 
+clinical setting. Thus, this experiment can help build a correlation between how illnesses are spread on college campuses and technology usage.I will s
+pecifically focus on the presence of *Escherichia Coli*, *Staphylococcus*, and 
+*Pseudomonas* as they are a few of the most common pathogens found on 
 cellphones. 
+
+These bacteria are known to cause serious infections. *Staphylococcus* for 
+example, is a dangerous pathogen. This bacteria is known to cause endovascular
+disorders, bone and joint disorders, respiratory issues, as well as skin 
+disorders. The mortality rate,according to the New England Journal of Medicine, "...ranges from 11 to 43 percent..." [@lowy1998staphylococcus]. *E.coli* is 
+a bacteria that normally is found in the human intestine as well as other 
+animals. is transmitted through contamination of food, such a raw meats, or 
+through the contact with fecal matter.
+
+My questions for this project were: Do cellphones really carry potential 
+pathogens? Do students have a higher amount of bacteria on their cellphones 
+compared to professors? My hypothesis is that all cellphones will carry 
+potential pathogens. Student cellphones will have a significantly higher amount 
+of potential pathogens compared to professor cellphones. 
+
+At the end of the project, I concluded that student cellphone screens had a 
+larger number of colonies, as predicted. Therefore, my hypothesis was proven 
+correct. However, the number of morphotypes found was higher on professors' 
+cellphone screens. 
 
 ## Methods
 
+### Sampling
 For this project, I collected a total of twelve samples, two samples per 
 cellphone. Therefore, I swabbed a total of six phones. To collect my samples, 
 I used a sterile swab dipped in a buffer. I swabbed the entire front screen of 
 each phone for 30 seconds and then stored the swab in a sterile tube. Once I 
 finished collecting all my samples, I placed all of them 
 
-### DNA Extraction 
+### Culturing & DNA Extraction 
 For DNA extraction, I followed the manufacturer's protocol from the Sigma 
 REDExtract-N-Amp Kit. 
 
-### PCR
+### PCR and Gel Electrophoresis
 The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
 time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
 mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then 
@@ -108,15 +126,13 @@ set to run at the following temperatures:
 | 72°C             | 1 minute   |
 | 72°C             | 10 minutes |
 | 4°C              | hold       |
+**Table 1:** Table shows the thermocycler's various cycles, including the 
+temperature of each cycle and its duration
 
 Once the thermocycling was complete, the gel was carefully loaded with 2-20 
 microliter pipettes and then run on the electrode for 30 minutes. 
-"After checking for successful amplification using gel electrophoresis, PCR products were cleaned with Invitrogen ExoSAP and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA)." 
-
-
-
-
-## Analysis
+"After checking for successful amplification using gel electrophoresis, PCR 
+products were cleaned with Invitrogen ExoSAP and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA)." 
 
 # Results
 
@@ -129,11 +145,42 @@ library("broom")
 library("knitr")
 ```
 
+Table 2 shows the strains found through using BLAST, were *Kocuria palustris* 
+with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
+*Staphylococcus epidermis* with an accuracy of 98.88%. 
+
+Table 3 shows the qubit data, which is the amount of DNA present in each sample. 
+The cellphone sample of student AG had a qubit value of 4.72. JI had a qubit 
+value of 8.37, and the sample from student SB, which had a dilution of 1-10, had 
+a qubit value of 6.21. The samples from professor SS, which had a dilution of 
+1-10, had a qubit value of 7.02. Professor NT, which had a dilution of 1-10, had 
+a qubit value of 5.49, and Professor EY had a qubit value of 11.30. 
+
+Figure 1 shows boxplot which displays the number of colonies for the sample 
+group, professors and students. The median value of the number of colonies for 
+professors was 6, with a third quartile value of 23 colonies, and a maximum 
+value of 41 colonies. The median value of the number of colonies for students 
+was 37, with a minimum value of 2 colonies. The value of the first quartile is 
+20 colonies, and the third quartile has a value of 44 colonies. The maximum 
+value for students was 50 colonies. 
+
+Table 4 shows the p-value as 1 for the number of colonies found on professors' 
+and students' cellphone screens. Figure 2 shows a boxplot which displays the 
+number of morphotypes for the sample group, professors and students. The median 
+value of the number of morphotypes for professors was 1, with a third quartile 
+value of 3 morphotypes, and a maximum value of 5 morphotypes. The median value 
+of the number of morphotypes for students was 1, the third quartile value was 
+2.5 morphotypes. The maximum value of morphotypes for students was 4. Table 5 
+shows the resulting p-value as 1 from a statistical test perfomed for the
+number of morphotypes found between professor and student cellphones screens.
+
+
 | description                                                                       | max score | total score | query cover | E value   | per. identity | Accession  |
 |-----------------------------------------------------------------------------------|-----------|-------------|-------------|-----------|---------------|------------|
 | Kocuria palustris strain SR5-19 16S ribosomal RNA gene, partial sequence          | 1129      | 1129        | 100%        | 0.0       | 99.20%        | MN421514.1 |
 | Staphylococcus sp. strain 21 16S ribosomal RNA gene, partial sequence             | 931       | 931         | 100%        | 0.0       | 99.80%        | MK465362.1 |
 | Staphylococcus epidermidis strain IBK-11 16S ribosomal RNA gene, partial sequence | 473       | 473         | 100%        | 1x10^-129 | 98.88%        | MN428237.1 |
+**Table 2:** Table shows the strains retrieved through the BLAST tool 
 
 
 ```{r read-in-culture-data}
@@ -141,6 +188,16 @@ library("knitr")
 culture_data <- read_csv(
   "data/raw_data/raw_culture_count_data/BIOL422_culturing_data-Sheet1.csv")
 ```
+
+| Sample       | Qubit Value |
+|--------------|-------------|
+| AG           | 4.72        |
+| JI           | 8.37        |
+| SB 1-10      | 6.21        |
+| Prof SS 1-10 | 7.02        |
+| Prof NT 1-10 | 5.49        |
+| Prof EY      | 11.30       |
+**Table 3:** Table shows the qubit value for the culture samples from both the students' cellphones and professors' cellphones 
 
 ```{r filter-and-plot-abundances}
 # filter out only 100x dilutions and make boxplot
@@ -156,7 +213,8 @@ culture_data %>%
   ylab("Number of Colonies")
 ```
 
-**Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
+**Figure 1:** Boxplot of colony abundances from Professor and Student 
+cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
 
 ```{r abundances-stats}
 #run a statistical test to compare the two groups of abundances
@@ -168,6 +226,8 @@ culture_data %>%
   broom::glance(x = . ) %>%
   knitr::kable()
 ```
+**Table 4:** Shows The p-value resulting from a statistical test for the number
+of colonies found on cellphone screens between professors and students
 
 ```{r filter-and-plot-morphotypes}
 # filter out only 100x dilutions and make boxplot
@@ -183,7 +243,6 @@ culture_data %>%
   ylab("Number of Morphotypes")
 ```
 
-
 **Figure 2:**Boxplot showing the number of morphotypes from student cellphones compared to professor cellphones. Ther was no difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
@@ -196,17 +255,55 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
-  
+**Table 5:** Table shows p-value as a result from a statistical test for the 
+number of morphotypes found between professor and student cellphones
 
-## Culture Data
+![](data/raw_data/phylogenies/phylogeny1_.png)  
+**Figure 3:** Phylogeny shows This figure shows the phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
+
+![](data/raw_data/phylogenies/phylogeny2_.png)
+**Figure 4:** This figure shows the phylogeny for Taq and its relationship to 
+the bacteria found on the sample cellphones. 
+
+![](data/images/gel_images/culture_pcr_cropped.jpg)
+**Figure 5:** Image shows the PCR results. Well 9 was sample "Prof SS 1-10", 
+well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
+sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
+contained a negative control, which was pure water. 
 
 # Discussion
 
+Table 2 shows the strains found through using BLAST, were *Kocuria palustris* 
+with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
+*Staphylococcus epidermis* with an accuracy of 98.88%. 
+
+Table 3 shows the qubit data, which is the amount of DNA present in each sample.
+Specifically, samples "JI, Prof SS 1-10, and Prof EY" had relatively high qubit 
+values, which means they had a relatively high amount of DNA in those samples.
+JI had a qubit value of 8.37, The samples from professor SS, which had a 
+dilution of 1-10, had a qubit value of 7.02. Professor EY had a qubit value of 
+11.30. 
+
+Figure 1 shows boxplot which displays the number of colonies for the sample 
+group, professors and students. The median value of the number of colonies for 
+professors was 6, with a third quartile value of 23 colonies, and a maximum 
+value of 41 colonies. The median value of the number of colonies for students 
+was 37, with a minimum value of 2 colonies. The value of the first quartile is 
+20 colonies, and the third quartile has a value of 44 colonies. The maximum 
+value for students was 50 colonies. 
+
+Table 4 shows the p-value as 1 for the number of colonies found on professors' 
+and students' cellphone screens. Figure 2 shows a boxplot which displays the 
+number of morphotypes for the sample group, professors and students. The median 
+value of the number of morphotypes for professors was 1, with a third quartile 
+value of 3 morphotypes, and a maximum value of 5 morphotypes. The median value 
+of the number of morphotypes for students was 1, the third quartile value was 
+2.5 morphotypes. The maximum value of morphotypes for students was 4. Table 5 
+shows the resulting p-value as 1 from a statistical test perfomed for the
+number of morphotypes found between professor and student cellphones screens.
+ 
 # Sources Cited
 ```{r your-code-here}
 # Add code chunks as needed for your analyses
 ```
 
-# Discussion
-
-# Sources Cited
