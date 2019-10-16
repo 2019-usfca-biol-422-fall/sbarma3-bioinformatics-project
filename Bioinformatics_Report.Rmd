@@ -284,23 +284,38 @@ JI had a qubit value of 8.37, The samples from professor SS, which had a
 dilution of 1-10, had a qubit value of 7.02. Professor EY had a qubit value of 
 11.30. 
 
-Figure 1 shows boxplot which displays the number of colonies for the sample 
+Figure 1 shows a boxplot which displays the number of colonies for the sample 
 group, professors and students. The median value of the number of colonies for 
-professors was 6, with a third quartile value of 23 colonies, and a maximum 
-value of 41 colonies. The median value of the number of colonies for students 
-was 37, with a minimum value of 2 colonies. The value of the first quartile is 
-20 colonies, and the third quartile has a value of 44 colonies. The maximum 
-value for students was 50 colonies. 
+professors was 6, which means that, once placed in numerical order, the middle 
+value of colonies was 6. Table 4 shows the p-value as 1 for the number of 
+colonies found on professors' and students' cellphone screens. Therefore, with 
+this p-value, I failed to reject the null hypothesis. Since, the null hypothesis
+was not rejected, I can conclude that student cellphones carry more bacteria, 
+and more potential pathogens, than those of professors. 
 
-Table 4 shows the p-value as 1 for the number of colonies found on professors' 
-and students' cellphone screens. Figure 2 shows a boxplot which displays the 
-number of morphotypes for the sample group, professors and students. The median 
-value of the number of morphotypes for professors was 1, with a third quartile 
-value of 3 morphotypes, and a maximum value of 5 morphotypes. The median value 
-of the number of morphotypes for students was 1, the third quartile value was 
-2.5 morphotypes. The maximum value of morphotypes for students was 4. Table 5 
-shows the resulting p-value as 1 from a statistical test perfomed for the
-number of morphotypes found between professor and student cellphones screens.
+Figure 2 shows a boxplot which displays the number of morphotypes found on the 
+cellphone screens of professors' compared to students'. The median value of the 
+number of morphotypes for professors was 1. This means that, when placed in 
+numerical order, 1 was the median value. The third quartile value of 3 
+morphotypes, and a maximum value of 5 morphotypes. The median value of the 
+number of morphotypes for students was 1 as well. Therefore we can conclude that,
+disregarding outliers, 1 was the median number among both sample groups. 
+Table 5 shows the resulting p-value as 1 from a statistical test perfomed for 
+the number of morphotypes found between professor and student cellphones screens.
+Given this value, I failed to reject the null hypothesis. Therefore, I can 
+conclude that although students had a higher number of colonies on their 
+cellphones, the number of morphotypes between both sample groups was similar. 
+
+Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
+well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
+sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
+contained a negative control, which was pure water. Wells 9, 13, 14, & 15 had no
+band showing, which could have resulted from pipetting error or incorrect 
+primers used. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
+as well. However, since wells 10-12 showed, I can conclude there was a 
+significant amount of DNA present in the wells to perform the PCR and show up in
+the image. 
+
  
 # Sources Cited
 ```{r your-code-here}
