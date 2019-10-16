@@ -13,21 +13,39 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 # Introduction
 
-This project looks at the different types and amounts of bacteria on the cell 
-phone screens of students compared to the amount of bacteria found on the cell
-phone screens of professors. This is to see whether or not phones carry 
-potential pathogens, which are disease-causing bacteria. Thus, this experiment 
-will help build a correlation between how illnesses are spread and technology 
-usage.I will specifically focus on the presence of E.Coli, Staphylococcus, and 
-Pseudomonas as they are the most common pathogens found on cellphones. 
+The cellphone has become a staple in today's society. It's role has drastically 
+expanded from the typical use of a phone, to call or text someone. It's now used
+as a GPS device, to browse the internet, and much more. Due to all of these 
+applications, cellphones are being used all most all day, everyday by their 
+owners. This daily use and the benefits provided by a cellphone, causes 
+individuals to overlook cellphone hygeine, or even consider the amount of
+bacteria that accumulates on the screen of a phone. 
 
-Studies have been done in clinical settings, showing how healthcare professionals use their phones throughout the day, both before and after assessing patients. This resulted in a significant transfer of bacteria, since most cellphone users, healthcare workers included, do not clean their cellphone screens. "Different studies in different parts of the world indicated that medical equipment and mobile phones of healthcare workers are a potential source of nosocomial infections" (This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
+This project focuses on identifying the type and amount bacteria on cell phone
+screens of students at the University of San Francisco compared to those found 
+on the cellphone screens of professors. This is to see whether or not phones 
+carry potential pathogens, which are disease-causing bacteria. Thus, this 
+experiment will help build a correlation between how illnesses are spread and 
+technology usage.I will specifically focus on the presence of *E.Coli*, 
+*Staphylococcus*, and *Pseudomonas* as they are the most common pathogens found on 
+cellphones. 
 
-This has been shown through studies in the past with teenagers and their cell 
-phones, "...a median of 17,032 bacterial 16S rRNA gene copies per phone.
-Potentially pathogenic microbes were found among dominant microbes more often on
-phones with higher percentage of E. faecalis in total bacterial 16S rRNA" 
-[@cogprints6566]. 
+Studies have been done in clinical settings, showing how healthcare 
+professionals use their phones throughout the day, both before and after 
+assessing patients. This resulted in a significant transfer of bacteria, since 
+most cellphone users, healthcare workers included, do not clean their cellphone 
+screens. "Different studies in different parts of the world indicated that 
+medical equipment and mobile phones of healthcare workers are a potential source
+of nosocomial infections" (add citation). This puts not only cellphone users at 
+risk, but the patients, the health care workers and their families as well. 
+
+However, healthcare workers are not the only ones with phones carrying bacteria, 
+studies have shown that with a general cellphone user, there is 10x more 
+bacteria on a cellphone screen than a toilet seat. Aside from clinical settings, 
+I aimed to focus on a college setting. A study on the bacterial contamination of 
+middle school students' cellphones concluded that teenagers have "...a median of 17,032 bacterial 16S rRNA gene copies per phone" [@cogprints6566]. Furthermore,
+out of the number of bacteria found on these phones, a significant number of 
+were labeled "potentially pathogenic". These bacteria included *E. faecalis*
 
 Furthermore, another study proved that there is an extremely high amount of 
 bacteria on cellphones. "In total, 94.5% of phones demonstrated evidence of 
