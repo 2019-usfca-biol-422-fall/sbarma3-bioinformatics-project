@@ -85,15 +85,15 @@ cellphone screens.
 ## Methods
 
 ### Sampling
-For this project, I collected a total of twelve samples, two samples per 
-cellphone. Therefore, I swabbed a total of six phones. To collect my samples, 
-I used a sterile swab dipped in a buffer. I swabbed the entire front screen of 
-each phone for 30 seconds and then stored the swab in a sterile tube. Once I 
-finished collecting all my samples, I placed all of them 
+Materials needed for this project include sterile PBS, 12 1.5mL tubes, and sterile swabs. For this project, I collected a total of twelve samples, two samples per cellphone. Therefore, I swabbed a total of six phones. To collect my samples, I used a sterile swab dipped in the buffer solution. I swabbed the entire front screen of each phone for 30 seconds and then stored the swab in a sterile tube. Once I finished collecting all my samples, I placed all of them 
 
 ### Culturing & DNA Extraction 
+After extraction, samples were diluted to 1x, 10x, and 
+100x using PBS solution, and then cultured. Then, I pipetted 100 μL of each sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
+evenly across the TSA plate. Once I plated my samples, they were incubated for 4 days and then analyzed for the number of morphotypes present and the amount of colonies. 
+
 For DNA extraction, I followed the manufacturer's protocol from the Sigma 
-REDExtract-N-Amp Kit. 
+REDExtract-N-Amp Kit. From my TSA plate, I scraped samples from the most secluded colonies, trying to avoid colonies that were in contact with one another to try to avoid contamination. Once this was complete, I 
 
 ### PCR and Gel Electrophoresis
 The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
@@ -103,14 +103,13 @@ microwaved for 1-3 minutes until the agarose powder is completely dissolved.
 Then the agarose and buffer mixture is allowed to cool to the point where it is 
 comfortable to hold the flask. It is then poured into the gel tray with the well
 comb already set in place. Once poured, the tray with the agarose gel is set out
-to cool for around 10 minutes or until fully hardened. 
+to cool for around 10 minutes or until fully hardened.  
 
 To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, 
 where n is the number of samples I have, which in this case is six. With all 
-the calculations, the master mix included 77 microliters of Amp, 6.2 microliters
-of the 27f primer, 6.2 microliters of 1492r primer, 7.7 microliters of BSA, and 
-49.28mL of PCR water. For each alloquat, I added 19 microliters of the master 
-mix and 1 microliter of the specific DNA template.
+the calculations, the master mix included 77 μL of Amp, 6.2 μL of the 27f 
+primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR water. For 
+each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA template.
 
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
 set to run at the following temperatures:
@@ -129,10 +128,12 @@ set to run at the following temperatures:
 **Table 1:** Table shows the thermocycler's various cycles, including the 
 temperature of each cycle and its duration
 
-Once the thermocycling was complete, the gel was carefully loaded with 2-20 
-microliter pipettes and then run on the electrode for 30 minutes. 
+Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes. 
 "After checking for successful amplification using gel electrophoresis, PCR 
 products were cleaned with Invitrogen ExoSAP and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA)." 
+
+### Sanger Sequencing 
+
 
 # Results
 
