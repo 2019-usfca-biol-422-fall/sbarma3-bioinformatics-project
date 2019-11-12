@@ -27,7 +27,8 @@ assessing patients. This resulted in a significant transfer of bacteria, since
 most cellphone users, healthcare workers included, do not clean their cellphone 
 screens. Especially in a medical setting, this can cause more diseases and more infection,"...indicated that medical equipment and mobile phones of healthcare 
 workers are a potential source of nosocomial infections" 
-[@kumar2014identification]. This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
+[@kumar2014identification]. This puts not only cellphone users at risk, but the 
+patients, the health care workers and their families as well. 
 
 However, healthcare workers are not the only ones with phones carrying bacteria, 
 studies have shown that with a general cellphone user, there is 10x more 
@@ -58,15 +59,17 @@ My project focuses on identifying the type and amount bacteria on the cell phone
 screens of students at the University of San Francisco compared to those found 
 on the cellphone screens of professors. This is to see whether or not phones 
 carry potential pathogens, which are disease-causing bacteria, outside of a 
-clinical setting. Thus, this experiment can help build a correlation between how illnesses are spread on college campuses and technology usage.I will s
-pecifically focus on the presence of *Escherichia Coli*, *Staphylococcus*, and 
+clinical setting. Thus, this experiment can help build a correlation between how
+illnesses are spread on college campuses and technology usage.I will 
+specifically focus on the presence of *Escherichia Coli*, *Staphylococcus*, and 
 *Pseudomonas* as they are a few of the most common pathogens found on 
 cellphones. 
 
 These bacteria are known to cause serious infections. *Staphylococcus* for 
 example, is a dangerous pathogen. This bacteria is known to cause endovascular
 disorders, bone and joint disorders, respiratory issues, as well as skin 
-disorders. The mortality rate,according to the New England Journal of Medicine, "...ranges from 11 to 43 percent..." [@lowy1998staphylococcus]. *E.coli* is 
+disorders. The mortality rate,according to the New England Journal of Medicine, 
+"...ranges from 11 to 43 percent..." [@lowy1998staphylococcus]. *E.coli* is 
 a bacteria that normally is found in the human intestine as well as other 
 animals. is transmitted through contamination of food, such a raw meats, or 
 through the contact with fecal matter.
@@ -85,15 +88,32 @@ cellphone screens.
 ## Methods
 
 ### Sampling
-Materials needed for this project include sterile PBS, 12 1.5mL tubes, and sterile swabs. For this project, I collected a total of twelve samples, two samples per cellphone. Therefore, I swabbed a total of six phones. To collect my samples, I used a sterile swab dipped in the buffer solution. I swabbed the entire front screen of each phone for 30 seconds and then stored the swab in a sterile tube. Once I finished collecting all my samples, I placed all of them 
+Materials needed for this project include sterile PBS, 12 1.5mL tubes, and 
+sterile swabs. For this project, I collected a total of twelve samples, two 
+samples per cellphone. Therefore, I swabbed a total of six phones. To collect my 
+samples, I used a sterile swab dipped in the buffer solution. I swabbed the 
+entire front screen of each phone for 30 seconds and then stored the swab in a 
+sterile tube. Once I finished collecting all my samples, I broke off the portion 
+of the swab with my sample on it into separate tubes and labeled them 
+accordingly.
 
 ### Culturing & DNA Extraction 
 After extraction, samples were diluted to 1x, 10x, and 
-100x using PBS solution, and then cultured. Then, I pipetted 100 μL of each sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
-evenly across the TSA plate. Once I plated my samples, they were incubated for 4 days and then analyzed for the number of morphotypes present and the amount of colonies. 
+100x using PBS solution, and then cultured. Then, I pipetted 100 μL of each 
+sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
+evenly across the TSA plate. Once I plated my samples, they were incubated for 4
+days and then analyzed for the number of morphotypes present and the amount of 
+colonies. 
 
 For DNA extraction, I followed the manufacturer's protocol from the Sigma 
-REDExtract-N-Amp Kit. From my TSA plate, I scraped samples from the most secluded colonies, trying to avoid colonies that were in contact with one another to try to avoid contamination. Once this was complete, I 
+REDExtract-N-Amp Kit [@kumar2014identification] From my TSA plate, I scraped 
+samples from the most secluded colonies, trying to avoid colonies that were in 
+contact with one another to try to avoid contamination. After this, I pipetted  
+198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit tube. 
+After placing the Qubit solution and my sample in the Qubit tube, I vortexed 
+this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
+Once this was complete, I used the Qubit to analyze the amount of DNA 
+successfully extracted. 
 
 ### PCR and Gel Electrophoresis
 The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
@@ -109,7 +129,8 @@ To make the master mix for the PCR reaction, I used the formula: (n+1)+10%,
 where n is the number of samples I have, which in this case is six. With all 
 the calculations, the master mix included 77 μL of Amp, 6.2 μL of the 27f 
 primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR water. For 
-each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA template.
+each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA 
+template.
 
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
 set to run at the following temperatures:
