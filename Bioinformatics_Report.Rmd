@@ -80,12 +80,19 @@ compared to professors? My hypothesis is that all cellphones will carry
 potential pathogens. Student cellphones will have a significantly higher amount 
 of potential pathogens compared to professor cellphones. 
 
-To test this hypothesis, I gathered a total of 6 samples using a sterile swab dipped in phosphate buffer solution. 3 of these samples were from different students and the remaining 3 samples were collected different professors. Once my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x and then cultured these samples on an agar dish. After incubation, I used PCR to amplify the DNA samples and gel electrophoresis to separate the DNA fragments. I, also, used Qubit to quantify DNA concentrations. Finally, Sanger sequencing was used to sequence my DNA samples. With these successful results, I used BLAST to run my samples against the NCBI database and figure out what strains my were. 
+To test this hypothesis, I gathered a total of 6 samples using a sterile swab 
+dipped in phosphate buffer solution. 3 of these samples were from different 
+students and the remaining 3 samples were collected different professors. Once 
+my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x 
+and then cultured these samples on an agar dish. After incubation, I used PCR to
+amplify the DNA samples and gel electrophoresis to separate the DNA fragments. 
+I, also, used Qubit to quantify DNA concentrations. Finally, Sanger sequencing 
+was used to sequence my DNA samples. With these successful results, I used BLAST
+to run my samples against the NCBI database and figure out what strains my were. 
 
-At the end of the project, I concluded that student cellphone screens had a 
-larger number of colonies, as predicted. Therefore, my hypothesis was proven 
-correct. However, the number of morphotypes found was higher on professors' 
-cellphone screens. 
+With this project, I concluded that student cellphone screens had a larger 
+amount of colonies, as predicted. However, the number of morphotypes found was 
+higher on professors' cellphone screens. 
 
 ## Methods
 
