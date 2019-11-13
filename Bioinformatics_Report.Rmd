@@ -8,6 +8,7 @@ bibliography: references.bib
 ---
 
 ```{r setup, include = FALSE}
+# global setup
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
@@ -25,26 +26,24 @@ Studies have been done in clinical settings, showing how healthcare
 professionals use their cellphones throughout the day, both before and after 
 assessing patients. This resulted in a significant transfer of bacteria, since 
 most cellphone users, healthcare workers included, do not clean their cellphone 
-screens. Especially in a medical setting, this can cause more diseases and more infection,"...indicated that medical equipment and mobile phones of healthcare 
-workers are a potential source of nosocomial infections" 
-[@kumar2014identification]. This puts not only cellphone users at risk, but the 
-patients, the health care workers and their families as well. 
+screens. Especially in a medical setting, this can cause more diseases and more 
+infection. Healthcare workers have been found to transmit nosocomial infections 
+via their medical equipment and mobile phones.[@kumar2014identification]. 
+This puts not only cellphone users at risk, but the patients, the health care 
+workers and their families as well. 
 
 However, healthcare workers are not the only ones with phones carrying bacteria, 
 studies have shown that with a general cellphone user, there is 10x more 
-bacteria on a cellphone screen than a toilet seat. Aside from clinical settings, 
-I aimed to focus on a school setting, and to see whether cellphones used by 
-students and professors also carried pathogenic bacteria. A study on the 
-bacterial contamination of middle school students' cellphones concluded that 
-teenagers have "...a median of 17,032 bacterial 16S rRNA gene copies per phone" 
-[@cogprints6566]. Additionally,out of the number of bacteria found on these 
-phones, a significant number of were labeled "potentially pathogenic". These 
-bacteria included *E. faecalis* and many more. Furthermore, another study proved
-that there is an extremely high amount of pathogens on cellphones of secondary 
-school students "...94.5% of phones demonstrated evidence of bacterial 
-contamination with different types of bacteria...*S. aureus* strains [were] 
-isolated from mobile phones of 52% and those strains isolated from hands of 
-37.7% were methicillin resistant"[@ulger2009we]. 
+bacteria on a cellphone screen than a toilet seat (INSERT CITATION). Aside from 
+clinical settings, I aimed to focus on a school setting, and to see whether 
+cellphones used by students and professors also carried pathogenic bacteria. 
+Middle school students'cellphones have been found to have a median of 17,032 
+bacterial 16S rRNA gene copies per phone [@cogprints6566]. Additionally,out of 
+the number of bacteria found on these phones, a significant number were found to
+be potentially pathogenic. These bacteria included *E. faecalis* and many more 
+[@cogprints6566].There is an extremely large amount of pathogens on cellphones 
+of secondary school students, with over 94.5% of cellphones demonstrating 
+evidence of bacterial contamination [@ulger2009we]. 
 
 Another study conducted by the Department of Microbiology at Lagos State 
 University focused on the actual spread of bacterial infections through the use 
@@ -55,30 +54,33 @@ cellphones. I wanted to find out the relevance of this issue in a school
 setting, and whether or not pathogens would still be found on cellphones outside 
 of clinical settings. 
 
-My project focuses on identifying the type and amount bacteria on the cell phone
-screens of students at the University of San Francisco compared to those found 
-on the cellphone screens of professors. This is to see whether or not phones 
-carry potential pathogens, which are disease-causing bacteria, outside of a 
-clinical setting. Thus, this experiment can help build a correlation between how
-illnesses are spread on college campuses and technology usage.I will 
-specifically focus on the presence of *Escherichia Coli*, *Staphylococcus*, and 
-*Pseudomonas* as they are a few of the most common pathogens found on 
-cellphones. 
+The purpose of my project was to show the importance of hygeine with an 
+individual's technology, especially cellphones since we carry them around 
+everywhere on a daily basis. My project focuses on identifying the type and 
+amount bacteria on the cell phone screens of students at the University of San 
+Francisco compared to those found on the cellphone screens of professors. 
+This is to see whether or not phones carry potential pathogens, which are 
+disease-causing bacteria, outside of a clinical setting. Thus, this experiment 
+can help build a correlation between how illnesses are spread on college 
+campuses and technology usage.I will specifically focus on the presence of 
+*Escherichia Coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the 
+most common pathogens found on cellphones (INSERT CITATION). 
 
 These bacteria are known to cause serious infections. *Staphylococcus* for 
 example, is a dangerous pathogen. This bacteria is known to cause endovascular
 disorders, bone and joint disorders, respiratory issues, as well as skin 
-disorders. The mortality rate,according to the New England Journal of Medicine, 
-"...ranges from 11 to 43 percent..." [@lowy1998staphylococcus]. *E.coli* is 
-a bacteria that normally is found in the human intestine as well as other 
-animals. is transmitted through contamination of food, such a raw meats, or 
-through the contact with fecal matter.
+disorders. The mortality rate ranges from 11 to 43 percent
+[@lowy1998staphylococcus]. *E.coli* is a bacteria that normally is found in the 
+human intestine as well as other animals. is transmitted through contamination 
+of food, such a raw meats, or through the contact with fecal matter.
 
 My questions for this project were: Do cellphones really carry potential 
 pathogens? Do students have a higher amount of bacteria on their cellphones 
 compared to professors? My hypothesis is that all cellphones will carry 
 potential pathogens. Student cellphones will have a significantly higher amount 
 of potential pathogens compared to professor cellphones. 
+
+To test this hypothesis, I gathered a total of 6 samples using a sterile swab dipped in phosphate buffer solution. 3 of these samples were from different students and the remaining 3 samples were collected different professors. Once my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x and then placed these samples 
 
 At the end of the project, I concluded that student cellphone screens had a 
 larger number of colonies, as predicted. Therefore, my hypothesis was proven 
@@ -88,14 +90,14 @@ cellphone screens.
 ## Methods
 
 ### Sampling
-Materials needed for this project include sterile PBS, 12 1.5mL tubes, and 
-sterile swabs. For this project, I collected a total of twelve samples, two 
-samples per cellphone. Therefore, I swabbed a total of six phones. To collect my 
-samples, I used a sterile swab dipped in the buffer solution. I swabbed the 
-entire front screen of each phone for 30 seconds and then stored the swab in a 
-sterile tube. Once I finished collecting all my samples, I broke off the portion 
-of the swab with my sample on it into separate tubes and labeled them 
-accordingly.
+Materials needed for this project include sterile phosphate buffer solution 
+(PBS), 12 1.5mL tubes, and sterile swabs. For this project, I collected a total 
+of twelve samples, two samples per cellphone. Therefore, I swabbed a total of 
+six phones, three from each sample group. To collect my samples, I used a 
+sterile swab dipped in the buffer solution. I swabbed the entire front screen of
+each phone for 30 seconds and then stored the swab in a sterile tube. Once I 
+finished collecting all my samples, I broke off the portion of the swab with my 
+sample on it into separate tubes and labeled them accordingly.
 
 ### Culturing & DNA Extraction 
 After extraction, samples were diluted to 1x, 10x, and 
@@ -150,12 +152,17 @@ set to run at the following temperatures:
 temperature of each cycle and its duration
 
 Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes. 
-"After checking for successful amplification using gel electrophoresis, PCR 
-products were cleaned with Invitrogen ExoSAP and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA)." 
 
 ### Sanger Sequencing 
 
+After checking for successful amplification using gel electrophoresis, PCR 
+products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional 
+Sanger sequencing at MCLAB located in South San Francisco, CA [@kreader2001one]. 
 
+### Sequence Analysis 
+After receiving all of my data from Sanger sequencing, I used Geneious to 
+analyze my samples. Not all of my samples had successful sequencing, but for 
+those that were completed, I trimmed off the 
 # Results
 
 ```{r load-libraries}
