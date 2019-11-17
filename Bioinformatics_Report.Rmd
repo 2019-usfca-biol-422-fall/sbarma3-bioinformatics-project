@@ -63,7 +63,7 @@ This is to see whether or not phones carry potential pathogens, which are
 disease-causing bacteria, outside of a clinical setting. Thus, this experiment 
 can help build a correlation between how illnesses are spread on college 
 campuses and technology usage.I will specifically focus on the presence of 
-*Escherichia Coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the 
+*Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the 
 most common pathogens found on cellphones (INSERT CITATION). 
 
 These bacteria are known to cause serious infections. *Staphylococcus* for 
@@ -107,8 +107,9 @@ finished collecting all my samples, I broke off the portion of the swab with my
 sample on it into separate tubes and labeled them accordingly.
 
 ### Culturing & DNA Extraction 
-After extraction, samples were diluted to 1x, 10x, and 
-100x using PBS solution, and then cultured. Then, I pipetted 100 μL of each 
+After extraction, samples were diluted to 1x, 10x, and 100x using PBS solution, 
+and then cultured. I used 18 100 mm TSA plates for plating samples from each of
+my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each 
 sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
 evenly across the TSA plate. Once I plated my samples, they were incubated for 4
 days and then analyzed for the number of morphotypes present and the amount of 
@@ -158,7 +159,27 @@ set to run at the following temperatures:
 **Table 1:** Table shows the thermocycler's various cycles, including the 
 temperature of each cycle and its duration
 
-Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes. 
+Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL 
+pipettes and then run on the electrode for 30 minutes. 
+
+### Culture Free Methods 
+After extraction, samples were diluted to 1x, 10x, and 100x using PBS solution, 
+and then cultured. I used 18 100 mm TSA plates for plating samples from each of
+my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each 
+sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
+evenly across the TSA plate. Once I plated my samples, they were incubated for 4
+days and then analyzed for the number of morphotypes present and the amount of 
+colonies. 
+
+For DNA extraction, I followed the manufacturer's protocol from the Sigma 
+REDExtract-N-Amp Kit [@kumar2014identification] From my TSA plate, I scraped 
+samples from the most secluded colonies, trying to avoid colonies that were in 
+contact with one another to try to avoid contamination. After this, I pipetted  
+198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit tube. 
+After placing the Qubit solution and my sample in the Qubit tube, I vortexed 
+this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
+Once this was complete, I used the Qubit to analyze the amount of DNA 
+successfully extracted. 
 
 ### Sanger Sequencing 
 
@@ -168,8 +189,12 @@ Sanger sequencing at MCLAB located in South San Francisco, CA [@kreader2001one].
 
 ### Sequence Analysis 
 After receiving all of my data from Sanger sequencing, I used Geneious to 
-analyze my samples. Not all of my samples had successful sequencing, but for 
-those that were completed, I trimmed off the 
+analyze and trim my samples. Only 3 of my samples were run successfully and gave 
+results. Once the sequences from all of my samples were trimmed, I used the NCBI
+website's BLAST tool to determine what strains of bacteria were found on the 
+cellphone screens I swabbed and infer the function of my sample sequences from 
+similar sequences found in the archive [@madden2013blast].
+
 # Results
 
 ```{r load-libraries}
@@ -209,7 +234,6 @@ of the number of morphotypes for students was 1, the third quartile value was
 2.5 morphotypes. The maximum value of morphotypes for students was 4. Table 5 
 shows the resulting p-value as 1 from a statistical test perfomed for the
 number of morphotypes found between professor and student cellphones screens.
-
 
 | description                                                                       | max score | total score | query cover | E value   | per. identity | Accession  |
 |-----------------------------------------------------------------------------------|-----------|-------------|-------------|-----------|---------------|------------|
