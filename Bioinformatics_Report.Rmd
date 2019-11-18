@@ -19,7 +19,7 @@ expanded from its typical use, to call or to text someone. It's now used
 as a GPS device, to browse the internet, and much more. Due to all of these 
 applications, cellphones are being used almost all day, everyday by their 
 owners. This daily use and the benefits provided by a cellphone, causes 
-individuals to overlook cellphone hygeine, or even consider the amount of
+individuals to overlook cellphone hygiene, or even consider the amount of
 bacteria that accumulates on the screen of a phone. 
 
 Studies have been done in clinical settings, showing how healthcare 
@@ -107,13 +107,10 @@ finished collecting all my samples, I broke off the portion of the swab with my
 sample on it into separate tubes and labeled them accordingly.
 
 ### Culturing & DNA Extraction 
-After extraction, samples were diluted to 1x, 10x, and 100x using PBS solution, 
-and then cultured. I used 18 100 mm TSA plates for plating samples from each of
-my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each 
-sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
-evenly across the TSA plate. Once I plated my samples, they were incubated for 4
-days and then analyzed for the number of morphotypes present and the amount of 
-colonies. 
+After extraction, each sample was diluted to 1x, 10x, and 100x using PBS 
+solution, and then cultured. These were the cultured samples. I used 18 100 mm 
+TSA plates for plating samples from each of my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each sample onto a 100 mm TSA plate and used rattler beads to spread the sample evenly across the TSA plate. Once I plated my samples, they were incubated for 4 days and then analyzed for the 
+number of morphotypes present and the amount of colonies. 
 
 For DNA extraction, I followed the manufacturer's protocol from the Sigma 
 REDExtract-N-Amp Kit [@kumar2014identification] From my TSA plate, I scraped 
@@ -127,8 +124,7 @@ successfully extracted.
 
 ### PCR and Gel Electrophoresis
 Two rounds of PCR and gel electrophoresis were conducted for this experiment. 
-One round was with a PCR done with cultured samples and the second round was 
-done with culture free samples. 
+One round was with a PCR done with cultured samples, which were the 1x, 10x, and 100x dilutions, and the second round was done with culture free samples. 
 
 For both types of samples, the formula to make the master mix for the PCR 
 reaction was: (n+1)+10%, where n is the number of samples I have, which in this 
@@ -187,6 +183,21 @@ Then the agarose and buffer mixture is allowed to cool to the point where it is
 comfortable to hold the flask. It is then poured into the gel tray with the well
 comb already set in place. Once poured, the tray with the agarose gel is set out
 to cool for around 10 minutes or until fully hardened.  
+
+### Illumina Sequencing
+Following electrophoresis, PCR products were purified using AmpureXP magnetic 
+beads and quantitated using a PicoGreen fluorescent assay on a Tecan Infinite M 
+Plex plate reader. Purified PCR products were used as the template for a second 
+round of PCR, which served to attach the Illumina barcodes and adapters. 
+INSERT PCR CYCLES HERE. Following this amplification, PCR products were purified
+and normalized with a SequelPrep normalization plate, pooled, and then 
+quantified once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 
+4200 (Agilent) to verify library size and concentration. This library was then 
+combined with an Illumina PhiX spike-in library (5% spike in) and sequenced on 
+an Illumina iSeq using a 2 x 150 bp consumable cartridge.
+
+### Qubit DNA Quantification
+Qubit was used to quantify 
 
 ### Sanger Sequencing 
 
@@ -292,7 +303,7 @@ culture_data <- read_csv(
   "data/raw_data/raw_culture_count_data/BIOL422_culturing_data-Sheet1.csv")
 ```
 
-| Sample       | Qubit Value |
+| Sample       | Qubit Values (ng/μL)|
 |--------------|-------------|
 | AG           | 4.72        |
 | JI           | 8.37        |
