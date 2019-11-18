@@ -126,21 +126,19 @@ Once this was complete, I used the Qubit to analyze the amount of DNA
 successfully extracted. 
 
 ### PCR and Gel Electrophoresis
-The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
-time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
-mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then 
-microwaved for 1-3 minutes until the agarose powder is completely dissolved. 
-Then the agarose and buffer mixture is allowed to cool to the point where it is 
-comfortable to hold the flask. It is then poured into the gel tray with the well
-comb already set in place. Once poured, the tray with the agarose gel is set out
-to cool for around 10 minutes or until fully hardened.  
+Two rounds of PCR and gel electrophoresis were conducted for this experiment. 
+One round was with a PCR done with cultured samples and the second round was 
+done with culture free samples. 
 
-To make the master mix for the PCR reaction, I used the formula: (n+1)+10%, 
-where n is the number of samples I have, which in this case is six. With all 
-the calculations, the master mix included 77 μL of Amp, 6.2 μL of the 27f 
-primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR water. For 
-each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA 
-template.
+For both types of samples, the formula to make the master mix for the PCR 
+reaction was: (n+1)+10%, where n is the number of samples I have, which in this 
+case is six. 
+
+For the PCR with the cultured samples, the master mix included 77 μL of Amp, 6.2
+μL of the 27f primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR 
+water. For each alloquat, I added 19 μL of the master mix and 1 μL of the 
+specific DNA template. For each alloquat, I added 19 μL of the master mix and 1 
+μL of the specific DNA template (INSERT CITATION - KORBIE).
 
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
 set to run at the following temperatures:
@@ -157,29 +155,38 @@ set to run at the following temperatures:
 | 72°C             | 10 minutes |
 | 4°C              | hold       |
 **Table 1:** Table shows the thermocycler's various cycles, including the 
-temperature of each cycle and its duration
+temperature of each cycle and its duration for culture PCR 
+
+For the PCR with the culture-free samples, the master mix included 77 μL of Amp,
+6.2 μL 10 μM iseq 16sF primer, 6.2 μL 10 μM iseq 16sR primer, 7.7 μL BSA, and 
+49.3 mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 
+μL of the specific DNA template. 
+
+These tubes were then taken into the thermocycler by Professor Zimmerman and 
+set to run at the following temperatures:
+
+| Temperature (°C) | Duration   |
+|------------------|------------|
+| 95°C             | 3 minutes  |
+| 95°C             | 30 seconds |
+| 55°C             | 30 seconds |
+| 72°C             | 30 seconds |
+| 72°C             | 5 minutes  |
+| 4°C              | hold       |
+**Table 2:** Table shows the thermocycler's various cycles, including the 
+temperature of each cycle and its duration for culture-free PCR 
 
 Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL 
 pipettes and then run on the electrode for 30 minutes. 
 
-### Culture Free Methods 
-After extraction, samples were diluted to 1x, 10x, and 100x using PBS solution, 
-and then cultured. I used 18 100 mm TSA plates for plating samples from each of
-my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each 
-sample onto a 100 mm TSA plate and used rattler beads to spread the sample 
-evenly across the TSA plate. Once I plated my samples, they were incubated for 4
-days and then analyzed for the number of morphotypes present and the amount of 
-colonies. 
-
-For DNA extraction, I followed the manufacturer's protocol from the Sigma 
-REDExtract-N-Amp Kit [@kumar2014identification] From my TSA plate, I scraped 
-samples from the most secluded colonies, trying to avoid colonies that were in 
-contact with one another to try to avoid contamination. After this, I pipetted  
-198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit tube. 
-After placing the Qubit solution and my sample in the Qubit tube, I vortexed 
-this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
-Once this was complete, I used the Qubit to analyze the amount of DNA 
-successfully extracted. 
+The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
+time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
+mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then 
+microwaved for 1-3 minutes until the agarose powder is completely dissolved. 
+Then the agarose and buffer mixture is allowed to cool to the point where it is 
+comfortable to hold the flask. It is then poured into the gel tray with the well
+comb already set in place. Once poured, the tray with the agarose gel is set out
+to cool for around 10 minutes or until fully hardened.  
 
 ### Sanger Sequencing 
 
@@ -210,20 +217,14 @@ Table 2 shows the strains found through using BLAST, were *Kocuria palustris*
 with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
 *Staphylococcus epidermis* with an accuracy of 98.88%. 
 
-Table 3 shows the qubit data, which is the amount of DNA present in each sample. 
+Table 3 shows the qubit data, which is the amount of DNA present in each sample.
+Specifically, samples "JI, Prof SS 1-10, and Prof EY" had relatively high qubit 
+values, which means they had a relatively high amount of DNA in those samples. 
 The cellphone sample of student AG had a qubit value of 4.72. JI had a qubit 
 value of 8.37, and the sample from student SB, which had a dilution of 1-10, had 
 a qubit value of 6.21. The samples from professor SS, which had a dilution of 
 1-10, had a qubit value of 7.02. Professor NT, which had a dilution of 1-10, had 
-a qubit value of 5.49, and Professor EY had a qubit value of 11.30. 
-
-Figure 1 shows boxplot which displays the number of colonies for the sample 
-group, professors and students. The median value of the number of colonies for 
-professors was 6, with a third quartile value of 23 colonies, and a maximum 
-value of 41 colonies. The median value of the number of colonies for students 
-was 37, with a minimum value of 2 colonies. The value of the first quartile is 
-20 colonies, and the third quartile has a value of 44 colonies. The maximum 
-value for students was 50 colonies. 
+a qubit value of 5.49, and Professor EY had a qubit value of 11.30.
 
 Table 4 shows the p-value as 1 for the number of colonies found on professors' 
 and students' cellphone screens. Figure 2 shows a boxplot which displays the 
@@ -234,6 +235,48 @@ of the number of morphotypes for students was 1, the third quartile value was
 2.5 morphotypes. The maximum value of morphotypes for students was 4. Table 5 
 shows the resulting p-value as 1 from a statistical test perfomed for the
 number of morphotypes found between professor and student cellphones screens.
+
+Figure 1 shows a boxplot which displays the number of colonies for the sample 
+group, professors and students. The median value of the number of colonies for 
+professors was 6, which means that, once placed in numerical order, the middle 
+value of colonies was 6. Figure 1 shows a third quartile value of 23 colonies, 
+and a maximum value of 41 colonies. The median value of the number of colonies 
+for students was 37, with a minimum value of 2 colonies. The value of the first
+quartile is 20 colonies, and the third quartile has a value of 44 colonies. The 
+maximum value for students was 50 colonies. Table 4 shows the p-value as 1 for 
+the number of colonies found on professors' and students' cellphone screens. 
+
+Figure 2 shows a boxplot which displays the number of morphotypes found on the 
+cellphone screens of professors' compared to students'. The median value of the 
+number of morphotypes for professors was 1. This means that, when placed in 
+numerical order, 1 was the median value. The third quartile value of 3 
+morphotypes, and a maximum value of 5 morphotypes. The median value of the 
+number of morphotypes for students was 1 as well. Therefore we can conclude that,
+disregarding outliers, 1 was the median number among both sample groups. 
+Table 5 shows the resulting p-value as 1 from a statistical test perfomed for 
+the number of morphotypes found between professor and student cellphones screens.
+Given this value, I failed to reject the null hypothesis. Therefore, I can 
+conclude that although students had a higher number of colonies on their 
+cellphones, the number of morphotypes between both sample groups was similar. 
+
+Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
+well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
+sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
+contained a negative control, which was pure water. Wells 9, 13, 14, & 15 had no
+band showing, which could have resulted from pipetting error or incorrect 
+primers used. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
+as well. However, since wells 10-12 showed, I can conclude there was a 
+significant amount of DNA present in the wells to perform the PCR and show up in
+the image. 
+
+
+Table 2 shows the strains found through using BLAST, were *Kocuria palustris* 
+with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
+*Staphylococcus epidermis* with an accuracy of 98.88%. 
+
+
+
+
 
 | description                                                                       | max score | total score | query cover | E value   | per. identity | Accession  |
 |-----------------------------------------------------------------------------------|-----------|-------------|-------------|-----------|---------------|------------|
