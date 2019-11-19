@@ -31,7 +31,16 @@ metadata_in <- read.csv(paste0("data/metadata/",
                                  "illumina_sample_metadata_for_phyloseq.csv"),
                           header = TRUE,
                           stringsAsFactors = FALSE,
-                          row.names = 5) # sets sample IDs to row names
+                          row.names = 4) # sets sample IDs to row names
+
+#fix rownames to match metadata file 
+rownames(sequence_table_nochim) <- gsub(pattern = "_.*filt",
+                                        replacement = "", 
+                                        rownames(sequence_table_nochim))
+# subset metadata to match taxa table
+metadata_in <- metadata_in[grepl(pattern = "(SB|control)", 
+                                 rownames(metadata_in)), ]
+
 
 # Construct phyloseq object (straightforward from dada2 outputs)
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
