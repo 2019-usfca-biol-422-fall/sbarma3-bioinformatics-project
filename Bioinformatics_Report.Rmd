@@ -432,9 +432,19 @@ virulent pathogen that is currently the most common cause of infection in
 hospitalized patients. Furthermore, this bacteria produces several toxins within
 the body. One type of toxin being cytotoxins that induce proinflammatory changes 
 in mammalian cells which can lead to extensive cell damage and eventual sepsis 
-syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria is, however, found to not cause disease; but, rather maintain a benign relationship 
-with the host. This bacteria is currently being studied for its role in 
-balancing the epithelial tissue and providing a number of resistance genes [@otto2009staphylococcus]. 
+syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria 
+is, however, found to not cause disease; but, rather maintain a benign 
+relationship with the host. This bacteria is currently being studied for its 
+role in balancing the epithelial tissue and providing a number of resistance 
+genes [@otto2009staphylococcus]. 
+
+It makes sense that *Staphylococcus* was found on the cellphone screens of both 
+professors and students, since this bacteria is found on the outer layers of the
+skin. Since a majority of people put their phones up to their ear, potentially 
+pressing the phone against their faces, to place phone calls; as well as using
+the touchscreen with their hands to navigate through different applications, the 
+*Staphylococcus* bacteria would have ample opportunity to be transferred onto 
+cellphone screens. 
 
 With a p-value of 1, I failed to reject the null hypothesis (Table 4). Since, 
 the null hypothesis failed to be rejected, I can conclude that student
