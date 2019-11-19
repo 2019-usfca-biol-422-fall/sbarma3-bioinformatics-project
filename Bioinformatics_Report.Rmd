@@ -1,7 +1,9 @@
 ---
-title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone Screens of Students vs. Professors"
+title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone 
+Screens of Both Students and Professors, with Students having a Higher Amount of
+Bacteria on their Cellphones"
 author: "Shreya Barma"
-date: "October 16, 2019"
+date: "November 19, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
