@@ -225,6 +225,7 @@ similar sequences found in the archive [@madden2013blast].
 # Results
 
 ```{r load-libraries}
+#loading libraries
 library("ggplot2")
 library("dplyr")
 library("tidyr")
@@ -333,19 +334,19 @@ culture_data %>%
   ylab("Number of Colonies")
 ```
 
-**Figure 1:** Boxplot of colony abundances from Professor and Student 
-cellphones, 1x dilution. Despite a higher median number of colonies from student
-samples, the mean values were not significantly different between the two sites 
-(Wilcox p = 1). 
+**Figure 1:** Boxplot, made using PhyML, of colony abundances from Professor and
+Student cellphones, 1x dilution. Despite a higher median number of colonies from 
+student samples, the mean values were not significantly different between the 
+two sites (Wilcox p = 1). 
 
 ```{r abundances-stats}
-#run a statistical test to compare the two groups of abundances
+# run a statistical test to compare the two groups of abundances
 culture_data %>%
   filter(student_name == "Shreya Barma") %>%
   filter(dilution_1_10_or_100 == "1") %>%
   wilcox.test(data = .,
               number_of_colonies ~ sample_group) %>%
-  broom::glance(x = . ) %>%
+  broom::glance(x = .) %>%
   knitr::kable()
 ```
 **Table 5:** Shows The p-value resulting from a statistical test for the number
@@ -360,12 +361,13 @@ culture_data %>%
              y = as.numeric(number_of_morphotypes))) +
   geom_boxplot() +
   ggtitle(
-    "Comparison of Morphotypes Between Student & Professor Cellphones", "1x dilution") +
+    "Comparison of Morphotypes Between Student & Professor Cellphones",
+    "1x dilution") +
   xlab("Sample Group") +
   ylab("Number of Morphotypes")
 ```
 
-**Figure 2:**Boxplot showing the number of morphotypes from student cellphones 
+**Figure 2:**Boxplot, made using Mr.Bayes, showing the number of morphotypes from student cellphones 
 compared to professor cellphones. There was no difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
@@ -382,7 +384,8 @@ culture_data %>%
 number of morphotypes found between professor and student cellphones
 
 ![](data/raw_data/phylogenies/phylogeny1_.png)  
-**Figure 3:** Phylogeny shows This figure shows the phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
+**Figure 3:** Phylogeny shows This figure shows the phylogeny for Taq and its 
+relationship to the bacteria found on the sample cellphones.   
 
 ![](data/raw_data/phylogenies/phylogeny2_.png)
 **Figure 4:** This figure shows the phylogeny for Taq and its relationship to 
