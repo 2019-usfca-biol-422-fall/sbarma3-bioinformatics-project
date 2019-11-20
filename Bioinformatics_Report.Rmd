@@ -97,7 +97,11 @@ to run my samples against the NCBI database and figure out what strains my were.
 
 With this project, I concluded that student cellphone screens had a larger 
 amount of colonies, as predicted. However, the number of morphotypes found was 
-higher on professors' cellphone screens. 
+higher on professors' cellphone screens. Through this experiment, *E.coli* and 
+*Pseudomonas* were not detected on any of the cellphone screens for neither 
+students or professors. However, two different types of *Staphylococcus* were 
+detected. Another bacteria which was not expected to be found, 
+*Kocuria palustris*, was detected. 
 
 ## Methods
 
