@@ -151,21 +151,10 @@ specific DNA template. For each alloquat, I added 19 μL of the master mix and 1
 μL of the specific DNA template [@korbie2008touchdown].
 
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
-set to run at the following temperatures:
-
-| Temperature (°C) | Duration   |
-|------------------|------------|
-| 95°C             | 5 minutes  |
-| 94°C             | 30 seconds |
-| 65°C             | 30 seconds |
-| 72°C             | 1 minute   |
-| 94°C             | 30 seconds |
-| 55°C             | 30 seconds |
-| 72°C             | 1 minute   |
-| 72°C             | 10 minutes |
-| 4°C              | hold       |
-**Table 1:** Table shows the thermocycler's various cycles, including the 
-temperature of each cycle and its duration for culture PCR 
+set to run at the following temperatures: 95°C for 5 minutes, 94°C for 30
+seconds, 65°C for 30 seconds, 72°C for 1 minute, 94°C for 30 seconds, 55°C for
+30 seconds, 72°C for 1 minute, 72°C for 10 minutes, and then finally placed on a
+4°C hold.
 
 For the PCR with the culture-free samples, the master mix included 77 μL of Amp,
 6.2 μL 10 μM iseq 16sF primer, 6.2 μL 10 μM iseq 16sR primer, 7.7 μL BSA, and 
@@ -173,18 +162,9 @@ For the PCR with the culture-free samples, the master mix included 77 μL of Amp
 μL of the specific DNA template. 
 
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
-set to run at the following temperatures:
-
-| Temperature (°C) | Duration   |
-|------------------|------------|
-| 95°C             | 3 minutes  |
-| 95°C             | 30 seconds |
-| 55°C             | 30 seconds |
-| 72°C             | 30 seconds |
-| 72°C             | 5 minutes  |
-| 4°C              | hold       |
-**Table 2:** Table shows the thermocycler's various cycles, including the 
-temperature of each cycle and its duration for culture-free PCR 
+set to run at the following temperatures: 95°C for 3 minutes, 95°C for 30
+seconds, 55°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes, and then
+placed on a 4°C hold.
 
 The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
 time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
@@ -219,11 +199,16 @@ Sanger sequencing at MCLAB located in South San Francisco, CA [@kreader2001one].
 
 ### Sequence Analysis 
 After receiving all of my data from Sanger sequencing, I used Geneious to 
-analyze and trim my samples. Only 3 of my samples were run successfully and gave 
-results. Once the sequences from all of my samples were trimmed, I used the NCBI
+analyze and trim my samples and build phylogenies based off of my sequences. The 
+setup for Mr.Bayes included having the substitution model as GTR, the outgroup 
+was Thermus Aquaticus, and the rest of the settings were on default. The setup 
+for PhyML included having the substitution model as GTR, the branch support set 
+as bootstrap and the number of bootstraps being 100. The rest of the settings 
+were on default.Only 3 of my samples were run successfully and gave results. 
+Once the sequences from all of my samples were trimmed, I used the NCBI
 website's BLAST tool to determine what strains of bacteria were found on the 
 cellphone screens I swabbed and infer the function of my sample sequences from 
-similar sequences found in the archive [@madden2013blast].
+similar sequences found in the archive [@madden2013blast]. 
 
 
 # Results
@@ -238,7 +223,7 @@ library("broom")
 library("knitr")
 ```
 
-Table 2 shows the strains found through using BLAST, were *Kocuria palustris* 
+Table 1 shows the strains found through using BLAST, were *Kocuria palustris* 
 with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
 *Staphylococcus epidermis* with an accuracy of 98.88%. 
 
@@ -304,7 +289,18 @@ with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and
 | Kocuria palustris strain SR5-19 16S ribosomal RNA gene, partial sequence          | 1129      | 1129        | 100%        | 0.0       | 99.20%        | MN421514.1 |
 | Staphylococcus sp. strain 21 16S ribosomal RNA gene, partial sequence             | 931       | 931         | 100%        | 0.0       | 99.80%        | MK465362.1 |
 | Staphylococcus epidermidis strain IBK-11 16S ribosomal RNA gene, partial sequence | 473       | 473         | 100%        | 1x10^-129 | 98.88%        | MN428237.1 |
-**Table 2:** Table shows the strains retrieved through the BLAST tool 
+**Table 1:** Table shows the strains retrieved through the BLAST tool 
+
+| Sequence Locus | Original Filename      | Corrected Filename             | Usability | Length after Trimming | Number of Manual Corrections |
+|----------------|------------------------|--------------------------------|-----------|-----------------------|------------------------------|
+| 16s            | SB_AG_27f_D02.ab116s   | SB_AG_27f_D02.cleaned.ab1      | Usable    | 506                   | 4                            |
+| 16s            | SB_EY__27f_C02.ab1     | SB_EY__27f_C02.cleaned.ab1     | Usable    | 627                   | 2                            |
+| 16s            | SB_JI_27f_F02.ab1      | SB_JI_27f_F02.failed.ab1       | Unusable  | 5                     | 1                            |
+| 16s            | SB_NT_1-10_27f_B02.ab1 | SB_NT_1-10_27f_B02.cleaned.ab1 | Usable    | 264                   | 7                            |
+| 16s            | SB_SB_1-10_27f_E02.ab1 | SB_SB_1-10_27f_E02.failed.ab1  | Unusable  | 5                     | 1                            |
+| 16s            | SB_SS_1-10_27f_A02.ab1 | SB_SS_1-10_27f_A02.failed.ab1  | Unusable  | 5                     | 1                            |
+| 16s            | SB_Neg_27f_G02.ab1     | SB_Neg_27f_G02.failed.ab1      | Unusable  | 5                     | 0                            |
+**Table 2:** Sequence Analysis cleaned and trimmed using Geneious
 
 
 ```{r read-in-culture-data}
@@ -353,7 +349,7 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
-**Table 5:** Shows The p-value resulting from a statistical test for the number
+**Table 4:** Shows The p-value resulting from a statistical test for the number
 of colonies found on cellphone screens between professors and students
 
 ```{r filter-and-plot-morphotypes}
@@ -384,7 +380,7 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
-**Table 6:** Table shows p-value as a result from a statistical test for the 
+**Table 5:** Table shows p-value as a result from a statistical test for the 
 number of morphotypes found between professor and student cellphones
 
 ![](data/raw_data/phylogenies/phylogeny1_.png)  
