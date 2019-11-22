@@ -210,7 +210,6 @@ website's BLAST tool to determine what strains of bacteria were found on the
 cellphone screens I swabbed and infer the function of my sample sequences from 
 similar sequences found in the archive [@madden2013blast]. 
 
-
 # Results
 
 ```{r load-libraries}
@@ -306,7 +305,7 @@ with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and
 ```{r read-in-culture-data}
 # read in the culture data from csv
 culture_data <- read_csv(
-  "data/raw_data/raw_culture_count_data/BIOL422_culturing_data-Sheet1.csv")
+  "data/raw_data/raw_culture_count_data/BIOL422_culturing_data.csv")
 ```
 
 | Sample       | Qubit Values (ng/μL)|
@@ -367,8 +366,9 @@ culture_data %>%
   ylab("Number of Morphotypes")
 ```
 
-**Figure 2:**Boxplot, made using Mr.Bayes, showing the number of morphotypes from student cellphones 
-compared to professor cellphones. There was no difference in the mean number of morphotypes (Wilcox p=1).
+**Figure 2:**Boxplot, made using Mr.Bayes, showing the number of morphotypes 
+from student cellphones compared to professor cellphones. There was no 
+difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
 #run a statistical test to compare the two groups of abundances
@@ -408,22 +408,27 @@ higher amount of potential pathogens compared to professor cellphones.
 
 My results showed that the number of morphotypes on both student and professor 
 cellphones were similar. With the boxplot showing the median value of 
-morphotypes to be 1, I can conclude that there was not a significant difference 
-in the types of bacteria found on the cellphone screens of both sample groups 
-(Figure 2). In contrast, the colony abundance was significantly greater on 
-student cellphones compared to that of the professors' cellphones, with the 
-median value for the student group being around 37 colonies and the median value
-for the professor sample group being around 6 colonies (Figure 1). This shows a 
-huge disparity in the colony abundance between the two groups and therefore, as 
-I had initially hypothesized, proves that student cellphones have a higher 
-amount of bacteria present on their cellphone screens than professors at the 
-University of San Francisco. 
+morphotypes to be 1 for both sample groups, I can conclude that there was not a 
+significant difference in the types of bacteria found on the cellphone screens 
+of both sample groups (Figure 2). In contrast, the colony abundance was 
+significantly greater on student cellphones compared to that of the professors' 
+cellphones, with the median value for the student group being around 37 colonies
+and the median value for the professor sample group being around 6 colonies 
+(Figure 1). This shows a huge disparity in the colony abundance between the two 
+groups and therefore, as I had initially hypothesized, proves that student 
+cellphones have a higher amount of bacteria present on their cellphone screens 
+than professors at the University of San Francisco. 
 
 My deduction from these findings are that the number of morphotypes are similar
 because both students and teachers spend a majority of their time in the 
 classroom and/or within similar regions on campus. Therefore, both groups would 
-be exposed to the same bacteria and have an equal likelihood of having certain 
-bacterial strains found on the screens of their cellphones. 
+be exposed to the same bacteria and have an equal likelihood of having the same 
+groups of bacterial strains found on the screens of their cellphones. Although 
+both professors and students had similar bacteria on their cellphone screens, 
+students were found to have had a higher number of bacterial colonies. This is, 
+most likely, due to millenials using their devices more frequently than their 
+teachers. Since students use their cellphones more often, they transfer more 
+bacteria to their devices.  
 
 The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
 and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
