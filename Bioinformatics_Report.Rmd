@@ -206,8 +206,7 @@ website's BLAST tool to determine what strains of bacteria were found on the
 cellphone screens I swabbed and infer the function of my sample sequences from 
 similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
 and had a high percentage match. Of the 3 samples that failed, I marked these files as 
-failed sequences and did not use them for this project. I used MAFFT to align my sequences [@katoh2013mafft].
-The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and 
+failed sequences and did not use them for this project. I used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and 
 outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 
 4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 
 100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. 
@@ -391,6 +390,10 @@ potential pathogens, since a majority of people have their phones every place
 they go. I also hypthesized that student cellphones will have a significantly 
 higher amount of potential pathogens compared to professor cellphones.
 
+Out of my 6 original samples, only 3 came out as usable sequences. This probably resulted
+from having a mixed template. It was difficult to identify isolated colonies, so 
+it is highly likely that this was the reason half of my sequences were not usable. 
+
 Wells 9, 13, 14, & 15 had no band showing, which could have resulted from 
 pipetting error, using incorrect primers, or just the sample DNA being bound 
 really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
@@ -406,7 +409,7 @@ significantly greater on student cellphones compared to that of the professors'
 cellphones, with the median value for the student group being around 37 colonies
 and the median value for the professor sample group being around 6 colonies 
 (Figure 1). This shows a huge disparity in the colony abundance between the two 
-groups and therefore, as I had initially hypothesized, proves that student 
+groups and therefore, as I had initially hypothesized, shows that student 
 cellphones have a higher amount of bacteria present on their cellphone screens 
 than professors at the University of San Francisco. 
 
@@ -414,7 +417,8 @@ The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*,
 and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
 is found in the milk of water deer and reindeer [@kovacs1999kocuria]. This was a 
 puzzling bacteria to find on the screen of a cellphone, as those animals are not
-within the vicinity of the school campus. However, two types of *Staphylococcus*
+within the vicinity of the school campus, therefore I am not confident that this was 
+identified correctly. However, two types of *Staphylococcus*
 were also identified to be on the screens of the phones that were swabbed and 
 sampled. The *Staphylococcus aerus* bacteria is frequently found in the upper 
 respiratory tract and on the skin [@lowy1998staphylococcus]. It is also a known 
@@ -426,7 +430,10 @@ syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria
 is, however, found to not cause disease; but, rather maintain a benign 
 relationship with the host. This bacteria is currently being studied for its 
 role in balancing the epithelial tissue and providing a number of resistance 
-genes [@otto2009staphylococcus]. 
+genes [@otto2009staphylococcus]. Since these two bacterial strains are found most
+commonly on the skin or within the areas on campus, I am confident that these results were 
+correctly identified. Both the phylogenetic results and BLAST results match up, which also
+support these findings. 
 
 It makes sense that *Staphylococcus* was found on the cellphone screens of both 
 professors and students, since this bacteria is found on the outer layers of the
@@ -451,8 +458,10 @@ My deduction from these findings are that the number of morphotypes are similar
 because both students and teachers spend a majority of their time in the 
 classroom and/or within similar regions on campus. Therefore, both groups would 
 be exposed to the same bacteria and have an equal likelihood of having the same 
-groups of bacterial strains found on the screens of their cellphones. Although 
-both professors and students had similar bacteria on their cellphone screens, 
+groups of bacterial strains found on the screens of their cellphones. This is 
+also shown through the study done in a clinical setting which displayed that 
+most nurses and doctors had a similar set of bacteria and viruses found on their
+phones [@ulger2009we]. Although both professors and students had similar bacteria on their cellphone screens, 
 students were found to have had a higher number of bacterial colonies. This is, 
 most likely, due to millenials using their devices more frequently than their 
 teachers. Since students use their cellphones more often, they transfer more 
