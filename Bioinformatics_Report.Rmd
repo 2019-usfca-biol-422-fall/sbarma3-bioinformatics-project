@@ -114,7 +114,7 @@ finished collecting all my samples, I broke off the portion of the swab with my
 sample on it into separate tubes and labeled them accordingly.
 
 ### Culturing & DNA Extraction 
-After extraction, each sample was diluted to 1x, 10x, and 100x using PBS 
+After sampling, each sample was diluted to 1x, 10x, and 100x using PBS 
 solution, and then cultured. These were the cultured samples. I used 18 100 mm 
 TSA plates for plating samples from each of my 2 treatments (n = 3 per group, 6 
 total). Then, I pipetted 100 μL of each sample onto a 100 mm TSA plate and used 
@@ -133,7 +133,7 @@ this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
 Once this was complete, I used the Qubit to analyze the amount of DNA 
 successfully extracted. 
 
-### PCR and Gel Electrophoresis
+### PCR, Gel Electrophoresis, and Sequencing
 Two rounds of PCR and gel electrophoresis were conducted for this experiment. 
 One round was with a PCR done with cultured samples, which were the 1x, 10x, and
 100x dilutions, and the second round was done with culture free samples. 
@@ -154,6 +154,11 @@ seconds, 65°C for 30 seconds, 72°C for 1 minute, 94°C for 30 seconds, 55°C f
 30 seconds, 72°C for 1 minute, 72°C for 10 minutes, and then finally placed on a
 4°C hold.
 
+This set of samples was then sent for Sanger sequencing. After checking for 
+successful amplification using gel electrophoresis, PCR products were cleaned 
+with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB 
+located in South San Francisco, CA [@kreader2001one].
+
 For the PCR with the culture-free samples, the master mix included 77 μL of Amp,
 6.2 μL 10 μM iseq 16sF primer, 6.2 μL 10 μM iseq 16sR primer, 7.7 μL BSA, and 
 49.3 mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 
@@ -162,7 +167,23 @@ For the PCR with the culture-free samples, the master mix included 77 μL of Amp
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
 set to run at the following temperatures: 95°C for 3 minutes, 95°C for 30
 seconds, 55°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes, and then
-placed on a 4°C hold.
+placed on a 4°C hold. This set of samples were then sent for illumina sequencing.
+
+Following electrophoresis, PCR products were purified using AmpureXP magnetic 
+beads [@meyer2010illumina] and quantitated using a PicoGreen fluorescent assay 
+(Invitrogen) on a Tecan Infinite M Plex plate reader. Purified PCR products were
+used as the template for a second round of PCR, which served to attach unique 
+pairs of forward and reverse Illumina barcodes (Nextera XT Index 2 kit). All 
+other components of the PCR mixtures were as for the first-round PCR. These 
+reactions were cycled at 95 degrees C for 3 minutes, then 8 cycles of: 95°C for 
+30 s, 55°C for 30s, and 72°C for 30s, followed by a 5 minute elongation cycle at
+72°C. Following this amplification, PCR products were purified and normalized 
+with a SequelPrep normalization plate (Invitrogen), pooled, and then quantified 
+once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200 
+(Agilent) to verify library size and concentration. This library was then 
+diluted to the loading concentration (50 pM) and combined with an Illumina PhiX 
+spike-in library (5% spike in) and sequenced on an Illumina iSeq using a 2 x 150
+bp consumable cartridge.
 
 The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
 time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
@@ -175,25 +196,6 @@ to cool for around 10 minutes or until fully hardened.
 
 Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL 
 pipettes and then run on the electrode for 30 minutes. 
-
-### Illumina Sequencing
-Following electrophoresis, PCR products were purified using AmpureXP magnetic 
-beads and quantitated using a PicoGreen fluorescent assay on a Tecan Infinite M 
-Plex plate reader. Purified PCR products were used as the template for a second 
-round of PCR, which served to attach the Illumina barcodes and adapters. 
-INSERT PCR CYCLES HERE. [@bronner2013improved]. Following this amplification, 
-PCR products were purified and normalized with a SequelPrep normalization plate, 
-pooled, and then quantified once again with a Qubit 4 fluorometer (Invitrogen) 
-and a TapeStation 4200 (Agilent) to verify library size and concentration. This 
-library was then combined with an Illumina PhiX spike-in library (5% spike in) 
-and sequenced on an Illumina iSeq using a 2 x 150 bp consumable cartridge. I, 
-then, used the trimmomatic function to clean the raw sequences. 
-
-### Sanger Sequencing 
-
-After checking for successful amplification using gel electrophoresis, PCR 
-products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional 
-Sanger sequencing at MCLAB located in South San Francisco, CA [@kreader2001one]. 
 
 ### Sequence Analysis 
 After receiving all of my data from Sanger sequencing, I used Geneious to 
@@ -222,64 +224,47 @@ library("knitr")
 
 Table 1 shows the strains found through using BLAST, were *Kocuria palustris* 
 with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
-*Staphylococcus epidermis* with an accuracy of 98.88%. 
+*Staphylococcus epidermis* with an accuracy of 98.88%. Table 2 shows which of 
+the sequences were usable after loading the files onto Geneious, only 3 out of 
+my 6 samples were usable. 
 
 Table 3 shows the qubit data, which is the amount of DNA present in each sample.
 Specifically, samples "JI, Prof SS 1-10, and Prof EY" had relatively high qubit 
 values, which means they had a relatively high amount of DNA in those samples. 
-The cellphone sample of student AG had a qubit value of 4.72. JI had a qubit 
-value of 8.37, and the sample from student SB, which had a dilution of 1-10, had 
-a qubit value of 6.21. The samples from professor SS, which had a dilution of 
-1-10, had a qubit value of 7.02. Professor NT, which had a dilution of 1-10, had 
-a qubit value of 5.49, and Professor EY had a qubit value of 11.30.
-
-Table 4 shows the p-value as 1 for the number of colonies found on professors' 
-and students' cellphone screens. Figure 2 shows a boxplot which displays the 
-number of morphotypes for the sample group, professors and students. The median 
-value of the number of morphotypes for professors was 1, with a third quartile 
-value of 3 morphotypes, and a maximum value of 5 morphotypes. The median value 
-of the number of morphotypes for students was 1, the third quartile value was 
-2.5 morphotypes. The maximum value of morphotypes for students was 4. Table 5 
-shows the resulting p-value as 1 from a statistical test perfomed for the
-number of morphotypes found between professor and student cellphones screens.
 
 Figure 1 shows a boxplot which displays the number of colonies for the sample 
-group, professors and students. The median value of the number of colonies for 
-professors was 6, which means that, once placed in numerical order, the middle 
-value of colonies was 6. Figure 1 shows a third quartile value of 23 colonies, 
-and a maximum value of 41 colonies. The median value of the number of colonies 
-for students was 37, with a minimum value of 2 colonies. The value of the first
-quartile is 20 colonies, and the third quartile has a value of 44 colonies. The 
-maximum value for students was 50 colonies. Table 4 shows the p-value as 1 for 
-the number of colonies found on professors' and students' cellphone screens. 
+groups, professors and students. The median value of the number of colonies for 
+professors was 6. The median value of the number of colonies for students was 
+37, with a minimum value of 2 colonies. The maximum value for students was 50 
+colonies compared to the maximum value of colonies for professors, which was 
+near 25. Table 4 shows the p-value as 1 for the number of colonies found on 
+professors' and students' cellphone screens. 
 
-Figure 2 shows a boxplot which displays the number of morphotypes found on the 
-cellphone screens of professors' compared to students'. The median value of the 
-number of morphotypes for professors was 1. This means that, when placed in 
-numerical order, 1 was the median value. The third quartile value of 3 
-morphotypes, and a maximum value of 5 morphotypes. The median value of the 
-number of morphotypes for students was 1 as well. Therefore we can conclude 
-that, disregarding outliers, 1 was the median number among both sample groups. 
-Table 5 shows the resulting p-value as 1 from a statistical test perfomed for 
-the number of morphotypes found between professor and student cellphones 
-screens.Given this value, I failed to reject the null hypothesis. Therefore, I 
-can conclude that although students had a higher number of colonies on their 
+Figure 2 displays the number of morphotypes for the sample group, professors and
+students. The median value of the number of morphotypes for professors was 1 
+with and a maximum value of 5 morphotypes. The median value of the number of 
+morphotypes for students was 1, with the maximum value of 4. Both of these 
+groups show a similar value for the number of morphotypes. Table 5 shows the 
+resulting p-value as 1 from a statistical test perfomed for the number of
+morphotypes found between professor and student cellphones screens.
+
+Given both of these p-values, I failed to reject the null hypothesis. Therefore,
+I can conclude that although students had a higher number of colonies on their 
 cellphones, the number of morphotypes between both sample groups was similar. 
 
+Figure 3 shows the PhyML phylogeny which shows no support that the bacteria from
+my samples are from the same clade as Taq. There is support, however, that two 
+of my bacterial samples are within the same clade, *Staphylococcus* and 
+*Staphylococcus epidermis* (Bootstrap = 100). Figure 4 displays the Mr.Bayes 
+phylogeny which shows that there is no support that the bacteria from my samples
+are from the same clade as Taq. There is significant support showing that both 
+*Staphylococcus* and *Staphylococcus epidermis* are from the same clade, which 
+is understandable since they are both the same genus (Bootstap = 0.9976).
+
 Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
-well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
-sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
-contained a negative control, which was pure water. Wells 9, 13, 14, & 15 had no
-band showing, which could have resulted from pipetting error or incorrect 
-primers used. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
-as well. However, since wells 10-12 showed, I can conclude there was a 
-significant amount of DNA present in the wells to perform the PCR and show up in
-the image. 
-
-Table 2 shows the strains found through using BLAST, were *Kocuria palustris* 
-with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
-*Staphylococcus epidermis* with an accuracy of 98.88%. 
-
+well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was a
+student sample "AG", well 13 was student sample "SB 1-10", well 14 was a student 
+sample "JI", and well 15 contained a negative control, which was pure water. 
 
 | description                                                                       | max score | total score | query cover | E value   | per. identity | Accession  |
 |-----------------------------------------------------------------------------------|-----------|-------------|-------------|-----------|---------------|------------|
@@ -331,10 +316,7 @@ culture_data %>%
   ylab("Number of Colonies")
 ```
 
-**Figure 1:** Boxplot, made using PhyML, of colony abundances from Professor and
-Student cellphones, 1x dilution. Despite a higher median number of colonies from 
-student samples, the mean values were not significantly different between the 
-two sites (Wilcox p = 1). 
+**Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
 
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
@@ -381,15 +363,15 @@ culture_data %>%
 **Table 5:** Table shows p-value as a result from a statistical test for the 
 number of morphotypes found between professor and student cellphones
 
-![](data/raw_data/phylogenies/phylogeny1_.png)  
-**Figure 3:** Phylogeny shows This figure shows the phylogeny for Taq and its 
+![](data/raw_data/phylogenies/PhyML_phylogeny.png)
+**Figure 3:** This figure shows the PhyML phylogeny for Taq and its 
 relationship to the bacteria found on the sample cellphones.   
 
-![](data/raw_data/phylogenies/phylogeny2_.png)
-**Figure 4:** This figure shows the phylogeny for Taq and its relationship to 
-the bacteria found on the sample cellphones. 
+![](data/raw_data/phylogenies/Mr.Bayes_phylogeny.png)
+**Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its 
+relationship to the bacteria found on the sample cellphones. 
 
-![](data/images/gel_images/culture_pcr_cropped.jpg)
+![](data/images/gel_images/culture_pcr_cropped.jpg) 
 **Figure 5:** Image shows the PCR results. Well 9 was sample "Prof SS 1-10", 
 well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
 sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
@@ -417,17 +399,6 @@ groups and therefore, as I had initially hypothesized, proves that student
 cellphones have a higher amount of bacteria present on their cellphone screens 
 than professors at the University of San Francisco. 
 
-My deduction from these findings are that the number of morphotypes are similar
-because both students and teachers spend a majority of their time in the 
-classroom and/or within similar regions on campus. Therefore, both groups would 
-be exposed to the same bacteria and have an equal likelihood of having the same 
-groups of bacterial strains found on the screens of their cellphones. Although 
-both professors and students had similar bacteria on their cellphone screens, 
-students were found to have had a higher number of bacterial colonies. This is, 
-most likely, due to millenials using their devices more frequently than their 
-teachers. Since students use their cellphones more often, they transfer more 
-bacteria to their devices.  
-
 The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
 and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
 is found in the milk of water deer and reindeer [@kovacs1999kocuria]. This was a 
@@ -454,26 +425,39 @@ the touchscreen with their hands to navigate through different applications, the
 *Staphylococcus* bacteria would have ample opportunity to be transferred onto 
 cellphone screens. 
 
-With a p-value of 1, I failed to reject the null hypothesis (Table 4). Since, 
-the null hypothesis failed to be rejected, I can conclude that student
-cellphones carry more bacteria and, therefore, more potential pathogens, than 
-the cellphones of professors. For the number of morphotypes, I can conclude 
-that, disregarding outliers, 1 was the median number among both sample groups 
+With a p-value of 1, I failed to reject the null hypothesis (Table 4). Since I 
+failed to reject the null hypothesis, I can conclude that student cellphones 
+carry more bacteria and, therefore, more potential pathogens, than the 
+cellphones of professors. For the number of morphotypes, I can conclude that, 
+disregarding outliers, 1 was the median number among both sample groups 
 (Figure 2). The resulting p-value was 1 from the statistical test perfomed 
 (Table 5), and given this value, I fail to reject the null hypothesis. 
 Therefore, I can conclude that although students had a higher number of colonies
 on their cellphones, the number of morphotypes between both sample groups was 
 similar. 
 
-Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
-well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
-sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
-contained a negative control, which was pure water. Wells 9, 13, 14, & 15 had no
-band showing, which could have resulted from pipetting error or incorrect 
-primers used. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
-as well. However, since wells 10-12 showed, I can conclude there was a 
-significant amount of DNA present in the wells to perform the PCR and show up in
-the image. 
+My deduction from these findings are that the number of morphotypes are similar
+because both students and teachers spend a majority of their time in the 
+classroom and/or within similar regions on campus. Therefore, both groups would 
+be exposed to the same bacteria and have an equal likelihood of having the same 
+groups of bacterial strains found on the screens of their cellphones. Although 
+both professors and students had similar bacteria on their cellphone screens, 
+students were found to have had a higher number of bacterial colonies. This is, 
+most likely, due to millenials using their devices more frequently than their 
+teachers. Since students use their cellphones more often, they transfer more 
+bacteria to their devices.  
+
+Both phylogenies show support that two samples belonged to the same genus 
+(Figure 3 Bootstap = 100, Figure 4 Bootstrap = 0.9976). Since both of the bacterial 
+strains belong to the same genus, it is expected that they would be placed together. 
+However, both phylogenies also show that there is no support that any of the 
+strains belong to the same clade as Taq. 
+
+Wells 9, 13, 14, & 15 had no band showing, which could have resulted from 
+pipetting error, using incorrect primers, or just the sample DNA being bound 
+really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
+as well. However, since wells 10-12 showed, I can conclude there was a significant 
+amount of DNA present in the wells to perform the PCR and show up in the image (Figure 5). 
 
 # Sources Cited
 
