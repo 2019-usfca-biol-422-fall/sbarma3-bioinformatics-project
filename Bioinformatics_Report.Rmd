@@ -1,7 +1,5 @@
 ---
-title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone 
-Screens of Both Students and Professors, with Students having a Higher Amount of
-Bacteria on their Cellphones"
+title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone Screens of Both Students and Professors on a University Campus"
 author: "Shreya Barma"
 date: "November 19, 2019"
 output: word_document
@@ -478,7 +476,5 @@ significant amount of DNA present in the wells to perform the PCR and show up in
 the image. 
 
 # Sources Cited
-```{r your-code-here}
-# Add code chunks as needed for your analyses
-```
+
 
