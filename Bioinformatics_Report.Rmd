@@ -204,7 +204,7 @@ setup for Mr.Bayes included having the substitution model as GTR, the outgroup
 was Thermus Aquaticus, and the rest of the settings were on default. The setup 
 for PhyML included having the substitution model as GTR, the branch support set 
 as bootstrap and the number of bootstraps being 100. The rest of the settings 
-were on default.Only 3 of my samples were run successfully and gave results. 
+were on default. Only 3 of my samples were run successfully and gave results. 
 Once the sequences from all of my samples were trimmed, I used the NCBI
 website's BLAST tool to determine what strains of bacteria were found on the 
 cellphone screens I swabbed and infer the function of my sample sequences from 
