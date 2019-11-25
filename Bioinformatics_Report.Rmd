@@ -199,16 +199,21 @@ pipettes and then run on the electrode for 30 minutes.
 
 ### Sequence Analysis 
 After receiving all of my data from Sanger sequencing, I used Geneious to 
-analyze and trim my samples and build phylogenies based off of my sequences. The 
-setup for Mr.Bayes included having the substitution model as GTR, the outgroup 
-was Thermus Aquaticus, and the rest of the settings were on default. The setup 
-for PhyML included having the substitution model as GTR, the branch support set 
-as bootstrap and the number of bootstraps being 100. The rest of the settings 
-were on default. Only 3 of my samples were run successfully and gave results. 
-Once the sequences from all of my samples were trimmed, I used the NCBI
+analyze and trim my samples and build phylogenies based off of my sequences. I 
+trimmed the ends of my sequences, any low quality sequences, and used the IUPAC 
+ambiguity codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI
 website's BLAST tool to determine what strains of bacteria were found on the 
 cellphone screens I swabbed and infer the function of my sample sequences from 
-similar sequences found in the archive [@madden2013blast]. 
+similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
+and had a high percentage match. Of the 3 samples that failed, I marked these files as 
+failed sequences and did not use them for this project. I used MAFFT to align my sequences [@katoh2013mafft].
+The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and 
+outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 
+4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 
+100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. 
+The setup for PhyML included having the substitution model as GTR, the branch support set 
+as bootstrap and the number of bootstraps being 100. The rest of the settings 
+were on default [@masters2011species]. Only 3 of my samples were run successfully and gave results. 
 
 # Results
 
@@ -259,7 +264,7 @@ of my bacterial samples are within the same clade, *Staphylococcus* and
 phylogeny which shows that there is no support that the bacteria from my samples
 are from the same clade as Taq. There is significant support showing that both 
 *Staphylococcus* and *Staphylococcus epidermis* are from the same clade, which 
-is understandable since they are both the same genus (Bootstrap = 0.9976).
+is understandable since they are both the same genus (posterior probability = 0.9976).
 
 Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
 well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was a
@@ -386,6 +391,12 @@ potential pathogens, since a majority of people have their phones every place
 they go. I also hypthesized that student cellphones will have a significantly 
 higher amount of potential pathogens compared to professor cellphones.
 
+Wells 9, 13, 14, & 15 had no band showing, which could have resulted from 
+pipetting error, using incorrect primers, or just the sample DNA being bound 
+really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
+as well. However, since wells 10-12 showed, I can conclude there was a significant 
+amount of DNA present in the wells to perform the PCR and show up in the image (Figure 5). 
+
 My results showed that the number of morphotypes on both student and professor 
 cellphones were similar. With the boxplot showing the median value of 
 morphotypes to be 1 for both sample groups, I can conclude that there was not a 
@@ -448,16 +459,10 @@ teachers. Since students use their cellphones more often, they transfer more
 bacteria to their devices.  
 
 Both phylogenies show support that two samples belonged to the same genus 
-(Figure 3 Bootstap = 100, Figure 4 Bootstrap = 0.9976). Since both of the bacterial 
+(Figure 3 Bootstap = 100, Figure 4 posterior probability = 0.9976). Since both of the bacterial 
 strains belong to the same genus, it is expected that they would be placed together. 
 However, both phylogenies also show that there is no support that any of the 
-strains belong to the same clade as Taq. 
-
-Wells 9, 13, 14, & 15 had no band showing, which could have resulted from 
-pipetting error, using incorrect primers, or just the sample DNA being bound 
-really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
-as well. However, since wells 10-12 showed, I can conclude there was a significant 
-amount of DNA present in the wells to perform the PCR and show up in the image (Figure 5). 
+strains belong to the same clade as *Thermus aquaticus*. 
 
 # Sources Cited
 
