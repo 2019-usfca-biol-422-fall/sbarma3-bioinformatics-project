@@ -259,7 +259,7 @@ of my bacterial samples are within the same clade, *Staphylococcus* and
 phylogeny which shows that there is no support that the bacteria from my samples
 are from the same clade as Taq. There is significant support showing that both 
 *Staphylococcus* and *Staphylococcus epidermis* are from the same clade, which 
-is understandable since they are both the same genus (Bootstap = 0.9976).
+is understandable since they are both the same genus (Bootstrap = 0.9976).
 
 Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
 well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was a
