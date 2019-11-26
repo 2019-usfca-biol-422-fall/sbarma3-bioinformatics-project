@@ -29,16 +29,12 @@ Studies have been done in clinical settings, showing how healthcare
 professionals use their cellphones throughout the day, both before and after 
 assessing patients. This resulted in a significant transfer of bacteria, since 
 most cellphone users, healthcare workers included, do not clean their cellphone 
-screens. Especially in a medical setting, this can cause more diseases and more 
-infection. Healthcare workers have been found to transmit nosocomial infections 
-via their medical equipment and mobile phones [@kumar2014identification]. 
-This puts not only cellphone users at risk, but the patients, the health care 
-workers and their families as well. 
+screens [@arora2009cellphones]. Especially in a medical setting, this can cause more diseases and more infection. Healthcare workers have been found to transmit nosocomial infections via their medical equipment and mobile phones [@kumar2014identification]. This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
 
 However, healthcare workers are not the only ones with phones carrying bacteria, 
 studies have shown that with a general cellphone user, there is 10x more 
 bacteria on a cellphone screen than a toilet seat [@akinyemi2009potential]. 
-Aside from clinical settings, I aimed to focus on a school setting, and to see 
+Aside from clinical settings, I aimed to focus on a school setting to see 
 whether cellphones used by students and professors also carried pathogenic 
 bacteria. Middle school students'cellphones have been found to have a median of 
 17,032 bacterial 16S rRNA gene copies per phone. Additionally,out of the number 
@@ -63,7 +59,7 @@ everywhere on a daily basis. My project focuses on identifying the type and
 amount bacteria on the cell phone screens of students at the University of San 
 Francisco compared to those found on the cellphone screens of professors. 
 This is to see whether or not phones carry potential pathogens, which are 
-disease-causing bacteria, outside of a clinical setting. Thus, this experiment 
+disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases]. Thus, this experiment 
 can help build a correlation between how illnesses are spread on college 
 campuses and technology usage.I will specifically focus on the presence of 
 *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the 
@@ -80,31 +76,27 @@ of food, such a raw meats, or through the contact with fecal matter.
 My questions for this project were: Do cellphones really carry potential 
 pathogens? Do students have a higher amount of bacteria on their cellphones 
 compared to professors? My hypothesis is that all cellphones will carry 
-potential pathogens. Student cellphones will have a significantly higher amount 
+potential pathogens and student cellphones will have a significantly higher amount 
 of potential pathogens compared to professor cellphones. 
 
 To test this hypothesis, I gathered a total of 6 samples using a sterile swab 
 dipped in phosphate buffer solution. 3 of these samples were from different 
 students and the remaining 3 samples were collected different professors. Once 
 my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x 
-and then cultured these samples on an agar dish. After incubation, I used PCR to
-amplify the DNA samples and gel electrophoresis to separate the DNA fragments. 
-I, also, used Qubit to quantify DNA concentrations. Finally, Sanger sequencing 
-was used to sequence my DNA samples. With these successful results, I used BLAST
-to run my samples against the NCBI database and figure out what strains my were. 
+and then cultured these samples on an agar dish. The two sets of samples, both the culture samples and the culture-free samples were  After incubation, I used PCR to amplify the DNA samples and gel electrophoresis to separate the DNA fragments. 
+I, also, used Qubit to quantify DNA concentrations. Sanger sequencing was, then, used to sequence the cultured DNA samples. With these successful results, I used BLAST to run my samples against the NCBI database and figure out what strains my were. Illumina sequencing was conducted with the culture-free DNA samples. Once all my results were sequenced, I edited them through Geneious Prime, used an alignment tool, MAFFT [@katoh2013mafft], and built phylogenies using Mr.Bayes and PhyML [@kearse2012geneious].
 
 With this project, I concluded that student cellphone screens had a larger 
 amount of colonies, as predicted. However, the number of morphotypes found was 
 higher on professors' cellphone screens. Through this experiment, *E.coli* and 
 *Pseudomonas* were not detected on any of the cellphone screens for neither 
 students or professors. However, two different types of *Staphylococcus* were 
-detected. Another bacteria which was not expected to be found, 
-*Kocuria palustris*, was detected. 
+detected. Another bacteria which was not expected to be found, *Kocuria palustris*, was detected. 
 
 ## Methods
 
 ### Sampling
-Materials needed for this project include sterile phosphate buffer solution 
+Materials needed to collect my samples include a sterile phosphate buffer solution
 (PBS), 12 1.5mL tubes, and sterile swabs. For this project, I collected a total 
 of twelve samples, two samples per cellphone. Therefore, I swabbed a total of 
 six phones, three from each sample group. To collect my samples, I used a 
@@ -145,8 +137,7 @@ case is six.
 For the PCR with the cultured samples, the master mix included 77 μL of Amp, 6.2
 μL of the 27f primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR 
 water. For each alloquat, I added 19 μL of the master mix and 1 μL of the 
-specific DNA template. For each alloquat, I added 19 μL of the master mix and 1 
-μL of the specific DNA template [@korbie2008touchdown].
+specific DNA template [@korbie2008touchdown].
 
 These tubes were then taken into the thermocycler by Professor Zimmerman and 
 set to run at the following temperatures: 95°C for 5 minutes, 94°C for 30
@@ -192,7 +183,7 @@ microwaved for 1-3 minutes until the agarose powder is completely dissolved.
 Then the agarose and buffer mixture is allowed to cool to the point where it is 
 comfortable to hold the flask. It is then poured into the gel tray with the well
 comb already set in place. Once poured, the tray with the agarose gel is set out
-to cool for around 10 minutes or until fully hardened.
+to cool for around 10 minutes or until fully hardened [@voytas2000agarose].
 
 Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL 
 pipettes and then run on the electrode for 30 minutes. 
@@ -201,18 +192,9 @@ pipettes and then run on the electrode for 30 minutes.
 After receiving all of my data from Sanger sequencing, I used Geneious to 
 analyze and trim my samples and build phylogenies based off of my sequences. I 
 trimmed the ends of my sequences, any low quality sequences, and used the IUPAC 
-ambiguity codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI
-website's BLAST tool to determine what strains of bacteria were found on the 
-cellphone screens I swabbed and infer the function of my sample sequences from 
-similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
-and had a high percentage match. Of the 3 samples that failed, I marked these files as 
-failed sequences and did not use them for this project. I used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and 
-outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 
-4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 
-100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. 
-The setup for PhyML included having the substitution model as GTR, the branch support set 
-as bootstrap and the number of bootstraps being 100. The rest of the settings 
-were on default [@masters2011species]. Only 3 of my samples were run successfully and gave results. 
+ambiguity codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI website's BLAST tool to determine what strains of bacteria were found on the cellphone screens I swabbed and infer the function of my sample sequences from similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
+and had a high percentage match. Of the 3 samples that failed, I marked these files as failed sequences and did not use them for this project. I used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and 
+outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. The setup for PhyML included having the substitution model as GTR, the branch support set as bootstrap and the number of bootstraps being 100. The rest of the settings were on default [@masters2011species]. Only 3 of my samples were run successfully and gave results. 
 
 # Results
 
@@ -226,49 +208,128 @@ library("broom")
 library("knitr")
 ```
 
-Table 1 shows the strains found through using BLAST, were *Kocuria palustris* 
-with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
-*Staphylococcus epidermis* with an accuracy of 98.88%. Table 2 shows which of 
-the sequences were usable after loading the files onto Geneious, only 3 out of 
-my 6 samples were usable. 
+Using BLAST, I found *Kocuria palustris* with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
+*Staphylococcus epidermis* with an accuracy of 98.88% (Table 1). After loading the files onto Geneious,
+I found that only 3 out of my 6 samples were usable (Table 2). 
 
-Table 3 shows the qubit data, which is the amount of DNA present in each sample.
-Specifically, samples "JI, Prof SS 1-10, and Prof EY" had relatively high qubit 
-values, which means they had a relatively high amount of DNA in those samples. 
+The Qubit data is the amount of DNA present in each sample. Specifically, samples "JI, Prof SS 1-10, and Prof EY" had relatively high DNA concentrations (Table 3). 
 
-Figure 1 shows a boxplot which displays the number of colonies for the sample 
-groups, professors and students. The median value of the number of colonies for 
-professors was 6. The median value of the number of colonies for students was 
-37, with a minimum value of 2 colonies. The maximum value for students was 50 
-colonies compared to the maximum value of colonies for professors, which was 
-near 25. Table 4 shows the p-value as 1 for the number of colonies found on 
-professors' and students' cellphone screens. 
+The median value of the number of colonies for professors was 6, compared to the
+median value of the number of colonies for students which was 37. Students also had a maximum value of colonies of 50 colonies compared to the maximum value of colonies for professors, which was near 25 (Figure 1). However, given the p-value there was no significant difference in the number of colonies between the two sample groups (Table 4, Wilcox p-value = 1). 
 
-Figure 2 displays the number of morphotypes for the sample group, professors and
-students. The median value of the number of morphotypes for professors was 1 
-with and a maximum value of 5 morphotypes. The median value of the number of 
-morphotypes for students was 1, with the maximum value of 4. Both of these 
-groups show a similar value for the number of morphotypes. Table 5 shows the 
-resulting p-value as 1 from a statistical test perfomed for the number of
-morphotypes found between professor and student cellphones screens.
+The median value of the number of morphotypes for professors was 1 with and a maximum value of 5 morphotypes. The median value of the number of morphotypes for students was 1, with the maximum value of 4. Both of these groups show a similar value for the number of morphotypes (Figure 2). There was no significant difference between the number of morphotypes for both sample groups (Table 5, Wilcox p-value = 1).
 
 Given both of these p-values, I failed to reject the null hypothesis. Therefore,
 I can conclude that although students had a higher number of colonies on their 
 cellphones, the number of morphotypes between both sample groups was similar. 
 
-Figure 3 shows the PhyML phylogeny which shows no support that the bacteria from
-my samples are from the same clade as Taq. There is support, however, that two 
+The PhyML phylogeny shows no support that the bacteria from my samples are from 
+the same clade as *Thermus aquaticus*. There is support, however, that two 
 of my bacterial samples are within the same clade, *Staphylococcus* and 
-*Staphylococcus epidermis* (Bootstrap = 100). Figure 4 displays the Mr.Bayes 
-phylogeny which shows that there is no support that the bacteria from my samples
-are from the same clade as Taq. There is significant support showing that both 
+*Staphylococcus epidermis* (Figure 3, Bootstrap = 100). The Mr.Bayes 
+phylogeny shows that there is no support that the bacteria from my samples
+are from the same clade as *Thermus aquaticus*. There is significant support showing that both 
 *Staphylococcus* and *Staphylococcus epidermis* are from the same clade, which 
-is understandable since they are both the same genus (posterior probability = 0.9976).
+is understandable since they are both the same genus (Figure 4, posterior probability = 0.9976).
 
-Figure 5 shows the image of the PCR results. Well 9 was sample "Prof SS 1-10", 
-well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was a
-student sample "AG", well 13 was student sample "SB 1-10", well 14 was a student 
-sample "JI", and well 15 contained a negative control, which was pure water. 
+In the PCR image, well 9-11 were samples collected from professors; "Prof SS 1-10", "Prof NT 1-10", and "Prof EY" respectively. Wells 12-14 were samples collected from students; "AG", "SB 1-10", and "JI", respectively. Well 15 contained a negative control, which was pure water. 
+
+# Discussion
+
+The objective of this study was to figure out what strains of bacteria were to 
+be found on cellphones and to also see which sample group had a higher amount of 
+bacteria on their phones. I hypothesized that all cellphones would carry 
+potential pathogens, since a majority of people have their phones every place 
+they go. I also hypthesized that student cellphones will have a significantly 
+higher amount of potential pathogens compared to professor cellphones.
+
+Out of my 6 original samples, only 3 came out as usable sequences. This probably
+resulted from having a mixed template. It was very difficult to identify 
+isolated colonies, so it is highly likely that this was the reason half of my 
+sequences were not usable.
+
+In the PCR image, wells 9, 13, 14 had no band showing, which could have resulted from 
+pipetting error, using incorrect primers, or just the sample DNA being bound 
+really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
+as well. Well 15 was the negative control, PCR water, so it was expected that no
+band would show. However, since wells 10-12 showed, I can conclude there was a 
+significant amount of DNA present in the wells to perform the PCR and show up in
+the image (Figure 5). 
+
+The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
+and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
+is found in the milk of water deer and reindeer [@kovacs1999kocuria]. This was a 
+puzzling bacteria to find on the screen of a cellphone, as those animals are not
+within the vicinity of the school campus, therefore I am not confident that this
+was identified correctly. However, two types of *Staphylococcus* were also 
+identified to be on the screens of the phones that were swabbed and sampled. The
+*Staphylococcus aerus* bacteria is frequently found in the upper respiratory 
+tract and on the skin [@lowy1998staphylococcus]. It is also a known virulent 
+pathogen that is currently the most common cause of infection in hospitalized 
+patients. Furthermore, this bacteria produces several toxins within the body. 
+One type of toxin being cytotoxins that induce proinflammatory changes in 
+mammalian cells which can lead to extensive cell damage and eventual sepsis 
+syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria 
+is, however, found to not cause disease; but, rather maintain a benign 
+relationship with the host. This bacteria is currently being studied for its 
+role in balancing the epithelial tissue and providing a number of resistance 
+genes [@otto2009staphylococcus]. Since these two bacterial strains are found most
+commonly on the skin or within the areas on campus, I am confident that these 
+results were correctly identified. Both the phylogenetic results and BLAST 
+results match up, which also supports these findings. 
+
+It makes sense that *Staphylococcus* was found on the cellphone screens of both 
+professors and students, since this bacteria is found on the outer layers of the
+skin. Since a majority of people put their phones up to their ear, potentially 
+pressing the phone against their faces, to place phone calls; as well as using
+the touchscreen with their hands to navigate through different applications, the 
+*Staphylococcus* bacteria would have ample opportunity to be transferred onto 
+cellphone screens. 
+
+My results showed that the number of morphotypes on both student and professor 
+cellphones were similar. In contrast, the colony abundance was significantly 
+greater on student cellphones compared to that of the professors' cellphones, 
+with the median value for the student group being around 37 colonies and the 
+median value for the professor sample group being around 6 colonies (Figure 1). 
+This shows a huge disparity in the colony abundance between the two groups and 
+therefore, as I had initially hypothesized, shows that student cellphones have a
+higher amount of bacteria present on their cellphone screens than professors at 
+the University of San Francisco. 
+
+The statistical tests for both the number of colonies and the number of 
+morphotypes gave a wilcox p-value of 1 (Table 4&5). With this p-value in mind, I
+should reject the null hypothesis for both of my questions, and therefore, this 
+would mean that students did not have a higher number of bacterial colonies 
+found on their phones compared to professors. I predict that there was some 
+calculation error here, since the boxplot clearly shows a significant difference
+between the number of colonies for each sample group. For the number of 
+morphotypes, I can conclude that, disregarding outliers, 1 was the median number
+among both sample groups (Figure 2). The resulting p-value was 1 from the 
+statistical test perfomed (Table 5), and given this value, I fail to reject the 
+null hypothesis. Therefore, I can conclude that although students had a higher 
+number of colonies on their cellphones, the number of morphotypes between both 
+sample groups was similar. 
+
+My deduction from these findings are that the number of morphotypes are similar
+because both students and teachers spend a majority of their time in the 
+classroom and/or within similar regions on campus. Therefore, both groups would 
+be exposed to the same bacteria and have an equal likelihood of having the same 
+groups of bacterial strains found on the screens of their cellphones. This is 
+also shown through the study done in a clinical setting which displayed that 
+most nurses and doctors had a similar set of bacteria and viruses found on their
+phones [@ulger2009we]. Although both professors and students had similar 
+bacteria on their cellphone screens, students were found to have had a higher 
+number of bacterial colonies. This is, most likely, due to millenials using 
+their devices more frequently than their teachers. Since students use their 
+cellphones more often, they transfer more bacteria to their devices.  
+
+Both phylogenies show support that two samples belonged to the same genus 
+(Figure 3 Bootstap = 100, Figure 4 posterior probability = 0.9976). Since both 
+of the bacterial strains belong to the same genus, it is expected that they 
+would be placed together. However, both phylogenies also show that there is no 
+support that any of the strains belong to the same clade as *Thermus aquaticus*. 
+
+# Figures and Tables 
 
 | description                                                                       | max score | total score | query cover | E value   | per. identity | Accession  |
 |-----------------------------------------------------------------------------------|-----------|-------------|-------------|-----------|---------------|------------|
@@ -288,7 +349,6 @@ sample "JI", and well 15 contained a negative control, which was pure water.
 | 16s            | SB_Neg_27f_G02.ab1     | SB_Neg_27f_G02.failed.ab1      | Unusable  | 5                     | 0                            |
 **Table 2:** Sequence Analysis cleaned and trimmed using Geneious
 
-
 ```{r read-in-culture-data}
 # read in the culture data from csv
 culture_data <- read_csv(
@@ -303,8 +363,7 @@ culture_data <- read_csv(
 | Prof SS 1-10 | 7.02        |
 | Prof NT 1-10 | 5.49        |
 | Prof EY      | 11.30       |
-**Table 3:** Table shows the qubit value for the culture samples from both the 
-students' cellphones and professors' cellphones 
+**Table 3:** Table shows the qubit value for the culture samples from both the students' cellphones and professors' cellphones 
 
 ```{r filter-and-plot-abundances}
 # filter out only 100x dilutions and make boxplot
@@ -321,7 +380,6 @@ culture_data %>%
 ```
 
 **Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
-
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
 culture_data %>%
@@ -332,8 +390,8 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
-**Table 4:** Shows The p-value resulting from a statistical test for the number
-of colonies found on cellphone screens between professors and students
+
+**Table 4:** Shows The p-value resulting from a statistical test for the number of colonies found on cellphone screens between professors and students
 
 ```{r filter-and-plot-morphotypes}
 # filter out only 100x dilutions and make boxplot
@@ -350,9 +408,7 @@ culture_data %>%
   ylab("Number of Morphotypes")
 ```
 
-**Figure 2:**Boxplot, made using Mr.Bayes, showing the number of morphotypes 
-from student cellphones compared to professor cellphones. There was no 
-difference in the mean number of morphotypes (Wilcox p=1).
+**Figure 2:**Boxplot showing the number of morphotypes from student cellphones compared to professor cellphones. There was no difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
 #run a statistical test to compare the two groups of abundances
@@ -364,114 +420,39 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
+
 **Table 5:** Table shows p-value as a result from a statistical test for the 
 number of morphotypes found between professor and student cellphones
 
+| Samples                            | Reads In| Reads Out|
+|:-----------------------------------|--------:|---------:|
+|control-neg1_S79_L001_R1_001.fastq  |    10990|     10969|
+|control-neg2_S80_L001_R1_001.fastq  |     3290|      3279|
+|control-neg3_S81_L001_R1_001.fastq  |    13837|     13818|
+|control-neg4_S82_L001_R1_001.fastq  |     7825|      7811|
+|control-zymo1_S83_L001_R1_001.fastq |     5236|      5233|
+|control-zymo2_S84_L001_R1_001.fastq |     4139|      4134|
+|control-zymo3_S85_L001_R1_001.fastq |     8448|      8426|
+|control-zymo4_S86_L001_R1_001.fastq |     9287|      9271|
+|SB-AG_S26_L001_R1_001.fastq         |    15604|     15580|
+|SB-JI_S27_L001_R1_001.fastq         |    13319|     13291|
+|SB-ProfEY_S25_L001_R1_001.fastq     |    17265|     17210|
+|SB-ProfNT_S29_L001_R1_001.fastq     |    13229|     13187|
+|SB-ProfSS_S30_L001_R1_001.fastq     |    13521|     13489|
+|SB-SB_S28_L001_R1_001.fastq         |    11685|     11655|
+**Table 6:**Table shows the reads of all the control sequences and my own sample 
+sequences before and after I trimmed them.
+
 ![](data/raw_data/phylogenies/PhyML_phylogeny.png)
-**Figure 3:** This figure shows the PhyML phylogeny for Taq and its 
-relationship to the bacteria found on the sample cellphones.   
+**Figure 3:** This figure shows the PhyML phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
 
 ![](data/raw_data/phylogenies/Mr.Bayes_phylogeny.png)
-**Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its 
-relationship to the bacteria found on the sample cellphones. 
+**Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its relationship to the bacteria found on the sample cellphones. 
 
 ![](data/images/gel_images/culture_pcr_cropped.jpg) 
-**Figure 5:** Image shows the PCR results. Well 9 was sample "Prof SS 1-10", 
-well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was 
-sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 
-contained a negative control, which was pure water. 
+**Figure 5:** Image shows the PCR results of the cultured samples. Well 9 was sample "Prof SS 1-10", well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 contained a negative control, which was pure water. 
 
-# Discussion
 
-The objective of this study was to figure out what strains of bacteria were to 
-be found on cellphones and to also see which sample group had a higher amount of 
-bacteria on their phones. I hypothesized that all cellphones will carry 
-potential pathogens, since a majority of people have their phones every place 
-they go. I also hypthesized that student cellphones will have a significantly 
-higher amount of potential pathogens compared to professor cellphones.
-
-Out of my 6 original samples, only 3 came out as usable sequences. This probably resulted
-from having a mixed template. It was difficult to identify isolated colonies, so 
-it is highly likely that this was the reason half of my sequences were not usable. 
-
-Wells 9, 13, 14, & 15 had no band showing, which could have resulted from 
-pipetting error, using incorrect primers, or just the sample DNA being bound 
-really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
-as well. However, since wells 10-12 showed, I can conclude there was a significant 
-amount of DNA present in the wells to perform the PCR and show up in the image (Figure 5). 
-
-My results showed that the number of morphotypes on both student and professor 
-cellphones were similar. With the boxplot showing the median value of 
-morphotypes to be 1 for both sample groups, I can conclude that there was not a 
-significant difference in the types of bacteria found on the cellphone screens 
-of both sample groups (Figure 2). In contrast, the colony abundance was 
-significantly greater on student cellphones compared to that of the professors' 
-cellphones, with the median value for the student group being around 37 colonies
-and the median value for the professor sample group being around 6 colonies 
-(Figure 1). This shows a huge disparity in the colony abundance between the two 
-groups and therefore, as I had initially hypothesized, shows that student 
-cellphones have a higher amount of bacteria present on their cellphone screens 
-than professors at the University of San Francisco. 
-
-The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
-and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
-is found in the milk of water deer and reindeer [@kovacs1999kocuria]. This was a 
-puzzling bacteria to find on the screen of a cellphone, as those animals are not
-within the vicinity of the school campus, therefore I am not confident that this was 
-identified correctly. However, two types of *Staphylococcus*
-were also identified to be on the screens of the phones that were swabbed and 
-sampled. The *Staphylococcus aerus* bacteria is frequently found in the upper 
-respiratory tract and on the skin [@lowy1998staphylococcus]. It is also a known 
-virulent pathogen that is currently the most common cause of infection in 
-hospitalized patients. Furthermore, this bacteria produces several toxins within
-the body. One type of toxin being cytotoxins that induce proinflammatory changes 
-in mammalian cells which can lead to extensive cell damage and eventual sepsis 
-syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria 
-is, however, found to not cause disease; but, rather maintain a benign 
-relationship with the host. This bacteria is currently being studied for its 
-role in balancing the epithelial tissue and providing a number of resistance 
-genes [@otto2009staphylococcus]. Since these two bacterial strains are found most
-commonly on the skin or within the areas on campus, I am confident that these results were 
-correctly identified. Both the phylogenetic results and BLAST results match up, which also
-support these findings. 
-
-It makes sense that *Staphylococcus* was found on the cellphone screens of both 
-professors and students, since this bacteria is found on the outer layers of the
-skin. Since a majority of people put their phones up to their ear, potentially 
-pressing the phone against their faces, to place phone calls; as well as using
-the touchscreen with their hands to navigate through different applications, the 
-*Staphylococcus* bacteria would have ample opportunity to be transferred onto 
-cellphone screens. 
-
-With a p-value of 1, I failed to reject the null hypothesis (Table 4). Since I 
-failed to reject the null hypothesis, I can conclude that student cellphones 
-carry more bacteria and, therefore, more potential pathogens, than the 
-cellphones of professors. For the number of morphotypes, I can conclude that, 
-disregarding outliers, 1 was the median number among both sample groups 
-(Figure 2). The resulting p-value was 1 from the statistical test perfomed 
-(Table 5), and given this value, I fail to reject the null hypothesis. 
-Therefore, I can conclude that although students had a higher number of colonies
-on their cellphones, the number of morphotypes between both sample groups was 
-similar. 
-
-My deduction from these findings are that the number of morphotypes are similar
-because both students and teachers spend a majority of their time in the 
-classroom and/or within similar regions on campus. Therefore, both groups would 
-be exposed to the same bacteria and have an equal likelihood of having the same 
-groups of bacterial strains found on the screens of their cellphones. This is 
-also shown through the study done in a clinical setting which displayed that 
-most nurses and doctors had a similar set of bacteria and viruses found on their
-phones [@ulger2009we]. Although both professors and students had similar bacteria on their cellphone screens, 
-students were found to have had a higher number of bacterial colonies. This is, 
-most likely, due to millenials using their devices more frequently than their 
-teachers. Since students use their cellphones more often, they transfer more 
-bacteria to their devices.  
-
-Both phylogenies show support that two samples belonged to the same genus 
-(Figure 3 Bootstap = 100, Figure 4 posterior probability = 0.9976). Since both of the bacterial 
-strains belong to the same genus, it is expected that they would be placed together. 
-However, both phylogenies also show that there is no support that any of the 
-strains belong to the same clade as *Thermus aquaticus*. 
 
 # Sources Cited
 
