@@ -479,7 +479,7 @@ number of morphotypes found between professor and student cellphones
 |SB-ProfSS_S30_L001_R1_001.fastq     |    13521|     13489|
 |SB-SB_S28_L001_R1_001.fastq         |    11685|     11655|
 **Table 6:**Table shows the reads of all the control sequences and my own sample 
-sequences before and after I trimmed them.
+sequences before and after I trimmed them via Geneious.
 
 ![](data/raw_data/phylogenies/PhyML_phylogeny.png)
 **Figure 3:** This figure shows the PhyML phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
@@ -492,6 +492,10 @@ sequences before and after I trimmed them.
 
 ![](data/images/figures/Sequence_Counts.png) 
 **Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
+NOTE: Included picture temporarily - remove after and add in r chunk from server
+
+![](data/images/figures/Quality_Count.png) 
+**Figure 7:** Graphs show quality counts for each of my samples including the controls
 
 
 
