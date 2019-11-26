@@ -68,7 +68,7 @@ most common pathogens found on cellphones [@lee2013contamination].
 These bacteria are known to cause serious infections. *Staphylococcus* for 
 example, is a dangerous pathogen. This bacteria is known to cause endovascular
 disorders, bone and joint disorders, respiratory issues, as well as skin 
-disorders. The mortality rate ranges from 11 to 43 percent
+disorders. The mortality rate ranges from 11 to 43 percent 
 [@lowy1998staphylococcus]. *E.coli* is a bacteria that normally is found in the 
 human intestine as well as other animals. is transmitted through contamination 
 of food, such a raw meats, or through the contact with fecal matter.
@@ -83,8 +83,16 @@ To test this hypothesis, I gathered a total of 6 samples using a sterile swab
 dipped in phosphate buffer solution. 3 of these samples were from different 
 students and the remaining 3 samples were collected different professors. Once 
 my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x 
-and then cultured these samples on an agar dish. The two sets of samples, both the culture samples and the culture-free samples were  After incubation, I used PCR to amplify the DNA samples and gel electrophoresis to separate the DNA fragments. 
-I, also, used Qubit to quantify DNA concentrations. Sanger sequencing was, then, used to sequence the cultured DNA samples. With these successful results, I used BLAST to run my samples against the NCBI database and figure out what strains my were. Illumina sequencing was conducted with the culture-free DNA samples. Once all my results were sequenced, I edited them through Geneious Prime, used an alignment tool, MAFFT [@katoh2013mafft], and built phylogenies using Mr.Bayes and PhyML [@kearse2012geneious].
+and then cultured these samples on an agar dish. The two sets of samples, both 
+the culture samples and the culture-free samples were  After incubation, I used 
+PCR to amplify the DNA samples and gel electrophoresis to separate the DNA 
+fragments. I, also, used Qubit to quantify DNA concentrations. Sanger sequencing
+was, then, used to sequence the cultured DNA samples. With these successful 
+results, I used BLAST to run my samples against the NCBI database and figure out
+what strains my were. Illumina sequencing was conducted with the culture-free 
+DNA samples. Once all my results were sequenced, I edited them through Geneious 
+Prime, used an alignment tool, MAFFT [@katoh2013mafft], and built phylogenies 
+using Mr.Bayes and PhyML [@kearse2012geneious].
 
 With this project, I concluded that student cellphone screens had a larger 
 amount of colonies, as predicted. However, the number of morphotypes found was 
@@ -116,11 +124,11 @@ and then analyzed for the number of morphotypes present and the amount of
 colonies. 
 
 For DNA extraction, I followed the manufacturer's protocol from the Sigma 
-REDExtract-N-Amp Kit [@kreader2001one]. From my TSA plate, I scraped 
-samples from the most secluded colonies, trying to avoid colonies that were in 
-contact with one another to try to avoid contamination. After this, I pipetted  
-198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit tube. 
-After placing the Qubit solution and my sample in the Qubit tube, I vortexed 
+REDExtract-N-Amp Kit [@kreader2001one]. From my TSA plate, using a toothpick, 
+I scraped samples from the most secluded colonies, trying to avoid colonies that
+were in contact with one another to try to avoid contamination. After this, I 
+pipetted 198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit
+tube. After placing the Qubit solution and my sample in the Qubit tube, I vortexed 
 this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
 Once this was complete, I used the Qubit to analyze the amount of DNA 
 successfully extracted. 
@@ -192,9 +200,23 @@ pipettes and then run on the electrode for 30 minutes.
 After receiving all of my data from Sanger sequencing, I used Geneious to 
 analyze and trim my samples and build phylogenies based off of my sequences. I 
 trimmed the ends of my sequences, any low quality sequences, and used the IUPAC 
-ambiguity codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI website's BLAST tool to determine what strains of bacteria were found on the cellphone screens I swabbed and infer the function of my sample sequences from similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
-and had a high percentage match. Of the 3 samples that failed, I marked these files as failed sequences and did not use them for this project. I used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and 
-outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. The setup for PhyML included having the substitution model as GTR, the branch support set as bootstrap and the number of bootstraps being 100. The rest of the settings were on default [@masters2011species]. Only 3 of my samples were run successfully and gave results. 
+ambiguity codes to rename bases. Once the sequences from all of my samples were 
+trimmed, I used the NCBI website's BLAST tool to determine what strains of 
+bacteria were found on the cellphone screens I swabbed and infer the function of
+my sample sequences from similar sequences found in the archive 
+[@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
+and had a high percentage match. Of the 3 samples that failed, I marked these 
+files as failed sequences and did not use them for this project. I used MAFFT to
+create a multiple alignment sequence [@katoh2013mafft]. The setup for Mr.Bayes 
+included having the substitution model as GTR, rate variation as invgamma,and 
+outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set 
+to 1,100,000, heated chains was set to 4, heated chain temp was set to 0.2, 
+subsampling freq set to 200, the burn-in length set to 100,000, and the random 
+seed length was set to 10,736. The rest of the settings were on default 
+[@kearse2012geneious]. The setup for PhyML included having the substitution 
+model as GTR, the branch support set as bootstrap and the number of bootstraps 
+being 100. The rest of the settings were on default [@masters2011species]. Only 
+3 of my samples ran successfully and gave results. 
 
 # Results
 
@@ -208,16 +230,28 @@ library("broom")
 library("knitr")
 ```
 
-Using BLAST, I found *Kocuria palustris* with a 99.20% accuracy, *Staphylococcus* with a 99.80% accuracy, and 
-*Staphylococcus epidermis* with an accuracy of 98.88% (Table 1). After loading the files onto Geneious,
-I found that only 3 out of my 6 samples were usable (Table 2). 
+Using BLAST, I found *Kocuria palustris* with a 99.20% accuracy, 
+*Staphylococcus* with a 99.80% accuracy, and *Staphylococcus epidermis* with an 
+accuracy of 98.88% (Table 1). After loading the files onto Geneious, I found 
+that only 3 out of my 6 samples were usable (Table 2). 
 
-The Qubit data is the amount of DNA present in each sample. Specifically, samples "JI, Prof SS 1-10, and Prof EY" had relatively high DNA concentrations (Table 3). 
+The Qubit data is the amount of DNA present in each sample. Specifically,
+samples "JI, Prof SS 1-10, and Prof EY" had relatively high DNA concentrations 
+(Table 3). 
 
 The median value of the number of colonies for professors was 6, compared to the
-median value of the number of colonies for students which was 37. Students also had a maximum value of colonies of 50 colonies compared to the maximum value of colonies for professors, which was near 25 (Figure 1). However, given the p-value there was no significant difference in the number of colonies between the two sample groups (Table 4, Wilcox p-value = 1). 
+median value of the number of colonies for students which was 37. Students also 
+had a maximum value of colonies of 50 colonies compared to the maximum value of 
+colonies for professors, which was near 25 (Figure 1). However, given the 
+p-value there was no significant difference in the number of colonies between 
+the two sample groups (Table 4, Wilcox p-value = 1). 
 
-The median value of the number of morphotypes for professors was 1 with and a maximum value of 5 morphotypes. The median value of the number of morphotypes for students was 1, with the maximum value of 4. Both of these groups show a similar value for the number of morphotypes (Figure 2). There was no significant difference between the number of morphotypes for both sample groups (Table 5, Wilcox p-value = 1).
+The median value of the number of morphotypes for professors was 1 with and a 
+maximum value of 5 morphotypes. The median value of the number of morphotypes 
+for students was 1, with the maximum value of 4. Both of these groups show a 
+similar value for the number of morphotypes (Figure 2). There was no significant
+difference between the number of morphotypes for both sample groups 
+(Table 5, Wilcox p-value = 1).
 
 Given both of these p-values, I failed to reject the null hypothesis. Therefore,
 I can conclude that although students had a higher number of colonies on their 
@@ -226,13 +260,17 @@ cellphones, the number of morphotypes between both sample groups was similar.
 The PhyML phylogeny shows no support that the bacteria from my samples are from 
 the same clade as *Thermus aquaticus*. There is support, however, that two 
 of my bacterial samples are within the same clade, *Staphylococcus* and 
-*Staphylococcus epidermis* (Figure 3, Bootstrap = 100). The Mr.Bayes 
-phylogeny shows that there is no support that the bacteria from my samples
-are from the same clade as *Thermus aquaticus*. There is significant support showing that both 
-*Staphylococcus* and *Staphylococcus epidermis* are from the same clade, which 
-is understandable since they are both the same genus (Figure 4, posterior probability = 0.9976).
+*Staphylococcus epidermis* (Figure 3, Bootstrap = 100). The Mr.Bayes phylogeny 
+shows that there is no support that the bacteria from my samples are from the 
+same clade as *Thermus aquaticus*. There is significant support showing that 
+both *Staphylococcus* and *Staphylococcus epidermis* are from the same clade, 
+which is understandable since they are both the same genus 
+(Figure 4, posterior probability = 0.9976).
 
-In the PCR image, well 9-11 were samples collected from professors; "Prof SS 1-10", "Prof NT 1-10", and "Prof EY" respectively. Wells 12-14 were samples collected from students; "AG", "SB 1-10", and "JI", respectively. Well 15 contained a negative control, which was pure water. 
+In the PCR image, well 9-11 were samples collected from professors; 
+"Prof SS 1-10", "Prof NT 1-10", and "Prof EY" respectively. Wells 12-14 were 
+samples collected from students; "AG", "SB 1-10", and "JI", respectively. 
+Well 15 contained a negative control, which was pure water. 
 
 # Discussion
 
@@ -248,13 +286,13 @@ resulted from having a mixed template. It was very difficult to identify
 isolated colonies, so it is highly likely that this was the reason half of my 
 sequences were not usable.
 
-In the PCR image, wells 9, 13, 14 had no band showing, which could have resulted from 
-pipetting error, using incorrect primers, or just the sample DNA being bound 
-really tightly. Well 10 had a brighter band, and wells 11 and 12 had fainter bands
-as well. Well 15 was the negative control, PCR water, so it was expected that no
-band would show. However, since wells 10-12 showed, I can conclude there was a 
-significant amount of DNA present in the wells to perform the PCR and show up in
-the image (Figure 5). 
+In the PCR image, wells 9, 13, 14 had no band showing, which could have resulted 
+from pipetting error, using incorrect primers, or just the sample DNA being 
+bound really tightly. Well 10 had a brighter band, and wells 11 and 12 had 
+fainter bands as well. Well 15 was the negative control, PCR water, so it was 
+expected that no band would show. However, since wells 10-12 showed, I can 
+conclude there was a significant amount of DNA present in the wells to perform 
+the PCR and show up in the image (Figure 5). 
 
 The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
 and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
@@ -278,23 +316,23 @@ commonly on the skin or within the areas on campus, I am confident that these
 results were correctly identified. Both the phylogenetic results and BLAST 
 results match up, which also supports these findings. 
 
-It makes sense that *Staphylococcus* was found on the cellphone screens of both 
-professors and students, since this bacteria is found on the outer layers of the
-skin. Since a majority of people put their phones up to their ear, potentially 
-pressing the phone against their faces, to place phone calls; as well as using
-the touchscreen with their hands to navigate through different applications, the 
-*Staphylococcus* bacteria would have ample opportunity to be transferred onto 
-cellphone screens. 
+It makes sense that *Staphylococcus epidermis* was found on the cellphone 
+screens of both professors and students, since this bacteria is found on the 
+outer layers of the skin. Since a majority of people put their phones up to 
+their ear, potentially pressing the phone against their faces, to place phone 
+calls; as well as using the touchscreen with their hands to navigate through 
+different applications, the *Staphylococcus* bacteria would have ample 
+opportunity to be transferred onto cellphone screens. 
 
 My results showed that the number of morphotypes on both student and professor 
-cellphones were similar. In contrast, the colony abundance was significantly 
-greater on student cellphones compared to that of the professors' cellphones, 
-with the median value for the student group being around 37 colonies and the 
-median value for the professor sample group being around 6 colonies (Figure 1). 
-This shows a huge disparity in the colony abundance between the two groups and 
-therefore, as I had initially hypothesized, shows that student cellphones have a
-higher amount of bacteria present on their cellphone screens than professors at 
-the University of San Francisco. 
+cellphones were similar (Figure 2). In contrast, the colony abundance was 
+significantly greater on student cellphones compared to that of the professors'
+cellphones, with the median value for the student group being around 37 colonies
+and the median value for the professor sample group being around 6 colonies 
+(Figure 1). This shows a huge disparity in the colony abundance between the two 
+groups and therefore, as I had initially hypothesized, shows that student 
+cellphones have a higher amount of bacteria present on their cellphone screens 
+than professors at the University of San Francisco. 
 
 The statistical tests for both the number of colonies and the number of 
 morphotypes gave a wilcox p-value of 1 (Table 4&5). With this p-value in mind, I
@@ -451,6 +489,9 @@ sequences before and after I trimmed them.
 
 ![](data/images/gel_images/culture_pcr_cropped.jpg) 
 **Figure 5:** Image shows the PCR results of the cultured samples. Well 9 was sample "Prof SS 1-10", well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 contained a negative control, which was pure water. 
+
+![](data/images/figures/Sequence_Counts.png) 
+**Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
 
 
 
