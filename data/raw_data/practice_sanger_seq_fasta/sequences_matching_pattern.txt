@@ -1,0 +1,3 @@
+>GO_SW_27f_D03.ab1
+>GO_RE_27f_C03.ab1
+>GO_RB_27f_F03.ab1
