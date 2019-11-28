@@ -29,7 +29,11 @@ Studies have been done in clinical settings, showing how healthcare
 professionals use their cellphones throughout the day, both before and after 
 assessing patients. This resulted in a significant transfer of bacteria, since 
 most cellphone users, healthcare workers included, do not clean their cellphone 
-screens [@arora2009cellphones]. Especially in a medical setting, this can cause more diseases and more infection. Healthcare workers have been found to transmit nosocomial infections via their medical equipment and mobile phones [@kumar2014identification]. This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
+screens [@arora2009cellphones]. Especially in a medical setting, this can cause 
+more diseases and more infection. Healthcare workers have been found to transmit
+nosocomial infections via their medical equipment and mobile phones 
+[@kumar2014identification]. This puts not only cellphone users at risk, but the 
+patients, the health care workers and their families as well. 
 
 However, healthcare workers are not the only ones with phones carrying bacteria, 
 studies have shown that with a general cellphone user, there is 10x more 
@@ -59,11 +63,11 @@ everywhere on a daily basis. My project focuses on identifying the type and
 amount bacteria on the cell phone screens of students at the University of San 
 Francisco compared to those found on the cellphone screens of professors. 
 This is to see whether or not phones carry potential pathogens, which are 
-disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases]. Thus, this experiment 
-can help build a correlation between how illnesses are spread on college 
-campuses and technology usage.I will specifically focus on the presence of 
-*Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the 
-most common pathogens found on cellphones [@lee2013contamination]. 
+disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases].
+Thus, this experiment can help build a correlation between how illnesses are 
+spread on college campuses and technology usage.I will specifically focus on the
+presence of *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are 
+a few of the most common pathogens found on cellphones [@lee2013contamination]. 
 
 These bacteria are known to cause serious infections. *Staphylococcus* for 
 example, is a dangerous pathogen. This bacteria is known to cause endovascular
@@ -163,10 +167,10 @@ For the PCR with the culture-free samples, the master mix included 77 μL of Amp
 49.3 mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 
 μL of the specific DNA template. 
 
-These tubes were then taken into the thermocycler by Professor Zimmerman and 
-set to run at the following temperatures: 95°C for 3 minutes, 95°C for 30
-seconds, 55°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes, and then
-placed on a 4°C hold. This set of samples were then sent for illumina sequencing.
+These tubes were then taken into the thermocycler and set to run at the 
+following temperatures: 95°C for 3 minutes, 95°C for 30 seconds, 55°C for 30
+seconds, 72°C for 30 seconds, 72°C for 5 minutes, and then placed on a 4°C hold.
+This set of samples were then sent for illumina sequencing.
 
 Following electrophoresis, PCR products were purified using AmpureXP magnetic 
 beads [@meyer2010illumina] and quantitated using a PicoGreen fluorescent assay 
@@ -479,7 +483,7 @@ number of morphotypes found between professor and student cellphones
 |SB-ProfSS_S30_L001_R1_001.fastq     |    13521|     13489|
 |SB-SB_S28_L001_R1_001.fastq         |    11685|     11655|
 **Table 6:**Table shows the reads of all the control sequences and my own sample 
-sequences before and after I trimmed them via Geneious.
+sequences before and after cleaning
 
 ![](data/raw_data/phylogenies/PhyML_phylogeny.png)
 **Figure 3:** This figure shows the PhyML phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
