@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+---
+>>>>>>> 55049c0ab6bfb3629aaaacbc4d4b4a79879de270
 title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone Screens of Both Students and Professors on a University Campus"
 author: "Shreya Barma"
 date: "November 19, 2019"
@@ -461,6 +465,7 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
+<<<<<<< HEAD
 
 **Table 5:** Table shows p-value as a result from a statistical test for the 
 number of morphotypes found between professor and student cellphones
@@ -530,3 +535,49 @@ melted_phyloseq %>%
                                     vjust = 1)) + 
   ggtitle("Sequence Counts")
 ```
+=======
+
+**Table 5:** Table shows p-value as a result from a statistical test for the 
+number of morphotypes found between professor and student cellphones
+
+| Samples                            | Reads In| Reads Out|
+|:-----------------------------------|--------:|---------:|
+|control-neg1_S79_L001_R1_001.fastq  |    10990|     10969|
+|control-neg2_S80_L001_R1_001.fastq  |     3290|      3279|
+|control-neg3_S81_L001_R1_001.fastq  |    13837|     13818|
+|control-neg4_S82_L001_R1_001.fastq  |     7825|      7811|
+|control-zymo1_S83_L001_R1_001.fastq |     5236|      5233|
+|control-zymo2_S84_L001_R1_001.fastq |     4139|      4134|
+|control-zymo3_S85_L001_R1_001.fastq |     8448|      8426|
+|control-zymo4_S86_L001_R1_001.fastq |     9287|      9271|
+|SB-AG_S26_L001_R1_001.fastq         |    15604|     15580|
+|SB-JI_S27_L001_R1_001.fastq         |    13319|     13291|
+|SB-ProfEY_S25_L001_R1_001.fastq     |    17265|     17210|
+|SB-ProfNT_S29_L001_R1_001.fastq     |    13229|     13187|
+|SB-ProfSS_S30_L001_R1_001.fastq     |    13521|     13489|
+|SB-SB_S28_L001_R1_001.fastq         |    11685|     11655|
+**Table 6:**Table shows the reads of all the control sequences and my own sample 
+sequences before and after cleaning
+
+![](data/raw_data/phylogenies/PhyML_phylogeny.png)
+**Figure 3:** This figure shows the PhyML phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
+
+![](data/raw_data/phylogenies/Mr.Bayes_phylogeny.png)
+**Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its relationship to the bacteria found on the sample cellphones. 
+
+![](data/images/gel_images/culture_pcr_cropped.jpg) 
+**Figure 5:** Image shows the PCR results of the cultured samples. Well 9 was sample "Prof SS 1-10", well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 contained a negative control, which was pure water. 
+
+![](data/images/figures/Sequence_Counts.png) 
+**Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
+NOTE: Included picture temporarily - remove after and add in r chunk from server
+
+![](data/images/figures/Quality_Count.png) 
+**Figure 7:** Graphs show quality counts for each of my samples including the controls
+
+
+
+# Sources Cited
+
+
+>>>>>>> 55049c0ab6bfb3629aaaacbc4d4b4a79879de270
