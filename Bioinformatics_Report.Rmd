@@ -568,9 +568,21 @@ sequences before and after cleaning
 ![](data/images/gel_images/culture_pcr_cropped.jpg) 
 **Figure 5:** Image shows the PCR results of the cultured samples. Well 9 was sample "Prof SS 1-10", well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 contained a negative control, which was pure water. 
 
-![](data/images/figures/Sequence_Counts.png) 
+```{r}
+# create a summary table of sequence counts for each Phylum
+melted_phyloseq %>%
+  filter(student_initials == "SB") %>%
+  group_by(Phylum) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                  na.rm = TRUE))%>%
+  ggplot(aes(x = Phylum,
+             y = sum_abundance)) +
+  geom_col() + 
+  theme(axis.text.x = element_text(angle = 90,
+                                    hjust = 1, 
+                                    vjust = 1))
+```
 **Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
-NOTE: Included picture temporarily - remove after and add in r chunk from server
 
 
 
