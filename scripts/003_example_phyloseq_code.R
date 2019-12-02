@@ -61,4 +61,10 @@ melted_phyloseq %>%
   filter(student_initials == "SB") %>%
   group_by(Phylum) %>%
   summarize(sum_abundance = sum(Abundance,
-                                  na.rm = TRUE))
+                                  na.rm = TRUE))%>%
+  ggplot(aes(x = Phylum,
+             y = sum_abundance)) +
+  geom_col() + 
+  theme(axis.text.x = element_text(angle = 90,
+                                    hjust = 1, 
+                                    vjust = 1))

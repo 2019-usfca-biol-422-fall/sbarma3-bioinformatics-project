@@ -572,8 +572,6 @@ sequences before and after cleaning
 **Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
 NOTE: Included picture temporarily - remove after and add in r chunk from server
 
-![](data/images/figures/Quality_Count.png) 
-**Figure 7:** Graphs show quality counts for each of my samples including the controls
 
 
 
