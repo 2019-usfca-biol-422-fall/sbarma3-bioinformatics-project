@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 <<<<<<< HEAD
 =======
 ---
@@ -68,7 +73,7 @@ Francisco compared to those found on the cellphone screens of professors.
 This is to see whether or not phones carry potential pathogens, which are 
 disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases].
 Thus, this experiment can help build a correlation between how illnesses are 
-spread on college campuses and technology usage.I will specifically focus on the
+spread on college campuses and technology usage. I will specifically focus on the
 presence of *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are 
 a few of the most common pathogens found on cellphones [@lee2013contamination]. 
 
@@ -108,27 +113,28 @@ higher on professors' cellphone screens. Through this experiment, *E.coli* and
 students or professors. However, two different types of *Staphylococcus* were 
 detected. Another bacteria which was not expected to be found, *Kocuria palustris*, was detected. 
 
-## Methods
+# Methods
 
-### Sampling
+## Sampling
+
 Materials needed to collect my samples include a sterile phosphate buffer solution
-(PBS), 12 1.5mL tubes, and sterile swabs. For this project, I collected a total 
+(PBS), 12 1.5mL tubes, sterile swabs, and latex gloves. For this project, I collected a total 
 of twelve samples, two samples per cellphone. Therefore, I swabbed a total of 
 six phones, three from each sample group. To collect my samples, I used a 
-sterile swab dipped in the buffer solution. I swabbed the entire front screen of
+sterile swab dipped in the buffer solution. I, then, swabbed the entire front screen of
 each phone for 30 seconds and then stored the swab in a sterile tube. Once I 
 finished collecting all my samples, I broke off the portion of the swab with my 
 sample on it into separate tubes and labeled them accordingly.
 
+## Culture Samples
 ### Culturing & DNA Extraction 
+
 After sampling, each sample was diluted to 1x, 10x, and 100x using PBS 
-solution, and then cultured. These were the cultured samples. I used 18 100 mm 
-TSA plates for plating samples from each of my 2 treatments (n = 3 per group, 6 
-total). Then, I pipetted 100 μL of each sample onto a 100 mm TSA plate and used 
-rattler beads to spread the sample evenly across the TSA plate 
-[@leung1995survival]. Once I plated my samples, they were incubated for 4 days 
-and then analyzed for the number of morphotypes present and the amount of 
-colonies. 
+solution, and then cultured. I used 18 100 mm TSA plates for plating samples from 
+each of my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each sample
+onto a 100 mm TSA plate and used rattler beads to spread the sample evenly across the TSA plate 
+[@leung1995survival]. Once I plated my samples, they were incubated for 4 days at 37°C
+and then analyzed for the number of morphotypes present and the amount of colonies. 
 
 For DNA extraction, I followed the manufacturer's protocol from the Sigma 
 REDExtract-N-Amp Kit [@kreader2001one]. From my TSA plate, using a toothpick, 
@@ -302,7 +308,7 @@ conclude there was a significant amount of DNA present in the wells to perform
 the PCR and show up in the image (Figure 5). 
 
 The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
-and *Staphylococcus epidermis* (Table 2). *Kocuria palustris* is a bacteria that 
+and *Staphylococcus epidermis* (Table 1). *Kocuria palustris* is a bacteria that 
 is found in the milk of water deer and reindeer [@kovacs1999kocuria]. This was a 
 puzzling bacteria to find on the screen of a cellphone, as those animals are not
 within the vicinity of the school campus, therefore I am not confident that this
@@ -336,18 +342,15 @@ cellphones were similar (Figure 2). In contrast, the colony abundance was
 significantly greater on student cellphones compared to that of the professors'
 cellphones, with the median value for the student group being around 37 colonies
 and the median value for the professor sample group being around 6 colonies 
-(Figure 1). This shows a huge disparity in the colony abundance between the two 
-groups and therefore, as I had initially hypothesized, shows that student 
-cellphones have a higher amount of bacteria present on their cellphone screens 
-than professors at the University of San Francisco. 
+(Figure 1). 
 
 The statistical tests for both the number of colonies and the number of 
 morphotypes gave a wilcox p-value of 1 (Table 4&5). With this p-value in mind, I
 should reject the null hypothesis for both of my questions, and therefore, this 
 would mean that students did not have a higher number of bacterial colonies 
-found on their phones compared to professors. I predict that there was some 
-calculation error here, since the boxplot clearly shows a significant difference
-between the number of colonies for each sample group. For the number of 
+found on their phones compared to professors. However the boxplot showing the colony 
+abundance suggests that with a larger sample size there would be a significant 
+difference in the number of colonies between professors and students.For the number of 
 morphotypes, I can conclude that, disregarding outliers, 1 was the median number
 among both sample groups (Figure 2). The resulting p-value was 1 from the 
 statistical test perfomed (Table 5), and given this value, I fail to reject the 
@@ -382,6 +385,7 @@ support that any of the strains belong to the same clade as *Thermus aquaticus*.
 | *Staphylococcus* sp. strain 21 16S ribosomal RNA gene, partial sequence             | 931       | 931         | 100%        | 0.0       | 99.80%        | MK465362.1 |
 | *Staphylococcus epidermidis* strain IBK-11 16S ribosomal RNA gene, partial sequence | 473       | 473         | 100%        | 1x10^-129 | 98.88%        | MN428237.1 |
 **Table 1:** Table shows the strains retrieved through the BLAST tool 
+
 
 | Sequence Locus | Original Filename      | Corrected Filename             | Usability | Length after Trimming | Number of Manual Corrections |
 |----------------|------------------------|--------------------------------|-----------|-----------------------|------------------------------|
@@ -424,7 +428,8 @@ culture_data %>%
   ylab("Number of Colonies")
 ```
 
-**Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1). 
+**Figure 1:** Boxplot of colony abundances from Professor and Student cellphones, 1x dilution. Despite a higher median number of colonies from student samples, the mean values were not significantly different between the two sites (Wilcox p = 1).
+
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
 culture_data %>%
@@ -435,7 +440,6 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
-
 **Table 4:** Shows The p-value resulting from a statistical test for the number of colonies found on cellphone screens between professors and students
 
 ```{r filter-and-plot-morphotypes}
@@ -452,7 +456,6 @@ culture_data %>%
   xlab("Sample Group") +
   ylab("Number of Morphotypes")
 ```
-
 **Figure 2:**Boxplot showing the number of morphotypes from student cellphones compared to professor cellphones. There was no difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
@@ -465,29 +468,18 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
-<<<<<<< HEAD
-
 **Table 5:** Table shows p-value as a result from a statistical test for the 
 number of morphotypes found between professor and student cellphones
 
-| Samples                            | Reads In| Reads Out|
-|:-----------------------------------|--------:|---------:|
-|control-neg1_S79_L001_R1_001.fastq  |    10990|     10969|
-|control-neg2_S80_L001_R1_001.fastq  |     3290|      3279|
-|control-neg3_S81_L001_R1_001.fastq  |    13837|     13818|
-|control-neg4_S82_L001_R1_001.fastq  |     7825|      7811|
-|control-zymo1_S83_L001_R1_001.fastq |     5236|      5233|
-|control-zymo2_S84_L001_R1_001.fastq |     4139|      4134|
-|control-zymo3_S85_L001_R1_001.fastq |     8448|      8426|
-|control-zymo4_S86_L001_R1_001.fastq |     9287|      9271|
-|SB-AG_S26_L001_R1_001.fastq         |    15604|     15580|
-|SB-JI_S27_L001_R1_001.fastq         |    13319|     13291|
-|SB-ProfEY_S25_L001_R1_001.fastq     |    17265|     17210|
-|SB-ProfNT_S29_L001_R1_001.fastq     |    13229|     13187|
-|SB-ProfSS_S30_L001_R1_001.fastq     |    13521|     13489|
-|SB-SB_S28_L001_R1_001.fastq         |    11685|     11655|
-**Table 6:**Table shows the reads of all the control sequences and my own sample 
-sequences before and after cleaning 
+| Sample ID                 | Bacteria                 | Number of Matched Sequences | Amount of Different Taxa |
+|---------------------------|--------------------------|-----------------------------|--------------------------|
+| SB-AG_S26_L001_R1_001     | Mycoplasma wenyonii      | 2789                        | 241                      |
+| SB-JI_S27_L001_R1_001     | Streptococcus salivarius | 30840                       | 180                      |
+| SB-SB_S28_L001_R1_001     | Mycoplasma wenyonii      | 2833                        | 179                      |
+| SB-ProfEY_S25_L001_R1_001 | Staphylococcus aureus    | 6231                        | 279                      |
+| SB-ProfNT_S29_L001_R1_001 | Streptococcus pneumoniae | 2966                        | 259                      |
+| SB-ProfSS_S30_L001_R1_001 | Streptococcus pneumoniae | 3611                        | 240                      |
+**Table 6:** Table shows the culture-free BLAST results
 
 ![](data/raw_data/phylogenies/PhyML_phylogeny.png)
 **Figure 3:** This figure shows the PhyML phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
@@ -496,16 +488,12 @@ sequences before and after cleaning
 **Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its relationship to the bacteria found on the sample cellphones. 
 
 ![](data/images/gel_images/culture_pcr_cropped.jpg) 
-**Figure 5:** Image shows the PCR results of the cultured samples. Well 9 was sample "Prof SS 1-10", well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 contained a negative control, which was pure water. 
+**Figure 5:** Image shows the PCR results of the cultured samples
 
-![](data/images/figures/Sequence_Counts.png) 
-**Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
-NOTE: Included picture temporarily - remove after and add in r chunk from server
+![](data/images/gel_images/culture_free_pcr_cropped.jpg) 
+**Figure 6:** Image shows the PCR results of the culture-free samples
 
-![](data/images/figures/Quality_Count.png) 
-**Figure 7:** Graphs show quality counts for each of my samples including the controls
-
-```{r your-code-here}
+```{r sequence counts}
 # create a summary table of sequence counts for each Phylum
 melted_phyloseq %>%
   filter(student_initials == "SB") %>%
@@ -520,64 +508,29 @@ melted_phyloseq %>%
                                     vjust = 1)) + 
   ggtitle("Sequence Counts")
 ```
-```{r your-code-here}
-# create a summary table of sequence counts for each Phylum
+**Figure 7:**Bar graph shows the summarized sequence counts for my samples for each phylum
+
+```{r phylum-abundance}
+# Create a table showing the abundance of each Phylum per sample group
 melted_phyloseq %>%
-  filter(student_initials == "SB") %>%
-  group_by(Phylum) %>%
-  summarize(sum_abundance = sum(Abundance,
-                                  na.rm = TRUE))%>%
-  ggplot(aes(x = Phylum,
-             y = sum_abundance)) +
-  geom_col(position = position_dodge()) + 
-  theme(axis.text.x = element_text(angle = 90,
-                                    hjust = 1, 
-                                    vjust = 1)) + 
-  ggtitle("Sequence Counts")
+  group_by(type,Phylum) %>%
+  summarize(abundance = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  top_n(1) %>%
+  kable()
 ```
-=======
+**Table 7:** Table shows the abundance of the top Phylum for each sample group including controls
 
-**Table 5:** Table shows p-value as a result from a statistical test for the 
-number of morphotypes found between professor and student cellphones
-
-| Samples                            | Reads In| Reads Out|
-|:-----------------------------------|--------:|---------:|
-|control-neg1_S79_L001_R1_001.fastq  |    10990|     10969|
-|control-neg2_S80_L001_R1_001.fastq  |     3290|      3279|
-|control-neg3_S81_L001_R1_001.fastq  |    13837|     13818|
-|control-neg4_S82_L001_R1_001.fastq  |     7825|      7811|
-|control-zymo1_S83_L001_R1_001.fastq |     5236|      5233|
-|control-zymo2_S84_L001_R1_001.fastq |     4139|      4134|
-|control-zymo3_S85_L001_R1_001.fastq |     8448|      8426|
-|control-zymo4_S86_L001_R1_001.fastq |     9287|      9271|
-|SB-AG_S26_L001_R1_001.fastq         |    15604|     15580|
-|SB-JI_S27_L001_R1_001.fastq         |    13319|     13291|
-|SB-ProfEY_S25_L001_R1_001.fastq     |    17265|     17210|
-|SB-ProfNT_S29_L001_R1_001.fastq     |    13229|     13187|
-|SB-ProfSS_S30_L001_R1_001.fastq     |    13521|     13489|
-|SB-SB_S28_L001_R1_001.fastq         |    11685|     11655|
-**Table 6:**Table shows the reads of all the control sequences and my own sample 
-sequences before and after cleaning
-
-![](data/raw_data/phylogenies/PhyML_phylogeny.png)
-**Figure 3:** This figure shows the PhyML phylogeny for Taq and its relationship to the bacteria found on the sample cellphones.   
-
-![](data/raw_data/phylogenies/Mr.Bayes_phylogeny.png)
-**Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its relationship to the bacteria found on the sample cellphones. 
-
-![](data/images/gel_images/culture_pcr_cropped.jpg) 
-**Figure 5:** Image shows the PCR results of the cultured samples. Well 9 was sample "Prof SS 1-10", well 10 was sample "Prof NT 1-10", well 11 was sample "Prof EY", well 12 was sample "AG", well 13 was sample "SB 1-10", well 14 was sample "JI", and well 15 contained a negative control, which was pure water. 
-
-![](data/images/figures/Sequence_Counts.png) 
-**Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
-NOTE: Included picture temporarily - remove after and add in r chunk from server
-
-![](data/images/figures/Quality_Count.png) 
-**Figure 7:** Graphs show quality counts for each of my samples including the controls
-
-
+```{r taxa-abundance}
+# bar plot of taxa my month sampled
+plot_bar(phyloseq_obj,
+         x = "type",
+         fill = "Phylum") + 
+  ggtitle("Abundance of Taxa")
+```
+**Figure 8:** Bar plot shows the abundance of each taxa per sample group and both controls
 
 # Sources Cited
 
 
->>>>>>> 55049c0ab6bfb3629aaaacbc4d4b4a79879de270
+
