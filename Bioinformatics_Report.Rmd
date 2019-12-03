@@ -3,10 +3,6 @@ output:
   word_document: default
   html_document: default
 ---
-<<<<<<< HEAD
-=======
----
->>>>>>> 55049c0ab6bfb3629aaaacbc4d4b4a79879de270
 title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone Screens of Both Students and Professors on a University Campus"
 author: "Shreya Barma"
 date: "November 19, 2019"
@@ -231,16 +227,26 @@ model as GTR, the branch support set as bootstrap and the number of bootstraps
 being 100. The rest of the settings were on default [@masters2011species]. Only 
 3 of my samples ran successfully and gave results. 
 
+### DADA 
+I used the DADA pipeline to count the total amount of Amplicon Sequence Variants, count the number of chimeras present, determine taxonomy for each sample, and remove any extra sequences. 
+
 # Results
 
 ```{r load-libraries}
-#loading libraries
+# loading libraries
 library("ggplot2")
 library("dplyr")
 library("tidyr")
 library("readr")
 library("broom")
 library("knitr")
+library("dada2")
+library("phyloseq")
+library("mctoolsr")
+library("seqinr")
+library("citr")
+library("lubridate")
+library("forcats")
 ```
 
 Using BLAST, I found *Kocuria palustris* with a 99.20% accuracy, 
@@ -491,7 +497,23 @@ number of morphotypes found between professor and student cellphones
 **Figure 5:** Image shows the PCR results of the cultured samples
 
 ![](data/images/gel_images/culture_free_pcr_cropped.jpg) 
+
 **Figure 6:** Image shows the PCR results of the culture-free samples
+
+```{r phyloseq-data}
+# load in the saved phyloseq object to work with
+load("output/phyloseq_obj.Rda")
+
+# melt phyloseq obj into a data frame for dplyr/ggplot
+# analysis and visualization
+melted_phyloseq <- psmelt(phyloseq_obj)
+
+# turn all factor columns into character columns for dplyr
+melted_phyloseq <- melted_phyloseq %>%
+  mutate_if(is.factor, as.character)
+```
+
+
 
 ```{r sequence counts}
 # create a summary table of sequence counts for each Phylum
@@ -508,6 +530,7 @@ melted_phyloseq %>%
                                     vjust = 1)) + 
   ggtitle("Sequence Counts")
 ```
+
 **Figure 7:**Bar graph shows the summarized sequence counts for my samples for each phylum
 
 ```{r phylum-abundance}
@@ -523,12 +546,35 @@ melted_phyloseq %>%
 
 ```{r taxa-abundance}
 # bar plot of taxa my month sampled
-plot_bar(phyloseq_obj,
-         x = "type",
-         fill = "Phylum") + 
-  ggtitle("Abundance of Taxa")
+melted_phyloseq %>%
+  group_by(type, Sample, Phylum) %>%
+  summarize(sum_abund = sum(Abundance,
+                            na.rm = TRUE)) %>%
+  filter(sum_abund > 0) %>%
+  ggplot(aes(x = type,
+             y = sum_abund,
+             fill = Phylum,
+             color = Phylum)) +
+  geom_col(position = position_fill())
 ```
+
 **Figure 8:** Bar plot shows the abundance of each taxa per sample group and both controls
+
+```{r strain-diversity-of-streptococcus}
+# look at number of strains within Strep spp. across samples
+melted_phyloseq %>%
+  filter(student_initials == "SB") %>%
+  filter(Genus == "Streptococcus") %>%
+  filter(Abundance > 0) %>%
+  group_by(type, Sample) %>%
+  tally() %>%
+  ggplot(aes(x = Sample,
+             y = n)) +
+  geom_col() +
+  facet_wrap(~type, scales = "free_x")
+  
+```
+
 
 # Sources Cited
 
