@@ -584,9 +584,6 @@ melted_phyloseq %>%
 ```
 **Figure 6:** Bar graph shows the summarized sequence counts for my samples for each phylum
 
-
-
-
 # Sources Cited
 
 
