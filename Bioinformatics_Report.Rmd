@@ -14,96 +14,27 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 # Introduction
 
-When the phone was first introduced to society, its sole purpose was to be able 
-to communicate with others. Today, with the evolution to the cellphone, the role
-of the typical phone has drastically expanded from its intended use, to call or 
-to text someone. It's now used as a GPS device, to browse the internet, play 
-games, listen to music, and much more [@lonkila2008social]. Due to all of these 
-new applications and the evolution of the traditional phone, cellphones are 
-being used almost all day, everyday by their owners. This daily use and the 
-benefits provided by a cellphone, causes individuals to overlook cellphone 
-hygiene, or even consider the large amount of bacteria that accumulates on the 
-screen of their phones. 
+When the phone was first introduced to society, its sole purpose was to be able to communicate with others. Today, with the evolution to the cellphone, the role of the typical phone has drastically expanded from its intended use, to call or to text someone. It's now used as a GPS device, to browse the internet, play games, listen to music, and much more [@lonkila2008social]. Due to all of these new applications and the evolution of the traditional phone, cellphones are being used almost all day, everyday by their owners. This daily use and the benefits provided by a cellphone, causes individuals to overlook cellphone hygiene, or even consider the large amount of bacteria that accumulates on the screen of their phones. 
 
-Studies have been done in clinical settings, showing how healthcare 
-professionals use their cellphones throughout the day, both before and after 
-assessing patients. This resulted in a significant transfer of bacteria, since 
-most cellphone users, healthcare workers included, do not clean their cellphone 
-screens [@arora2009cellphones]. Especially in a medical setting, this can cause 
-more diseases and more infection. Healthcare workers have been found to transmit
-nosocomial infections via their medical equipment and mobile phones 
-[@kumar2014identification]. This puts not only cellphone users at risk, but the 
-patients, the health care workers and their families as well. 
+Studies have been done in clinical settings, showing how healthcare professionals use their cellphones throughout the day, both before and after assessing patients. This resulted in a significant transfer of bacteria, since most cellphone users, healthcare workers included, do not clean their cellphone screens [@arora2009cellphones]. Especially in a medical setting, this can cause more diseases and more infection. Healthcare workers have been found to transmit nosocomial infections via their medical equipment and mobile phones [@kumar2014identification]. This puts not only cellphone users at risk, but the patients, the health care workers and their families as well. 
 
-However, healthcare workers are not the only ones with phones carrying bacteria, 
-studies have shown that with a general cellphone user, there is 10x more 
-bacteria on a cellphone screen than a toilet seat [@akinyemi2009potential]. 
-Aside from clinical settings, I aimed to focus on a school setting to see 
-whether cellphones used by students and professors also carried pathogenic 
-bacteria. Middle school students'cellphones have been found to have a median of 
-17,032 bacterial 16S rRNA gene copies per phone. Additionally,out of the number 
-of bacteria found on these phones, a significant number were found to be 
-potentially pathogenic. These bacteria included *E. faecalis* and many more 
-[@cogprints6566].There is an extremely large amount of pathogens on cellphones 
-of secondary school students, with over 94.5% of cellphones demonstrating 
-evidence of bacterial contamination [@ulger2009we]. 
+However, healthcare workers are not the only ones with phones carrying bacteria, studies have shown that with a general cellphone user, there is 10x more bacteria on a cellphone screen than a toilet seat [@akinyemi2009potential]. Aside from clinical settings, I aimed to focus on a school setting to see whether cellphones used by students and professors also carried pathogenic bacteria. Middle school students'cellphones have been found to have a median of 17,032 bacterial 16S rRNA gene copies per phone. Additionally,out of the number of bacteria found on these phones, a significant number were found to be potentially pathogenic. These bacteria included *E. faecalis* and many more [@cogprints6566].There is an extremely large amount of pathogens on cellphones of secondary school students, with over 94.5% of cellphones demonstrating evidence of bacterial contamination [@ulger2009we]. 
 
-Another study conducted by the Department of Microbiology at Lagos State 
-University focused on the actual spread of bacterial infections through the use 
-of cellphones. Through this study they found a high percentage (62.0%) of 
-bacterial infection being spread solely through cellphones and the lack of 
-cleaning this technology [@akinyemi2009potential]. This shows the significance 
-of the bacterial presence on cellphones. I wanted to find out the relevance of 
-this issue in a school setting, and whether or not pathogens would still be 
-found on cellphones outside  of clinical settings. 
+Another study conducted by the Department of Microbiology at Lagos State University focused on the actual spread of bacterial infections through the use of cellphones. Through this study they found a high percentage (62.0%) of bacterial infection being spread solely through cellphones and the lack of cleaning this technology [@akinyemi2009potential]. This shows the significance of the bacterial presence on cellphones. I wanted to find out the relevance of this issue in a school setting, and whether or not pathogens would still be found on cellphones outside  of clinical settings. 
 
-The purpose of my project was to show the importance of hygeine with an 
-individual's technology, especially cellphones since we carry them around 
-everywhere on a daily basis. My project focuses on identifying the type and 
-amount bacteria on the cell phone screens of students at the University of San 
-Francisco compared to those found on the cellphone screens of professors. 
-This is to see whether or not phones carry potential pathogens, which are 
-disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases].
-Thus, this experiment can help build a correlation between how illnesses are 
-spread on college campuses and technology usage. I will specifically focus on the
-presence of *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are 
-a few of the most common pathogens found on cellphones [@lee2013contamination]. 
+One of the main goals of this project was to find one of the potential reasons 
+college students get sick and how these illnesses could spread quickly across campuses. A majority of college students are known to have unhealthy habits, whether its an unhealthy diet, or not exercising. With intense amounts of stress piled on top, this leads to a weakened immune system, and, therefore, leaves a large number of college students easily susceptible and prone to illnesses [@hudd2000stress]. Since almost all students have a cellphone on them everyday, I thought that this project would be extremely relevant and helpful. 
 
-These bacteria are known to cause serious infections. *Staphylococcus* for 
-example, is a dangerous pathogen. This bacteria is known to cause endovascular
-disorders, bone and joint disorders, respiratory issues, as well as skin 
-disorders. The mortality rate ranges from 11 to 43 percent 
-[@lowy1998staphylococcus]. *E.coli* is a bacteria that normally is found in the 
-human intestine as well as other animals. is transmitted through contamination 
-of food, such a raw meats, or through the contact with fecal matter.
+The purpose of my project was to show the importance of hygeine with an individual's technology, especially cellphones since we carry them around everywhere on a daily basis. My project focuses on identifying the type and amount bacteria on the cell phone screens of students at the University of San Francisco compared to those found on the cellphone screens of professors. This is to see whether or not phones carry potential pathogens, which are disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases]. Thus, this experiment can help build a correlation between how illnesses are spread on college campuses and technology usage. I will specifically focus on the presence of *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the most common pathogens found on cellphones [@lee2013contamination]. 
 
-My questions for this project were: Do cellphones really carry potential 
-pathogens? Do students have a higher amount of bacteria on their cellphones 
-compared to professors? My hypothesis is that all cellphones will carry 
-potential pathogens and student cellphones will have a significantly higher amount 
-of potential pathogens compared to professor cellphones. 
 
-To test this hypothesis, I gathered a total of 6 samples using a sterile swab 
-dipped in phosphate buffer solution. 3 of these samples were from different 
-students and the remaining 3 samples were collected different professors. Once 
-my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x 
-and then cultured these samples on an agar dish. The two sets of samples, both 
-the culture samples and the culture-free samples were  After incubation, I used 
-PCR to amplify the DNA samples and gel electrophoresis to separate the DNA 
-fragments. I, also, used Qubit to quantify DNA concentrations. Sanger sequencing
-was, then, used to sequence the cultured DNA samples. With these successful 
-results, I used BLAST to run my samples against the NCBI database and figure out
-what strains my were. Illumina sequencing was conducted with the culture-free 
-DNA samples. Once all my results were sequenced, I edited them through Geneious 
-Prime, used an alignment tool, MAFFT [@katoh2013mafft], and built phylogenies 
-using Mr.Bayes and PhyML [@kearse2012geneious].
+These bacteria are known to cause serious infections. *Staphylococcus* for example, is a dangerous pathogen. This bacteria is known to cause endovascular disorders, bone and joint disorders, respiratory issues, as well as skin disorders. The mortality rate ranges from 11 to 43 percent [@lowy1998staphylococcus]. *E.coli* is a bacteria that normally is found in the human intestine as well as other animals. is transmitted through contamination of food, such a raw meats, or through the contact with fecal matter.
 
-With this project, I concluded that student cellphone screens had a larger 
-amount of colonies, as predicted. However, the number of morphotypes found was 
-higher on professors' cellphone screens. Through this experiment, *E.coli* and 
-*Pseudomonas* were not detected on any of the cellphone screens for neither 
-students or professors. However, two different types of *Staphylococcus* were 
-detected. Another bacteria which was not expected to be found, *Kocuria palustris*, was detected. 
+My questions for this project were: Do cellphones really carry potential pathogens? Do students have a higher amount of bacteria on their cellphones compared to professors? My hypothesis is that all cellphones will carry potential pathogens and student cellphones will have a significantly higher amount of potential pathogens compared to professor cellphones. 
+
+To test this hypothesis, I gathered a total of 6 samples using a sterile swab dipped in phosphate buffer solution. 3 of these samples were from different students and the remaining 3 samples were collected different professors. Once my samples were collected, I diluted each sample with PBS to 1x, 10x, and 100x and then cultured these samples on an agar dish. The two sets of samples, both the culture samples and the culture-free samples were  After incubation, I used PCR to amplify the DNA samples and gel electrophoresis to separate the DNA fragments. I, also, used Qubit to quantify DNA concentrations. Sanger sequencingwas, then, used to sequence the cultured DNA samples. With these successful results, I used BLAST to run my samples against the NCBI database and figure outwhat strains my were. Illumina sequencing was conducted with the culture-free DNA samples. Once all my results were sequenced, I edited them through Geneious Prime, used an alignment tool, MAFFT [@katoh2013mafft], and built phylogenies using Mr.Bayes and PhyML [@kearse2012geneious].
+
+With this project, I concluded that student cellphone screens had a larger amount of colonies, as predicted. However, the number of morphotypes found was higher on professors' cellphone screens. Through this experiment, *E.coli* and *Pseudomonas* were not detected on any of the cellphone screens for neither students or professors. However, two different types of *Staphylococcus* were detected. Other bacteria which were not expected to be found, *Kocuria palustris*, *Mycoplasma wenyonii*, and *Streptococcus* were also detected. 
 
 # Methods
 
@@ -439,6 +370,17 @@ number of morphotypes found between professor and student cellphones
 
 **Figure 6:** Image shows the PCR results of the culture-free samples
 
+| Sample                    | Input Reads | Surviving | Surviving Percentage | Dropped | Dropped Percentage |
+|---------------------------|-------------|-----------|----------------------|---------|--------------------|
+| SB-AG_S26_L001_R1_001     | 15604       | 14935     | 95.71%               | 669     | 4.29%              |
+| SB-JI_S27_L001_R1_001     | 13319       | 12674     | 95.16%               | 645     | 4.84%              |
+| SB-SB_S28_L001_R1_001     | 11685       | 11009     | 94.21%               | 676     | 5.79%              |
+| SB-ProfEY_S25_L001_R1_001 | 17265       | 16433     | 95.18%               | 832     | 4.32%              |
+| SB-ProfNT_S29_L001_R1_001 | 13229       | 12599     | 95.24%               | 630     | 4.76%              |
+| SB-ProfSS_S30_L001_R1_001 | 13521       | 12894     | 95.36%               | 627     | 4.64%              |
+
+**Table 7:** Table shows the trimmomatic results of all sample sequences
+
 | Sample ID                 | Bacteria                 | Number of Matched Sequences | Amount of Different Taxa |
 |---------------------------|--------------------------|-----------------------------|--------------------------|
 | SB-AG_S26_L001_R1_001     | Mycoplasma wenyonii      | 2789                        | 241                      |
@@ -448,7 +390,7 @@ number of morphotypes found between professor and student cellphones
 | SB-ProfNT_S29_L001_R1_001 | Streptococcus pneumoniae | 2966                        | 259                      |
 | SB-ProfSS_S30_L001_R1_001 | Streptococcus pneumoniae | 3611                        | 240                      |
 
-**Table 7:** Table shows the culture-free BLAST results
+**Table 8:** Table shows the culture-free BLAST results
 
 ```{r phyloseq-data}
 # load in the saved phyloseq object to work with
@@ -476,10 +418,11 @@ melted_phyloseq %>%
   theme(axis.text.x = element_text(angle = 90,
                                     hjust = 1,
                                     vjust = 1)) +
-  ggtitle("Sequence Counts")
+  ggtitle("Sequence Counts for Each Phylum")
 ```
 
 **Figure 7:**Bar graph shows the summarized sequence counts for my samples for each phylum
+
 ```{r phylum-abundance}
 # Create a table showing the abundance of each Phylum per sample group
 melted_phyloseq %>%
@@ -490,7 +433,25 @@ melted_phyloseq %>%
   kable()
 ```
 
-**Table 7:** Table shows the abundance of the top Phylum for each sample group including controls
+**Table 9:** Table shows the abundance of the top Phylum for each sample group including controls
+
+```{r}
+# create a summary table of sequence counts for each Phylum
+melted_phyloseq %>%
+  filter(student_initials == "SB") %>%
+  group_by(Class) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                  na.rm = TRUE)) %>%
+  ggplot(aes(x = Class,
+             y = sum_abundance)) +
+  geom_col(position = position_dodge()) +
+  theme(axis.text.x = element_text(angle = 90,
+                                    hjust = 1,
+                                    vjust = 1)) +
+  ggtitle("Sequence Counts for Each Class")
+```
+**Figure 8:** Bar graph shows the summarized sequence counts for my samples for each class
+
 
 ```{r taxa-abundance}
 # bar plot of taxa my month sampled
@@ -504,10 +465,10 @@ melted_phyloseq %>%
              fill = Phylum,
              color = Phylum)) +
   geom_col(position = position_fill()) +
-  ggtitle("Abundance of Taxa")
+  ggtitle("Abundance of Phylum")
 ```
 
-**Figure 8:** Bar plot shows the abundance of each taxa per sample group and both controls
+**Figure 9:** Bar plot shows the abundance of each taxa per sample group and both controls
 
 ```{r strain-diversity-of-streptococcus}
 # look at number of strains within Strep spp. across samples
@@ -520,9 +481,29 @@ melted_phyloseq %>%
   ggplot(aes(x = Sample,
              y = n)) +
   geom_col() +
-  facet_wrap(~type, scales = "free_x") +
-  ggtitle("Strain Diversity of *Streptococcus*")
+  facet_wrap(~type, scales = "free_x") + 
+  ggtitle("Strain Diversity of Streptococcus per Sample") 
 ```
+
+**Figure 10:** Bar graph shows the number of different strains of *Streptococcus* found on each cellphone screen and is divided by sample group
+
+```{r strain-diversity-of-Staphylococcus}
+# look at number of strains within Staph across samples
+melted_phyloseq %>%
+  filter(student_initials == "SB") %>%
+  filter(Genus == "Staphylococcus") %>%
+  filter(Abundance > 0) %>%
+  group_by(type, Sample) %>%
+  tally() %>%
+  ggplot(aes(x = Sample,
+             y = n)) +
+  geom_col() +
+  facet_wrap(~type, scales = "free_x") + 
+  ggtitle("Strain Diversity of Staphylococcus per Sample") 
+```
+**Figure 11:** Bar graph shows the number of different strains of *Staphylococcus* found on each cellphone screen and is divided by sample group
+
+
 
 
 # Sources Cited
