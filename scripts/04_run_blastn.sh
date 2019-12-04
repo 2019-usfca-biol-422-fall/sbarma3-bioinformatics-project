@@ -1,4 +1,5 @@
-#! run blast against the local database to find the top match for each of the
+#!/bin/bash
+# run blast against the local database to find the top match for each of the
 # sequences in your SUBSAMPLED fastq files
 # options and what they're for:
 # -db sets which database to use, in this case the nucleotide database
