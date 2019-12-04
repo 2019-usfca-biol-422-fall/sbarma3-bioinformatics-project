@@ -513,8 +513,6 @@ melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
 ```
 
-
-
 ```{r sequence counts}
 # create a summary table of sequence counts for each Phylum
 melted_phyloseq %>%
