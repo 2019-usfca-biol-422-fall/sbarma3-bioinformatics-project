@@ -1,8 +1,4 @@
 ---
-output:
-  word_document: default
-  html_document: default
----
 title: "*Staphylococcus* and Other Pathogenic Bacteria found on the Cellphone Screens of Both Students and Professors on a University Campus"
 author: "Shreya Barma"
 date: "November 19, 2019"
@@ -123,6 +119,7 @@ finished collecting all my samples, I broke off the portion of the swab with my
 sample on it into separate tubes and labeled them accordingly.
 
 ## Culture Samples
+
 ### Culturing & DNA Extraction 
 
 After sampling, each sample was diluted to 1x, 10x, and 100x using PBS 
@@ -142,40 +139,28 @@ this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
 Once this was complete, I used the Qubit to analyze the amount of DNA 
 successfully extracted. 
 
-### PCR, Gel Electrophoresis, and Sequencing
-Two rounds of PCR and gel electrophoresis were conducted for this experiment. 
-One round was with a PCR done with cultured samples, which were the 1x, 10x, and
-100x dilutions, and the second round was done with culture free samples. 
+### PCR amplification and Gel Electrophoresis
 
-For both types of samples, the formula to make the master mix for the PCR 
-reaction was: (n+1)+10%, where n is the number of samples I have, which in this 
-case is six. 
+The samples were diluted with PBS to 1x, 10x, and 100x. The formula to make the master mix for the PCR reaction was: (n+1)+10%, where n is the number of samples I have, which in this case is six. 
+The master mix for the cultured samples included 77 μL of Amp, 6.2 μL of the 27f primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA template [@korbie2008touchdown]. These tubes were then taken into the thermocycler and set to run at the following temperatures: 95°C for 5 minutes, 94°C for 30 seconds, 65°C for 30 seconds, 72°C for 1 minute, 94°C for 30 seconds, 55°C for 30 seconds, 72°C for 1 minute, 72°C for 10 minutes, and then finally placed on a 4°C hold. The touchdown PCR 
+contained TAE buffer, SYBR safe dye, and a 2% agarose gel. Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes at 140 volts. 
 
-For the PCR with the cultured samples, the master mix included 77 μL of Amp, 6.2
-μL of the 27f primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR 
-water. For each alloquat, I added 19 μL of the master mix and 1 μL of the 
-specific DNA template [@korbie2008touchdown].
+To prepare the gel, 1g of agarose is measured and mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then microwaved for 1-3 minutes until the agarose powder is completely dissolved. Then the agarose and buffer mixture is allowed to cooled slightly and then it is then poured into the gel tray with the well comb already set in place. Once poured, the tray with the agarose gel is set out to cool for around 10 minutes or until fully hardened [@voytas2000agarose]. 
 
-These tubes were then taken into the thermocycler by Professor Zimmerman and 
-set to run at the following temperatures: 95°C for 5 minutes, 94°C for 30
-seconds, 65°C for 30 seconds, 72°C for 1 minute, 94°C for 30 seconds, 55°C for
-30 seconds, 72°C for 1 minute, 72°C for 10 minutes, and then finally placed on a
-4°C hold.
+### Sanger Sequencing 
 
-This set of samples was then sent for Sanger sequencing. After checking for 
+This set of samples from the PCR was then sent for Sanger sequencing. After checking for 
 successful amplification using gel electrophoresis, PCR products were cleaned 
 with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB 
-located in South San Francisco, CA [@kreader2001one].
+located in South San Francisco, CA [@kreader2001one]. 
 
-For the PCR with the culture-free samples, the master mix included 77 μL of Amp,
-6.2 μL 10 μM iseq 16sF primer, 6.2 μL 10 μM iseq 16sR primer, 7.7 μL BSA, and 
-49.3 mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 
-μL of the specific DNA template. 
+## Culture-Free Samples
 
-These tubes were then taken into the thermocycler and set to run at the 
-following temperatures: 95°C for 3 minutes, 95°C for 30 seconds, 55°C for 30
-seconds, 72°C for 30 seconds, 72°C for 5 minutes, and then placed on a 4°C hold.
-This set of samples were then sent for illumina sequencing.
+### Culturing & DNA Extraction 
+
+To make the master mix, the formula for the PCR reaction was: (n+1)+10%, where n is the number of samples I have, which in this case is six. The master mix for the culture-free samples included 77 μL of Amp, 6.2 μL 10 μM iseq 16sF primer, 6.2 μL 10 μM iseq 16sR primer, 7.7 μL BSA, and 49.3 mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA template. These tubes were then taken into the thermocycler and set to run at the following temperatures: 95°C for 3 minutes, 95°C for 30 seconds, 55°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes, and then placed on a 4°C hold. The touchdown PCR included 2% agarose gel, TAE buffer, and SYBR safe dye. This set of samples were then sent for illumina sequencing. The gel was prepared the same way it was for the cultured samples. Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes at 140 volts. 
+
+### Illumina Sequencing
 
 Following electrophoresis, PCR products were purified using AmpureXP magnetic 
 beads [@meyer2010illumina] and quantitated using a PicoGreen fluorescent assay 
@@ -193,42 +178,13 @@ diluted to the loading concentration (50 pM) and combined with an Illumina PhiX
 spike-in library (5% spike in) and sequenced on an Illumina iSeq using a 2 x 150
 bp consumable cartridge.
 
-The gel for the PCR was a standard 1% agarose gel and was prepared ahead of 
-time by Professor Zimmerman. To prepare the gel, 1g of agarose is measured and 
-mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then 
-microwaved for 1-3 minutes until the agarose powder is completely dissolved. 
-Then the agarose and buffer mixture is allowed to cool to the point where it is 
-comfortable to hold the flask. It is then poured into the gel tray with the well
-comb already set in place. Once poured, the tray with the agarose gel is set out
-to cool for around 10 minutes or until fully hardened [@voytas2000agarose].
+### Sequence Analysis
 
-Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL 
-pipettes and then run on the electrode for 30 minutes. 
+After receiving all of my data from Sanger sequencing, I used Geneious Prime to analyze and trim my samples as well as build phylogenies based off of my sequences. I trimmed the ends of my sequences, any low quality sequences, and used the IUPAC ambiguity codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI website's BLAST tool to determine what strains of bacteria were found on the cellphone screens I swabbed and infer the function of my sample sequences from similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, and had a high percentage match. Of the 3 samples that failed, I marked these files as failed sequences and did not use them for this project. I used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. Additionally, I created a Bayesian and Maximum Likelihood Phylogeny using Geneious as well. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. The setup for PhyML included having the substitution model as GTR, the branch support set as bootstrap and the number of bootstraps being 100. The rest of the settings were on default [@masters2011species]. Only 3 of my samples ran successfully and gave results. 
 
-### Sequence Analysis 
-After receiving all of my data from Sanger sequencing, I used Geneious to 
-analyze and trim my samples and build phylogenies based off of my sequences. I 
-trimmed the ends of my sequences, any low quality sequences, and used the IUPAC 
-ambiguity codes to rename bases. Once the sequences from all of my samples were 
-trimmed, I used the NCBI website's BLAST tool to determine what strains of 
-bacteria were found on the cellphone screens I swabbed and infer the function of
-my sample sequences from similar sequences found in the archive 
-[@madden2013blast]. Using BLAST, I chose the results that were not unspecified, 
-and had a high percentage match. Of the 3 samples that failed, I marked these 
-files as failed sequences and did not use them for this project. I used MAFFT to
-create a multiple alignment sequence [@katoh2013mafft]. The setup for Mr.Bayes 
-included having the substitution model as GTR, rate variation as invgamma,and 
-outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set 
-to 1,100,000, heated chains was set to 4, heated chain temp was set to 0.2, 
-subsampling freq set to 200, the burn-in length set to 100,000, and the random 
-seed length was set to 10,736. The rest of the settings were on default 
-[@kearse2012geneious]. The setup for PhyML included having the substitution 
-model as GTR, the branch support set as bootstrap and the number of bootstraps 
-being 100. The rest of the settings were on default [@masters2011species]. Only 
-3 of my samples ran successfully and gave results. 
+For the culture-free data, I assessed the quality of each of my fastqc files and then used trimmomatic to remove the unusable or failed sequences. Bioawk converted the fastq files to fasta files. I ran a script on terminal that ran my sample sequences against GenBank and gave me the BLAST results for each of my samples. 
 
-### DADA 
-I used the DADA pipeline to count the total amount of Amplicon Sequence Variants, count the number of chimeras present, determine taxonomy for each sample, and remove any extra sequences. 
+I used the DADA pipeline on my data to count the number of chimeras and the total Amplicon Sequence Variants. The DADA pipeline was also used to remove extra sequences and determine the taxonomy of each of my samples. To begin, I assessed the quality profiles for both the forward and reverse reads for each of my samples and the controls from the Illumina sequencing. Then, I trimmed and filtered through the .gz files as well as noted the error rates for each step. Then, both the forward and reverse reads were combined to provide the completed denoised sequence. Using the denoised sequence I retrieved, I was able to make the Amplicon Sequence Variant table and the OTU table. Following this, I removed the chimeric sequences and assigned taxonomy sequence variants. Lastly, I exported the trimmed, denoised, cleaned, and filtered sequence variants to create and build a phylogeny. Finally, using phyloseq, I created a phyloseq table to further understand and analyze the microbiome of my samples. 
 
 # Results
 
@@ -305,7 +261,7 @@ resulted from having a mixed template. It was very difficult to identify
 isolated colonies, so it is highly likely that this was the reason half of my 
 sequences were not usable.
 
-In the PCR image, wells 9, 13, 14 had no band showing, which could have resulted 
+In the PCR image of the cultured samples, wells 9, 13, 14 had no band showing, which could have resulted 
 from pipetting error, using incorrect primers, or just the sample DNA being 
 bound really tightly. Well 10 had a brighter band, and wells 11 and 12 had 
 fainter bands as well. Well 15 was the negative control, PCR water, so it was 
@@ -313,27 +269,9 @@ expected that no band would show. However, since wells 10-12 showed, I can
 conclude there was a significant amount of DNA present in the wells to perform 
 the PCR and show up in the image (Figure 5). 
 
-The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, 
-and *Staphylococcus epidermis* (Table 1). *Kocuria palustris* is a bacteria that 
-is found in the milk of water deer and reindeer [@kovacs1999kocuria]. This was a 
-puzzling bacteria to find on the screen of a cellphone, as those animals are not
-within the vicinity of the school campus, therefore I am not confident that this
-was identified correctly. However, two types of *Staphylococcus* were also 
-identified to be on the screens of the phones that were swabbed and sampled. The
-*Staphylococcus aerus* bacteria is frequently found in the upper respiratory 
-tract and on the skin [@lowy1998staphylococcus]. It is also a known virulent 
-pathogen that is currently the most common cause of infection in hospitalized 
-patients. Furthermore, this bacteria produces several toxins within the body. 
-One type of toxin being cytotoxins that induce proinflammatory changes in 
-mammalian cells which can lead to extensive cell damage and eventual sepsis 
-syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria 
-is, however, found to not cause disease; but, rather maintain a benign 
-relationship with the host. This bacteria is currently being studied for its 
-role in balancing the epithelial tissue and providing a number of resistance 
-genes [@otto2009staphylococcus]. Since these two bacterial strains are found most
-commonly on the skin or within the areas on campus, I am confident that these 
-results were correctly identified. Both the phylogenetic results and BLAST 
-results match up, which also supports these findings. 
+The bacteria found using BLAST were *Kocuria palustris*, *Staphylococcus aerus*, and *Staphylococcus epidermis* (Table 1). *Kocuria palustris* is a bacteria that is found in the milk of water deer and reindeer [@kovacs1999kocuria]. There is not much research found on this specific species of *Kocuria*, however this bacteria has been found to be morphologically similar to *Staphylococci* and *Micrococci* [@mattern2014keratitis]. This was a puzzling bacteria to find on the screen of a cellphone, as those animals are not within the vicinity of the school campus. However, since these samples were collected from professors  However, two types of *Staphylococcus* were also identified to be on the screens of the phones that were swabbed and sampled. The
+*Staphylococcus aerus* bacteria is frequently found in the upper respiratory tract and on the skin [@lowy1998staphylococcus]. It is also a known virulent pathogen that is currently the most common cause of infection in hospitalized patients. Furthermore, this bacteria produces several toxins within the body. One type of toxin being cytotoxins that induce proinflammatory changes in 
+mammalian cells which can lead to extensive cell damage and eventual sepsis syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria is, however, found to not cause disease; but, rather maintain a benign relationship with the host. This bacteria is currently being studied for its role in balancing the epithelial tissue and providing a number of resistance genes [@otto2009staphylococcus]. Since these two bacterial strains are found most commonly on the skin or within the areas on campus, I am confident that these results were correctly identified. Both the phylogenetic results and BLAST results match up, which also supports these findings. 
 
 It makes sense that *Staphylococcus epidermis* was found on the cellphone 
 screens of both professors and students, since this bacteria is found on the 
@@ -390,8 +328,12 @@ support that any of the strains belong to the same clade as *Thermus aquaticus*.
 | *Kocuria palustris* strain SR5-19 16S ribosomal RNA gene, partial sequence          | 1129      | 1129        | 100%        | 0.0       | 99.20%        | MN421514.1 |
 | *Staphylococcus* sp. strain 21 16S ribosomal RNA gene, partial sequence             | 931       | 931         | 100%        | 0.0       | 99.80%        | MK465362.1 |
 | *Staphylococcus epidermidis* strain IBK-11 16S ribosomal RNA gene, partial sequence | 473       | 473         | 100%        | 1x10^-129 | 98.88%        | MN428237.1 |
-**Table 1:** Table shows the strains retrieved through the BLAST tool 
 
+**Table 1:** Table shows the cultured sample  strains retrieved through the BLAST tool
+
+Using BLAST, I found *Kocuria palustris* with a 99.20% accuracy, 
+*Staphylococcus* with a 99.80% accuracy, and *Staphylococcus epidermis* with an 
+accuracy of 98.88% (Table 1). *Kocuria palustris* is a gram-positive bacteria within the phylum Actinobacteria. This species has been idendified in the milk of water deer and reindeer. There is not much research found on this specific species of *Kocuria*, however this bacteria has been found to be morphologically similar to *Staphylococci* and *Micrococci* [@mattern2014keratitis]. 
 
 | Sequence Locus | Original Filename      | Corrected Filename             | Usability | Length after Trimming | Number of Manual Corrections |
 |----------------|------------------------|--------------------------------|-----------|-----------------------|------------------------------|
@@ -519,13 +461,13 @@ melted_phyloseq %>%
   filter(student_initials == "SB") %>%
   group_by(Phylum) %>%
   summarize(sum_abundance = sum(Abundance,
-                                  na.rm = TRUE))%>%
+                                  na.rm = TRUE)) %>%
   ggplot(aes(x = Phylum,
              y = sum_abundance)) +
-  geom_col(position = position_dodge()) + 
+  geom_col(position = position_dodge()) +
   theme(axis.text.x = element_text(angle = 90,
-                                    hjust = 1, 
-                                    vjust = 1)) + 
+                                    hjust = 1,
+                                    vjust = 1)) +
   ggtitle("Sequence Counts")
 ```
 
@@ -534,7 +476,7 @@ melted_phyloseq %>%
 ```{r phylum-abundance}
 # Create a table showing the abundance of each Phylum per sample group
 melted_phyloseq %>%
-  group_by(type,Phylum) %>%
+  group_by(type, Phylum) %>%
   summarize(abundance = sum(Abundance,
                             na.rm = TRUE)) %>%
   top_n(1) %>%
@@ -570,7 +512,6 @@ melted_phyloseq %>%
              y = n)) +
   geom_col() +
   facet_wrap(~type, scales = "free_x")
-  
 ```
 
 
