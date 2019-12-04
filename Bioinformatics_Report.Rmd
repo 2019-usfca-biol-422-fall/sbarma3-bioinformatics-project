@@ -520,7 +520,7 @@ melted_phyloseq %>%
   ggplot(aes(x = Sample,
              y = n)) +
   geom_col() +
-  facet_wrap(~type, scales = "free_x") + 
+  facet_wrap(~type, scales = "free_x") +
   ggtitle("Strain Diversity of *Streptococcus*")
 ```
 
