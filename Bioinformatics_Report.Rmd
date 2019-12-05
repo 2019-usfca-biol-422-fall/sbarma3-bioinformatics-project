@@ -22,7 +22,9 @@ However, healthcare workers are not the only ones with phones carrying bacteria,
 
 Another study conducted by the Department of Microbiology at Lagos State University focused on the actual spread of bacterial infections through the use of cellphones. Through this study they found a high percentage (62.0%) of bacterial infection being spread solely through cellphones and the lack of cleaning this technology [@akinyemi2009potential]. This shows the significance of the bacterial presence on cellphones. I wanted to find out the relevance of this issue in a school setting, and whether or not pathogens would still be found on cellphones outside  of clinical settings. 
 
-One of the main goals of this project was to find one of the potential reasons college students get sick and how these illnesses could spread quickly across campuses. A majority of college students are known to have unhealthy habits, whether its an unhealthy diet, or not exercising. With intense amounts of stress piled on top, this leads to a weakened immune system, and, therefore, leaves a large number of college students easily susceptible and prone to illnesses [@hudd2000stress]. Since almost all students have a cellphone on them everyday, I thought that this project would be extremely relevant and helpful. 
+One of the main goals of this project was to find one of the potential reasons college students get sick and how these illnesses could spread quickly across campuses. A majority of college students are known to have unhealthy habits, whether its an unhealthy diet, or not exercising. With intense amounts of stress piled on top, this leads to a weakened immune system, and, therefore, leaves a large number of college students easily susceptible and prone to illnesses [@hudd2000stress]. Since almost all students have a cellphone on them everyday, I thought that this project would be extremely relevant and helpful.
+
+Furthermore, studies show that simply by cleaning your cellphones, you can drastically decrease the amount of bacteria growing on your phones.
 
 The purpose of my project was to show the importance of hygeine with an individual's technology, especially cellphones since we carry them around everywhere on a daily basis. My project focuses on identifying the type and amount bacteria on the cell phone screens of students at the University of San Francisco compared to those found on the cellphone screens of professors. This is to see whether or not phones carry potential pathogens, which are disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases]. Thus, this experiment can help build a correlation between how illnesses are spread on college campuses and technology usage. I will specifically focus on the presence of *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the most common pathogens found on cellphones [@lee2013contamination]. 
 
@@ -231,6 +233,7 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
+
 **Table 5:** Shows The p-value resulting from a statistical test for the number of colonies found on cellphone screens between professors and students
 
 ```{r filter-and-plot-morphotypes}
@@ -247,6 +250,7 @@ culture_data %>%
   xlab("Sample Group") +
   ylab("Number of Morphotypes")
 ```
+
 **Figure 2:**Boxplot showing the number of morphotypes from student cellphones compared to professor cellphones. There was no difference in the mean number of morphotypes (Wilcox p=1).
 
 ```{r morphotypes-stats}
@@ -259,6 +263,7 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
+
 **Table 6:** Table shows p-value as a result from a statistical test for the 
 number of morphotypes found between professor and student cellphones
 
@@ -271,6 +276,7 @@ number of morphotypes found between professor and student cellphones
 **Figure 4:** This figure shows the Mr.Bayes phylogeny for Taq and its relationship to the bacteria found on the sample cellphones. 
 
 ![](data/images/gel_images/culture_pcr_cropped.jpg) 
+
 **Figure 5:** Image shows the PCR results of the cultured samples
 
 ![](data/images/gel_images/culture_free_pcr_cropped.jpg) 
@@ -357,6 +363,7 @@ melted_phyloseq %>%
                                     vjust = 1)) +
   ggtitle("Sequence Counts for Each Class")
 ```
+
 **Figure 8:** Bar graph shows the summarized sequence counts for my samples for each class
 
 
@@ -408,6 +415,7 @@ melted_phyloseq %>%
   facet_wrap(~type, scales = "free_x") +
   ggtitle("Strain Diversity of Staphylococcus per Sample")
 ```
+
 **Figure 11:** Bar graph shows the number of different strains of *Staphylococcus* found on each cellphone screen and is divided by sample group
 
 # Sources Cited
