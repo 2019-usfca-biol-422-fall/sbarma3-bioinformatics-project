@@ -185,7 +185,7 @@ A study which discussed the disinfecting protocols for hospital employees covere
 | *Staphylococcus* sp. strain 21 16S ribosomal RNA gene, partial sequence             | 931       | 931         | 100%        | 0.0       | 99.80%        | MK465362.1 |
 | *Staphylococcus epidermidis* strain IBK-11 16S ribosomal RNA gene, partial sequence | 473       | 473         | 100%        | 1x10^-129 | 98.88%        | MN428237.1 |
 
-**Table 1:** Table shows the cultured sample  strains retrieved through the BLAST tool
+**Table 1:** Table shows the cultured sample strains retrieved through the BLAST tool
 
 | Sequence Locus | Original Filename      | Corrected Filename             | Usability | Length after Trimming | Number of Manual Corrections |
 |----------------|------------------------|--------------------------------|-----------|-----------------------|------------------------------|
