@@ -410,7 +410,4 @@ melted_phyloseq %>%
 ```
 **Figure 11:** Bar graph shows the number of different strains of *Staphylococcus* found on each cellphone screen and is divided by sample group
 
-
 # Sources Cited
-
-[@brady2012nhs]
