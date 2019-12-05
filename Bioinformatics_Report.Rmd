@@ -22,11 +22,9 @@ However, healthcare workers are not the only ones with phones carrying bacteria,
 
 Another study conducted by the Department of Microbiology at Lagos State University focused on the actual spread of bacterial infections through the use of cellphones. Through this study they found a high percentage (62.0%) of bacterial infection being spread solely through cellphones and the lack of cleaning this technology [@akinyemi2009potential]. This shows the significance of the bacterial presence on cellphones. I wanted to find out the relevance of this issue in a school setting, and whether or not pathogens would still be found on cellphones outside  of clinical settings. 
 
-One of the main goals of this project was to find one of the potential reasons 
-college students get sick and how these illnesses could spread quickly across campuses. A majority of college students are known to have unhealthy habits, whether its an unhealthy diet, or not exercising. With intense amounts of stress piled on top, this leads to a weakened immune system, and, therefore, leaves a large number of college students easily susceptible and prone to illnesses [@hudd2000stress]. Since almost all students have a cellphone on them everyday, I thought that this project would be extremely relevant and helpful. 
+One of the main goals of this project was to find one of the potential reasons college students get sick and how these illnesses could spread quickly across campuses. A majority of college students are known to have unhealthy habits, whether its an unhealthy diet, or not exercising. With intense amounts of stress piled on top, this leads to a weakened immune system, and, therefore, leaves a large number of college students easily susceptible and prone to illnesses [@hudd2000stress]. Since almost all students have a cellphone on them everyday, I thought that this project would be extremely relevant and helpful. 
 
 The purpose of my project was to show the importance of hygeine with an individual's technology, especially cellphones since we carry them around everywhere on a daily basis. My project focuses on identifying the type and amount bacteria on the cell phone screens of students at the University of San Francisco compared to those found on the cellphone screens of professors. This is to see whether or not phones carry potential pathogens, which are disease-causing bacteria, outside of a clinical setting [@schmidtchen2002proteinases]. Thus, this experiment can help build a correlation between how illnesses are spread on college campuses and technology usage. I will specifically focus on the presence of *Escherichia coli*, *Staphylococcus*, and *Pseudomonas* as they are a few of the most common pathogens found on cellphones [@lee2013contamination]. 
-
 
 These bacteria are known to cause serious infections. *Staphylococcus* for example, is a dangerous pathogen. This bacteria is known to cause endovascular disorders, bone and joint disorders, respiratory issues, as well as skin disorders. The mortality rate ranges from 11 to 43 percent [@lowy1998staphylococcus]. *E.coli* is a bacteria that normally is found in the human intestine as well as other animals. is transmitted through contamination of food, such a raw meats, or through the contact with fecal matter.
 
@@ -40,50 +38,25 @@ With this project, I concluded that student cellphone screens had a larger amoun
 
 ## Sampling
 
-Materials needed to collect my samples include a sterile phosphate buffer solution
-(PBS), 12 1.5mL tubes, sterile swabs, and latex gloves. For this project, I collected a total 
-of twelve samples, two samples per cellphone. Therefore, I swabbed a total of 
-six phones, three from each sample group. To collect my samples, I used a 
-sterile swab dipped in the buffer solution. I, then, swabbed the entire front screen of
-each phone for 30 seconds and then stored the swab in a sterile tube. Once I 
-finished collecting all my samples, I broke off the portion of the swab with my 
-sample on it into separate tubes and labeled them accordingly.
+Materials needed to collect my samples include a sterile phosphate buffer solution (PBS), 12 1.5mL tubes, sterile swabs, and latex gloves. For this project, I collected a total of twelve samples, two samples per cellphone. Therefore, I swabbed a total of six phones, three from each sample group. To collect my samples, I used a sterile swab dipped in the buffer solution. I, then, swabbed the entire front screen of each phone for 30 seconds and then stored the swab in a sterile tube. Once I finished collecting all my samples, I broke off the portion of the swab with my sample on it into separate tubes and labeled them accordingly.
 
 ## Culture Samples
 
 ### Culturing & DNA Extraction 
 
-After sampling, each sample was diluted to 1x, 10x, and 100x using PBS 
-solution, and then cultured. I used 18 100 mm TSA plates for plating samples from 
-each of my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each sample
-onto a 100 mm TSA plate and used rattler beads to spread the sample evenly across the TSA plate 
-[@leung1995survival]. Once I plated my samples, they were incubated for 4 days at 37°C
-and then analyzed for the number of morphotypes present and the amount of colonies. 
+After sampling, each sample was diluted to 1x, 10x, and 100x using PBS solution, and then cultured. I used 18 100 mm TSA plates for plating samples from each of my 2 treatments (n = 3 per group, 6 total). Then, I pipetted 100 μL of each sample onto a 100 mm TSA plate and used rattler beads to spread the sample evenly across the TSA plate [@leung1995survival]. Once I plated my samples, they were incubated for 4 days at 37°C and then analyzed for the number of morphotypes present and the amount of colonies. 
 
-For DNA extraction, I followed the manufacturer's protocol from the Sigma 
-REDExtract-N-Amp Kit [@kreader2001one]. From my TSA plate, using a toothpick, 
-I scraped samples from the most secluded colonies, trying to avoid colonies that
-were in contact with one another to try to avoid contamination. After this, I 
-pipetted 198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit
-tube. After placing the Qubit solution and my sample in the Qubit tube, I vortexed 
-this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes.
-Once this was complete, I used the Qubit to analyze the amount of DNA 
-successfully extracted. 
+For DNA extraction, I followed the manufacturer's protocol from the Sigma REDExtract-N-Amp Kit [@kreader2001one]. From my TSA plate, using a toothpick, I scraped samples from the most secluded colonies, trying to avoid colonies that were in contact with one another to try to avoid contamination. After this, I pipetted 198 μL of the Qubit solution and 2 μL of my DNA extraction into a Qubit tube. After placing the Qubit solution and my sample in the Qubit tube, I vortexed this mixture for 5 seconds and incubated the tubes in the dark for 5 minutes. Once this was complete, I used the Qubit to analyze the amount of DNA successfully extracted. 
 
 ### PCR amplification and Gel Electrophoresis
 
-The samples were diluted with PBS to 1x, 10x, and 100x. The formula to make the master mix for the PCR reaction was: (n+1)+10%, where n is the number of samples I have, which in this case is six. 
-The master mix for the cultured samples included 77 μL of Amp, 6.2 μL of the 27f primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA template [@korbie2008touchdown]. These tubes were then taken into the thermocycler and set to run at the following temperatures: 95°C for 5 minutes, 94°C for 30 seconds, 65°C for 30 seconds, 72°C for 1 minute, 94°C for 30 seconds, 55°C for 30 seconds, 72°C for 1 minute, 72°C for 10 minutes, and then finally placed on a 4°C hold. The touchdown PCR 
-contained TAE buffer, SYBR safe dye, and a 2% agarose gel. Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes at 140 volts. 
+The samples were diluted with PBS to 1x, 10x, and 100x. The formula to make the master mix for the PCR reaction was: (n+1)+10%, where n is the number of samples I have, which in this case is six. The master mix for the cultured samples included 77 μL of Amp, 6.2 μL of the 27f primer, 6.2 μL of 1492r primer, 7.7 μL of BSA, and 49.28mL of PCR water. For each alloquat, I added 19 μL of the master mix and 1 μL of the specific DNA template [@korbie2008touchdown]. These tubes were then taken into the thermocycler and set to run at the following temperatures: 95°C for 5 minutes, 94°C for 30 seconds, 65°C for 30 seconds, 72°C for 1 minute, 94°C for 30 seconds, 55°C for 30 seconds, 72°C for 1 minute, 72°C for 10 minutes, and then finally placed on a 4°C hold. The touchdown PCR contained TAE buffer, SYBR safe dye, and a 2% agarose gel. Once the thermocycling was complete, the gel was carefully loaded with 2-20 μL pipettes and then run on the electrode for 30 minutes at 140 volts. 
 
 To prepare the gel, 1g of agarose is measured and mixed with 100mL of 1xTAE buffer in a microwaveable flask. This flask is then microwaved for 1-3 minutes until the agarose powder is completely dissolved. Then the agarose and buffer mixture is allowed to cooled slightly and then it is then poured into the gel tray with the well comb already set in place. Once poured, the tray with the agarose gel is set out to cool for around 10 minutes or until fully hardened [@voytas2000agarose]. 
 
 ### Sanger Sequencing 
 
-This set of samples from the PCR was then sent for Sanger sequencing. After checking for 
-successful amplification using gel electrophoresis, PCR products were cleaned 
-with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB 
-located in South San Francisco, CA [@kreader2001one]. 
+This set of samples from the PCR was then sent for Sanger sequencing. After checking for successful amplification using gel electrophoresis, PCR products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB located in South San Francisco, CA [@kreader2001one]. 
 
 ## Culture-Free Samples
 
@@ -93,50 +66,15 @@ To make the master mix, the formula for the PCR reaction was: (n+1)+10%, where n
 
 ### Illumina Sequencing
 
-Following electrophoresis, PCR products were purified using AmpureXP magnetic 
-beads [@meyer2010illumina] and quantitated using a PicoGreen fluorescent assay 
-(Invitrogen) on a Tecan Infinite M Plex plate reader. Purified PCR products were
-used as the template for a second round of PCR, which served to attach unique 
-pairs of forward and reverse Illumina barcodes (Nextera XT Index 2 kit). All 
-other components of the PCR mixtures were as for the first-round PCR. These 
-reactions were cycled at 95 degrees C for 3 minutes, then 8 cycles of: 95°C for 
-30 s, 55°C for 30s, and 72°C for 30s, followed by a 5 minute elongation cycle at
-72°C. Following this amplification, PCR products were purified and normalized 
-with a SequelPrep normalization plate (Invitrogen), pooled, and then quantified 
-once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200 
-(Agilent) to verify library size and concentration. This library was then 
-diluted to the loading concentration (50 pM) and combined with an Illumina PhiX 
-spike-in library (5% spike in) and sequenced on an Illumina iSeq using a 2 x 150
-bp consumable cartridge.
+Following electrophoresis, PCR products were purified using AmpureXP magnetic beads [@meyer2010illumina] and quantitated using a PicoGreen fluorescent assay (Invitrogen) on a Tecan Infinite M Plex plate reader. Purified PCR products were used as the template for a second round of PCR, which served to attach unique pairs of forward and reverse Illumina barcodes (Nextera XT Index 2 kit). All other components of the PCR mixtures were as for the first-round PCR. These reactions were cycled at 95 degrees C for 3 minutes, then 8 cycles of: 95°C for 30 s, 55°C for 30s, and 72°C for 30s, followed by a 5 minute elongation cycle at 72°C. Following this amplification, PCR products were purified and normalized with a SequelPrep normalization plate (Invitrogen), pooled, and then quantified once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200 (Agilent) to verify library size and concentration. This library was then diluted to the loading concentration (50 pM) and combined with an Illumina PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ### Sequence Analysis
 
-After receiving all of my data from Sanger sequencing, I used Geneious Prime to analyze and trim my samples as well as build
-phylogenies based off of my sequences. I trimmed the ends of my sequences, any low quality sequences, and used the IUPAC ambiguity
-codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI website's BLAST tool to determine
-what strains of bacteria were found on the cellphone screens I swabbed and infer the function of my sample sequences from similar
-sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, and had a high
-percentage match. Of the 3 samples that failed, I marked these files as failed sequences and did not use them for this project. I
-used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. Additionally, I created a Bayesian and Maximum Likelihood
-Phylogeny using Geneious as well. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as
-invgamma,and outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set
-to 4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 100,000, and the random seed length
-was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. The setup for PhyML included having the
-substitution model as GTR, the branch support set as bootstrap and the number of bootstraps being 100. The rest of the settings
-were on default [@masters2011species]. Only 3 of my samples ran successfully and gave results. 
+After receiving all of my data from Sanger sequencing, I used Geneious Prime to analyze and trim my samples as well as build phylogenies based off of my sequences. I trimmed the ends of my sequences, any low quality sequences, and used the IUPAC ambiguity codes to rename bases. Once the sequences from all of my samples were trimmed, I used the NCBI website's BLAST tool to determine what strains of bacteria were found on the cellphone screens I swabbed and infer the function of my sample sequences from similar sequences found in the archive [@madden2013blast]. Using BLAST, I chose the results that were not unspecified, and had a high percentage match. Of the 3 samples that failed, I marked these files as failed sequences and did not use them for this project. I used MAFFT to create a multiple alignment sequence [@katoh2013mafft]. Additionally, I created a Bayesian and Maximum Likelihood Phylogeny using Geneious as well. The setup for Mr.Bayes included having the substitution model as GTR, rate variation as invgamma,and outgroup set as *Thermus aquaticus*. The MCMC settings for chain length was set to 1,100,000, heated chains was set to 4, heated chain temp was set to 0.2, subsampling freq set to 200, the burn-in length set to 100,000, and the random seed length was set to 10,736. The rest of the settings were on default [@kearse2012geneious]. The setup for PhyML included having the substitution model as GTR, the branch support set as bootstrap and the number of bootstraps being 100. The rest of the settings were on default [@masters2011species]. Only 3 of my samples ran successfully and gave results. 
 
-For the culture-free data, I assessed the quality of each of my fastqc files and then used trimmomatic to remove the unusable or
-failed sequences. Bioawk converted the fastq files to fasta files. I ran a script on terminal that ran my sample sequences against
-GenBank and gave me the BLAST results for each of my samples. 
+For the culture-free data, I assessed the quality of each of my fastqc files and then used trimmomatic to remove the unusable or failed sequences. Bioawk converted the fastq files to fasta files. I ran a script on terminal that ran my sample sequences against GenBank and gave me the BLAST results for each of my samples. 
 
-I used the DADA pipeline on my data to count the number of chimeras and the total Amplicon Sequence Variants. The DADA pipeline
-was also used to remove extra sequences and determine the taxonomy of each of my samples. To begin, I assessed the quality
-profiles for both the forward and reverse reads for each of my samples and the controls from the Illumina sequencing. Then, I
-trimmed and filtered through the .gz files as well as noted the error rates for each step. Then, both the forward and reverse
-reads were combined to provide the completed denoised sequence. Using the denoised sequence I retrieved, I was able to make the
-Amplicon Sequence Variant table and the OTU table. Following this, I removed the chimeric sequences and assigned taxonomy sequence
-variants. Lastly, I exported the trimmed, denoised, cleaned, and filtered sequence variants to create and build a phylogeny.
-Finally, using phyloseq, I created a phyloseq table to further understand and analyze the microbiome of my samples. 
+I used the DADA pipeline on my data to count the number of chimeras and the total Amplicon Sequence Variants. The DADA pipeline was also used to remove extra sequences and determine the taxonomy of each of my samples. To begin, I assessed the quality profiles for both the forward and reverse reads for each of my samples and the controls from the Illumina sequencing. Then, I trimmed and filtered through the .gz files as well as noted the error rates for each step. Then, both the forward and reverse reads were combined to provide the completed denoised sequence. Using the denoised sequence I retrieved, I was able to make the Amplicon Sequence Variant table and the OTU table. Following this, I removed the chimeric sequences and assigned taxonomy sequence variants. Lastly, I exported the trimmed, denoised, cleaned, and filtered sequence variants to create and build a phylogeny. Finally, using phyloseq, I created a phyloseq table to further understand and analyze the microbiome of my samples. 
 
 # Results
 
@@ -197,36 +135,17 @@ which is understandable since they are both the same genus
 In the PCR image, well 9-11 were samples collected from professors; 
 "SS 1-10", "NT 1-10", and "EY" respectively. Wells 12-14 were 
 samples collected from students; "AG", "SB 1-10", and "JI", respectively. 
-Well 15 contained a negative control, which was pure water. 
+Well 15 contained a negative control, which was pure water.  
+
 
 # Discussion
 
-The objective of this study was to figure out what strains of pathogenic bacteria were to be found on cellphones and to also see
-which sample group had a higher amount of bacteria on their phones. I hypothesized that all cellphones would carry potential
-pathogens, since a majority of people have their phones every place they go. I also hypothesized that student cellphones will have
-a significantly higher amount of potential pathogens compared to professor cellphones. 
+The objective of this study was to figure out what strains of pathogenic bacteria were to be found on cellphones and to also see which sample group had a higher amount of bacteria on their phones. I hypothesized that all cellphones would carry potential pathogens, since a majority of people have their phones every place they go. I also hypothesized that student cellphones will have a significantly higher amount of potential pathogens compared to professor cellphones. 
 
-The bacteria found using BLAST for my cultured samples were *Kocuria palustris*, *Staphylococcus aerus*, and *Staphylococcus epidermis* (Table 1). *Kocuria palustris* is a bacteria that is found in the milk of water deer and reindeer
-[@kovacs1999kocuria].There is not much research found on this specific species of *Kocuria*, however this bacteria has been found
-to be morphologically similar to *Staphylococci* and *Micrococci* [@mattern2014keratitis]. This was a puzzling bacteria to find on
-the screen of a cellphone, as those animals are not within the vicinity of the school campus. However, since these samples were
-collected from professors within the biology department; I believe that this bacteria might have been transferred onto a cellphone
-during one of the hikes or excursions some classes take into wilderness. Two types of *Staphylococcus* were also identified to be
-on the screens of the phones that were swabbed and sampled. The *Staphylococcus aerus* bacteria is frequently found in the upper
-respiratory tract and on the skin [@lowy1998staphylococcus]. It is also a known virulent pathogen that is currently the most
-common cause of infection in hospitalized patients. Furthermore, this bacteria produces several toxins within the body. One type
-of toxin being cytotoxins that induce proinflammatory changes in mammalian cells which can lead to extensive cell damage and
-eventual sepsis syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria is, however, found to not cause
-disease; but, rather maintain a benign relationship with the host. This bacteria is currently being studied for its role in
-balancing the epithelial tissue and providing a number of resistance genes [@otto2009staphylococcus]. It is understandable that
-*Staphylococcus epidermis* was found on the cellphone screens of both professors and students, since this bacteria is found on the
-outer layers of the skin. Since a majority of people put their phones up to their ear, potentially pressing the phone against
-their faces, to place phone calls; as well as using the touchscreen with their hands to navigate through different applications,
-the *Staphylococcus* bacteria would have ample opportunity to be transferred onto cellphone screens. Since these two bacterial strains are found most commonly on the skin or within the areas on campus, I am confident that these results were correctly identified. Both the Maximum Likelihood phylogeny and the Bayesian phylogeny show results that supports these findings (Figure 1 & 2). 
+The bacteria found using BLAST for my cultured samples were *Kocuria palustris*, *Staphylococcus aerus*, and *Staphylococcus epidermis* (Table 1). Going back to my main hypothesis, I did not find any presence of *E.coli* or *Pseudomonas* on any of my samples. I did, however, find significant presence of *Staphylococcus* (Table 1). *Kocuria palustris* is a bacteria that is found in the milk of water deer and reindeer [@kovacs1999kocuria]. There is not much research found on this specific species of *Kocuria*, however this bacteria has been found to be morphologically similar to *Staphylococci* and *Micrococci* [@mattern2014keratitis]. This was a puzzling bacteria to find on the screen of a cellphone, as those animals are not within the vicinity of the school campus. However, since these samples were collected from professors within the biology department; I believe that this bacteria might have been transferred onto a cellphone during one of the hikes or excursions some classes take into wilderness. Two types of *Staphylococcus* were also identified to be on the screens of the phones that were swabbed and sampled. The *Staphylococcus aerus* bacteria is frequently found in the upper respiratory tract and on the skin [@lowy1998staphylococcus]. It is also a known virulent pathogen that is currently the most common cause of infection in hospitalized patients. Furthermore, this bacteria produces several toxins within the body. One type of toxin being cytotoxins that induce proinflammatory changes in mammalian cells which can lead to extensive cell damage and eventual sepsis syndrome [@archer1998staphylococcus]. The *Staphylococcus epidermis* bacteria is, however, found to not cause disease; but, rather maintain a benign relationship with the host. This bacteria is currently being studied for its role in balancing the epithelial tissue and providing a number of resistance genes [@otto2009staphylococcus]. It is understandable that *Staphylococcus epidermis* was found on the cellphone screens of both professors and students, since this bacteria is found on the outer layers of the skin. Since a majority of people put their phones up to their ear, potentially pressing the phone against their faces, to place phone calls; as well as using the touchscreen with their hands to navigate through different applications, the *Staphylococcus* bacteria would have ample opportunity to be transferred onto cellphone screens. 
+Since these two bacterial strains are found most commonly on the skin or within the areas on campus, I am confident that these results were correctly identified. Both the Maximum Likelihood phylogeny and the Bayesian phylogeny show results that supports these findings (Figure 1 & 2). 
 
-Out of my 6 original samples, only 3 came out as usable sequences (Table 2). This probably resulted from having a mixed sample. It
-was very difficult to identify isolated colonies, so it is highly likely that I collected samples from two different colonies. I
-am certain that this was the reason half of my sequences were not usable.
+Out of my 6 original samples, only 3 came out as usable sequences (Table 2). This probably resulted from having a mixed sample. It was very difficult to identify isolated colonies, so it is highly likely that I collected samples from two different colonies. I am certain that this was the reason half of my sequences were not usable.
 
 The qubit values for my culture samples were all relatively high except for sample “AG” which still had a decent amount of DNA quantified at 4.72 ng/μL. The highest DNA concentration was in sample “EY” (Table 3). The qubit values for my culture-free samples were also relatively high and all my samples were within the 7-8 ng/μL range (Table 4). 
 
@@ -244,9 +163,19 @@ In the PCR image of the cultured samples, wells 9, 13, 14 had no band showing, w
 
 In the PCR image of the culture-free samples, no bands showed. In fact, based off the image, it looks like the samples still remained in the wells even after having a voltage passed through the gel (Figure 6). This is probably because the bacterial DNA within the samples were much too large to pass through the gel. This could have been solved by using a different type of gel. Another reason why this could have occurred was I used the wrong primers. 
 
-For my culture-free samples, the BLAST results identified *Mycoplasma wenyonii*, *Streptococcus salivarius*, *Staphylococcus aureus*, and *Streptococcus pneumoniae* (Table 7). *Mycoplasma wenyonii* is a bacteria that lacks a cell wall around its cell membrane. This is known to make them naturally resistant to antibiotics that target cell wall synthesis. This genus of bacteria can be parasitic and some can also be saprotrophic [@genova2011severe]. There is not much research showing this specific bacteria’s effect on humans, however a veterinary study shows that *Mycoplasma wenyonii* causes poor appetite, tachypnea, fever, tachycardia, lethargy, and clinical anemia in cattle [@gladden2015case]. This also could have ended up on a cellphone the same way *Kocuria palustris* was found, through using a cellphone while on a hike or excursion. *Streptococcus salivarius* is a species of gram-positive, anaerobic bacteria that colonizes in the oral cavity and upper respiratory tract of humans a few hours after birth. Therefore, this makes further exposure to this bacteria virtually harmless [@ruoff1989bacteremia]. This bacteria is shown to have helpful properties, so much so, that cough drops that contain this are marketed to support immunity against other *Streptococcus* strains. This also is a reasonable find on a cellphone. Most individuals hold up his or her phone to the face and near the mouth when making a phone call, so this bacteria can easily be transferred to the cellphone screen at any point. *Staphylococcus aureus* is one of the most dangerous within its genus. It is present in the nose, temporarily, in 30% of healthy adults. This bacteria can be spread through direct contact of its carriers, contaminated objects, or inhalation. This bacteria is known to cause skin infections, pneumonia, heart valve infections, bone infections, meningitis, and toxic shock syndrome [@chambers2001changing]. This could have been found on a cellphone screen if anyone was sick or if anyone who was a carrier happened to come into contact with the cellphone screen I sampled. This is a common pathogen, so it is understandable that this bacteria was identified. The last bacteria identified was *Streptococcus pneumoniae*. This bacteria is, also, a gram-positive bacteria and it is known to be responsible for the majority of community-acquired pneumonia [@appelbaum1992antimicrobial]. *Streptococcus pneumoniae* is normally found in the human respiratory tract, therefore it does benefit the human body, without causing harm. However, an infection with this species can cause pneumonia, bronchitis, otitis media, septicemia, and meningitis. This also is a bacteria found on someone who is significantly ill, and therefore, this is understandable to find on a cellphone. If one of the members of the sample group was sick, or just getting better, this bacteria could have easily been transferred to their cellphone screen and collected for sampling. 
+For my culture-free samples, the BLAST results identified *Mycoplasma wenyonii*, *Streptococcus salivarius*, *Staphylococcus aureus*, and *Streptococcus pneumoniae* (Table 8). Going back to my main hypothesis, I did not find any presence of *E.coli* or *Pseudomonas* or *Staphylococcus* in any of my culture-free samples. *Mycoplasma wenyonii* is a bacteria that lacks a cell wall around its cell membrane. This is known to make them naturally resistant to antibiotics that target cell wall synthesis. This genus of bacteria can be parasitic and some can also be saprotrophic [@genova2011severe]. There is not much research showing this specific bacteria’s effect on humans, however a veterinary study shows that *Mycoplasma wenyonii* causes poor appetite, tachypnea, fever, tachycardia, lethargy, and clinical anemia in cattle [@gladden2015case]. This also could have ended up on a cellphone the same way *Kocuria palustris* was found, through using a cellphone while on a hike or excursion. *Streptococcus salivarius* is a species of gram-positive, anaerobic bacteria that colonizes in the oral cavity and upper respiratory tract of humans a few hours after birth. Therefore, this makes further exposure to this bacteria virtually harmless [@ruoff1989bacteremia]. This bacteria is shown to have helpful properties, so much so, that cough drops that contain this are marketed to support immunity against other *Streptococcus* strains. This also is a reasonable find on a cellphone. Most individuals hold up his or her phone to the face and near the mouth when making a phone call, so this bacteria can easily be transferred to the cellphone screen at any point. *Staphylococcus aureus* is one of the most dangerous within its genus. It is present in the nose, temporarily, in 30% of healthy adults. This bacteria can be spread through direct contact of its carriers, contaminated objects, or inhalation. This bacteria is known to cause skin infections, pneumonia, heart valve infections, bone infections, meningitis, and toxic shock syndrome [@chambers2001changing]. This could have been found on a cellphone screen if anyone was sick or if anyone who was a carrier happened to come into contact with the cellphone screen I sampled. This is a common pathogen, so it is understandable that this bacteria was identified. The last bacteria identified was *Streptococcus pneumoniae*. This bacteria is, also, a gram-positive bacteria and it is known to be responsible for the majority of community-acquired pneumonia [@appelbaum1992antimicrobial]. *Streptococcus pneumoniae* is normally found in the human respiratory tract, therefore it does benefit the human body, without causing harm. However, an infection with this species can cause pneumonia, bronchitis, otitis media, septicemia, and meningitis. This also is a bacteria found on someone who is significantly ill, and therefore, this is understandable to find on a cellphone. If one of the members of the sample group was sick, or just getting better, this bacteria could have easily been transferred to their cellphone screen and collected for sampling.   
 
-The most common phyla found amongst my all culture-free samples included Actinobacteria, Firmicutes, and Proteobacteria (Figure 7). Actinobacteria does contain certain bacteria that are known to be pathogenic, which aligns with my findings. Firmicutes also include pathogens and it is also found to be correlated with obesity and Type II diabetes [@mariat2009firmicutes]. Proteobacteria is a major phylum of gram-negative bacteria and also includes a variety of pathogenic bacteria. For both professors and students, the top Phylum found was Firmicutes (Table 7). The negative control also had a top Phylum match with Proteobacteria (Table 7). This indicated that there was contamination, since distilled PCR water should not contain any bacteria at all. This contamination could have occurred through misusing the pipette, or by not filling in the water into a clean tube.  
+By using trimmomatic to crop my illumina sequences and remove adapters, I found that my culture-free data remained above 93% intact. This means that each one of my samples survived (Table 7).
+
+The most common phyla found amongst my all culture-free samples included Actinobacteria, Firmicutes, and Proteobacteria (Figure 7). Actinobacteria does contain certain bacteria that are known to be pathogenic, which aligns with my findings. Firmicutes also include pathogens and it is also found to be correlated with obesity and Type II diabetes [@mariat2009firmicutes]. Proteobacteria is a major phylum of gram-negative bacteria and also includes a variety of pathogenic bacteria. For both professors and students, the top Phylum found was Firmicutes (Table 9). The negative control also had a top Phylum match with Proteobacteria, with an abundance of 11261. (Table 9). This indicated that there was contamination, since distilled PCR water should not contain any bacteria at all. This contamination could have occurred through misusing the pipette, or by not filling in the water into a clean tube. Professors had a top match with Firmicutes with an abundance of 17349, and students also had a top match with Firmicutes with an abundance of 14749 (Table 9). This shows that, unlike my original thought, professor cellphone screens actually had an increased amount of sum abundance of Firmicutes compared to the cellphone screens of students. There was also a significant amount of bacteria that could not be identified, with a sum abundance of around 1500. This could have resulted from some of the bacteria not being researched enough or not been part of GenBank. 
+
+To go into a little more detail, the classes identified from my culture-free data included Acidobacteria groups 3 and 6, Actinobacteria, Alphaproteobacteria, Bacilli, Bacteroidia, Chloroplast, Clostridia, Cyanobacteria, Cytophagia, Deltaproteobacteria, Flavobacteriia, Fusobacteriia, Gammaproteobacteria, Negativicutes, Planctomycetia, and Sphingobacteria (Figure 8). The most prevalent classes, however, were Actinobacteria, Alphaproteobacteria, Bacilli, Bacteroidia, Chloroplast, and Gammeproteobacteria. There was also a significant amount of unidentifiable sequences (Figure 8). Actinobacteria is a class of gram-positive bacteria that is found normally in the soil. Alphaproteobacteria is also a class of bacteria that has a very diverse number of species, most of the species within this class lack cell walls and can be found within undersurface soil, or glacial ice. Bacilli is also a very diverse class of bacteria and colonizes a variety of different habitats. Some bacilli can also be found in human fecal matter. These bacteria could have been found on a cellphone screen if someone accidentally dropped their phone while on the grass or somewhere near any soil. Chloroplast was an interesting find, and this could have been transferred to the screen of a cellphone if someone happened to drop their phone in the grass, or was even eating a sandwich. Gammaproteobacteria is a class of bacteria that contains several pathogenic species. 
+
+Both the negative and positive controls had a high abundance of bacteria. The negative control had the largest sum abundance of Proteobacteria and Actinobacteria. The positive control had the largest sum abundance of Firmicutes (Figure 9). With both of the professor and student samples, the largest sum abundance was also Firmicutes, but there was also a presence of Chloroflexl and Bacteroidetes (Figure 9). 
+
+Looking back to my main intention of this project, I wanted to find out what pathogenic bacteria spreads around campus causing college students to get sick. As I mentioned earlier, *Streptococcus* was one of the main pathogenic bacteria identified, and there is a significant amount of this specific bacteria found on every single one of my samples (Figure 10). In fact, all but one phone had a n value of 10 or more for this pathogen. Another pathogenic bacteria that was identified through this project was *Staphylococcus*, and there was also a significant amount found on every single sample tested (Figure 11). Both of these bacteria are definitely pathogenic and are known to cause illnesses such as fevers, meningitis, pneumonia, pharyngitis, and much more. This goes to show just how dirty our cellphones can be and it is common for this bacteria to be around in our environment. 
+
+A study which discussed the disinfecting protocols for hospital employees covered a relatively efficient way to clean a cellphone. In fact, cleaning hospital employees’ cellphones with 70% isopropyl alcohol reduced the amount of bacteria grown on the cellphone screen by 79% [@brady2012nhs]. This shows that cleaning the screen of a cellphone can significantly decrease the amount of bacteria present, both pathogenic and nonpathogenic. Since this method is not only efficient, but also inexpensive, it can be easily applied to the general public as well.
 
 # Figures and Tables 
 
@@ -504,8 +433,6 @@ melted_phyloseq %>%
 **Figure 11:** Bar graph shows the number of different strains of *Staphylococcus* found on each cellphone screen and is divided by sample group
 
 
-
-
 # Sources Cited
 
-[[@mariat2009firmicutes]]
+[@brady2012nhs]
