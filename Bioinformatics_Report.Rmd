@@ -388,8 +388,8 @@ melted_phyloseq %>%
   ggplot(aes(x = Sample,
              y = n)) +
   geom_col() +
-  facet_wrap(~type, scales = "free_x") + 
-  ggtitle("Strain Diversity of Streptococcus per Sample") 
+  facet_wrap(~type, scales = "free_x") +
+  ggtitle("Strain Diversity of Streptococcus per Sample")
 ```
 
 **Figure 10:** Bar graph shows the number of different strains of *Streptococcus* found on each cellphone screen and is divided by sample group
@@ -405,8 +405,8 @@ melted_phyloseq %>%
   ggplot(aes(x = Sample,
              y = n)) +
   geom_col() +
-  facet_wrap(~type, scales = "free_x") + 
-  ggtitle("Strain Diversity of Staphylococcus per Sample") 
+  facet_wrap(~type, scales = "free_x") +
+  ggtitle("Strain Diversity of Staphylococcus per Sample")
 ```
 **Figure 11:** Bar graph shows the number of different strains of *Staphylococcus* found on each cellphone screen and is divided by sample group
 
