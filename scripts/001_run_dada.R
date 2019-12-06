@@ -187,3 +187,4 @@ export_taxa_table_and_seqs(sequence_table_nochim,
 # save necessary files from dada pipeline to use with phyloseq
 save(sequence_table_nochim, file = "output/dada-results/seqtable.Rda")
 save(taxa, file = "output/dada-results/taxatable.Rda")
+
