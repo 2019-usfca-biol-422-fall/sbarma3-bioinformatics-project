@@ -400,7 +400,8 @@ melted_phyloseq %>%
              y = n)) +
   geom_col() +
   facet_wrap(~type, scales = "free_x") +
-  ggtitle("Strain Diversity of Streptococcus per Sample")
+  ylab("Strain Diversity") +
+  ggtitle("Strain Diversity of Streptococcus per Sample") 
 ```
 
 **Figure 10:** Bar graph shows the number of different strains of *Streptococcus* found on each cellphone screen and is divided by sample group
