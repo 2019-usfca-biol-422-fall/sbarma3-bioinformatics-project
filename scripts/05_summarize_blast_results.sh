@@ -8,3 +8,5 @@ do
 	echo Done
 done
 
+# Overall summary
+cut -d, -f1 /data/illumina_sequences/blast_output/*.csv | sort | uniq -c | sort -n
