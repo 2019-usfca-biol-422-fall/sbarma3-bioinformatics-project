@@ -94,7 +94,7 @@ dereplicated_forward_reads <- derepFastq(filtered_reads_path,
                                          verbose = TRUE)
 
 # get names of all files that made it through trimming
-filenames_filtered_reads <-list.files(filter_path)
+filenames_filtered_reads <- list.files(filter_path)
 
 # extract sample names, assuming filenames have format: SAMPLENAME.fastq
 sample_names <- sapply(strsplit(filenames_filtered_reads, "\\."), `[`, 1)
@@ -147,7 +147,7 @@ rownames(track) <- sample_names
 kable(track)
 
 # Remove any sequences shorter than 50 because can't assign their taxonomy
-sequence_table_nochim <- 
+sequence_table_nochim <-
   sequence_table_nochim[, nchar(colnames(sequence_table_nochim)) > 50]
 
 # assigns taxonomy to each sequence variant based on a supplied training set
@@ -187,4 +187,3 @@ export_taxa_table_and_seqs(sequence_table_nochim,
 # save necessary files from dada pipeline to use with phyloseq
 save(sequence_table_nochim, file = "output/dada-results/seqtable.Rda")
 save(taxa, file = "output/dada-results/taxatable.Rda")
-
