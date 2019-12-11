@@ -33,12 +33,12 @@ metadata_in <- read.csv(paste0("data/metadata/",
                           stringsAsFactors = FALSE,
                           row.names = 4) # sets sample IDs to row names
 
-#fix rownames to match metadata file 
+#fix rownames to match metadata file
 rownames(sequence_table_nochim) <- gsub(pattern = "_.*filt",
-                                        replacement = "", 
+                                        replacement = "",
                                         rownames(sequence_table_nochim))
 # subset metadata to match taxa table
-metadata_in <- metadata_in[grepl(pattern = "(SB|control)", 
+metadata_in <- metadata_in[grepl(pattern = "(SB|control)",
                                  rownames(metadata_in)), ]
 
 
@@ -50,4 +50,3 @@ phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
 
 # save phyloseq and melted_phyloseq objects to use in the Rmd file
 save(phyloseq_obj, file = "output/phyloseq_obj.Rda")
-
